@@ -106,7 +106,7 @@ def evaluate_model(
     clf_path = os.path.join(reports_dir, "classification_report.txt")
     with open(clf_path, "w", encoding="utf-8") as f:
         f.write("=" * 65 + "\n")
-        f.write("CAREER PREDICTION MODEL - CLASSIFICATION REPORT (MILESTONE 1)\n")
+        f.write("CAREER PREDICTION MODEL - CLASSIFICATION REPORT\n")
         f.write("=" * 65 + "\n\n")
         f.write(clf_report_str)
         f.write("\n\n" + "=" * 65 + "\n")

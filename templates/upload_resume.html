@@ -14,21 +14,21 @@
 
         <div class="card-body p-4 p-md-5">
           <p class="text-muted mb-4">
-            Upload your resume in <strong>PDF</strong> or <strong>TXT</strong> format to automatically extract your skills, education, and experience.
+            Upload your resume to create your career profile.
           </p>
 
           <form action="{{ url_for('parse_resume_route') }}" method="POST" enctype="multipart/form-data" id="uploadForm">
             <!-- Dropzone -->
             <div class="dropzone-box" id="dropzone">
               <i class="bi bi-cloud-arrow-up upload-icon"></i>
-              <h5 class="fw-bold mb-2">Drag &amp; drop your resume file here</h5>
-              <p class="text-muted small mb-3">or click to browse from your computer</p>
+              <h5 class="fw-bold mb-2">Drag &amp; drop your resume here</h5>
+              <p class="text-muted small mb-3">or browse from your computer</p>
               <input type="file" name="resume" id="resumeFile" class="d-none" accept=".pdf,.txt" required>
               <button type="button" class="btn btn-outline-primary btn-sm px-4">Browse Files</button>
             </div>
 
-            <div id="fileNameDisplay" class="mt-3 text-center text-muted">
-              Supported formats: .pdf, .txt (Max 5MB)
+            <div id="fileNameDisplay" class="mt-3 text-center text-muted small">
+              Supported formats: PDF, TXT
             </div>
 
             <div class="d-grid gap-2 mt-4">

@@ -23,7 +23,7 @@
         <div class="row g-2 pt-2 border-top">
           <div class="col-12">
             <strong class="small text-muted d-block mb-1">Extracted Skills:</strong>
-            {% if extracted_entities.skills %}
+            {% if extracted_entities and extracted_entities.skills %}
               {% for skill in extracted_entities.skills %}
                 <span class="skill-tag">{{ skill }}</span>
               {% endfor %}
@@ -34,7 +34,7 @@
 
           <div class="col-md-6 mt-2">
             <strong class="small text-muted d-block mb-1">Extracted Education:</strong>
-            {% if extracted_entities.education %}
+            {% if extracted_entities and extracted_entities.education %}
               {% for edu in extracted_entities.education %}
                 <span class="edu-tag">{{ edu }}</span>
               {% endfor %}
@@ -45,12 +45,12 @@
 
           <div class="col-md-6 mt-2">
             <strong class="small text-muted d-block mb-1">Extracted Past Roles:</strong>
-            {% if extracted_entities.roles %}
+            {% if extracted_entities and extracted_entities.roles %}
               {% for role in extracted_entities.roles %}
                 <span class="role-tag">{{ role }}</span>
               {% endfor %}
             {% else %}
-              <span class="text-muted small">None detected.</span>
+              <span class="text-muted small">None detected automatically.</span>
             {% endif %}
           </div>
         </div>

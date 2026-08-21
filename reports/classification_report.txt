@@ -1,5 +1,5 @@
 =================================================================
-CAREER PREDICTION MODEL - CLASSIFICATION REPORT (MILESTONE 1)
+CAREER PREDICTION MODEL - CLASSIFICATION REPORT
 =================================================================
 
                            precision    recall  f1-score   support

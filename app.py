@@ -1,6 +1,5 @@
 """
 Main Flask Application for AI-Based Career Prediction and Recommendation System.
-Milestone 1 & Milestone 2: Advanced ML & Recommendation Engine.
 """
 
 import json
@@ -254,11 +253,21 @@ def report_page():
     if os.path.exists(comp_file):
         with open(comp_file, "r", encoding="utf-8") as f:
             model_comparison = json.load(f)
+    else:
+        try:
+            model_comparison = run_model_comparison(force_retrain=False)
+        except Exception:
+            model_comparison = {}
 
     eval_report = {}
     if os.path.exists(eval_file):
         with open(eval_file, "r", encoding="utf-8") as f:
             eval_report = json.load(f)
+    else:
+        try:
+            eval_report = run_full_evaluation_suite()
+        except Exception:
+            eval_report = {}
 
     return render_template(
         "report.html",
@@ -293,7 +302,7 @@ def retrain_model_route():
 @app.route("/api/recommend", methods=["POST"])
 def api_recommend():
     """
-    Milestone 2 Top-K Career Recommendation API endpoint.
+    Top-K Career Recommendation API endpoint.
     Expects JSON:
     {
         "skills": ["Python", "Machine Learning", "SQL"],
@@ -330,7 +339,7 @@ def api_recommend():
 
 @app.route("/api/predict", methods=["POST"])
 def api_predict():
-    """Milestone 1 API endpoint for baseline career prediction."""
+    """API endpoint for career prediction."""
     if not request.is_json:
         return jsonify({"error": "Content-Type must be application/json"}), 400
 

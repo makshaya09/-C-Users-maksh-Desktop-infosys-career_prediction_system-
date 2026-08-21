@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Model Performance & Benchmark Report - CareerAI{% endblock %}
+{% block title %}Model Comparison & Career Recommendations - CareerAI{% endblock %}
 
 {% block content %}
 <div class="container my-5">
@@ -29,7 +29,7 @@
         </div>
         <div>
           <span class="badge bg-success mb-1">Top Performing Model</span>
-          <h4 class="fw-bold mb-1 text-dark">{{ model_comparison.best_model }}</h4>
+          <h4 class="fw-bold mb-1 text-dark">{{ model_comparison.best_model.replace('(Baseline)', '').strip() }}</h4>
           <p class="text-muted small mb-0">
             Selected based on <strong>F1-Score: {{ (model_comparison.best_f1_score * 100) | round(2) }}%</strong> &bull; Accuracy: <strong>{{ (model_comparison.best_accuracy * 100) | round(2) }}%</strong>
           </p>
@@ -67,17 +67,17 @@
         <tbody>
           {% if model_comparison and model_comparison.models %}
             {% for m in model_comparison.models %}
-            <tr {% if m.model == model_comparison.best_model %}class="table-success fw-semibold"{% endif %}>
+            <tr {% if m.model_key == model_comparison.best_model_key %}class="table-success fw-semibold"{% endif %}>
               <td>
-                <i class="bi {% if 'Random Forest' in m.model %}bi-tree-fill text-success{% elif 'XGBoost' in m.model %}bi-lightning-charge-fill text-warning{% else %}bi-diagram-2-fill text-primary{% endif %} me-2"></i>
-                {{ m.model }}
+                <i class="bi {% if 'random_forest' in m.model_key %}bi-tree-fill text-success{% elif 'xgboost' in m.model_key %}bi-lightning-charge-fill text-warning{% else %}bi-diagram-2-fill text-primary{% endif %} me-2"></i>
+                {{ m.model.replace('(Baseline)', '').strip() }}
               </td>
               <td class="text-center">{{ (m.accuracy * 100) | round(2) }}%</td>
               <td class="text-center">{{ (m.precision * 100) | round(2) }}%</td>
               <td class="text-center">{{ (m.recall * 100) | round(2) }}%</td>
-              <td class="text-center"><span class="badge {% if m.model == model_comparison.best_model %}bg-success{% else %}bg-primary-subtle text-primary{% endif %} fs-6">{{ (m.f1_score * 100) | round(2) }}%</span></td>
+              <td class="text-center"><span class="badge {% if m.model_key == model_comparison.best_model_key %}bg-success{% else %}bg-primary-subtle text-primary{% endif %} fs-6">{{ (m.f1_score * 100) | round(2) }}%</span></td>
               <td class="text-center">
-                {% if m.model == model_comparison.best_model %}
+                {% if m.model_key == model_comparison.best_model_key %}
                   <span class="badge bg-success"><i class="bi bi-star-fill me-1"></i> Best Model</span>
                 {% else %}
                   <span class="badge bg-light text-muted border">Evaluated</span>
