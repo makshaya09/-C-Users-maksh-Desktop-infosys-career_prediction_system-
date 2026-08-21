@@ -116,6 +116,9 @@ def extract_text_from_pdf(file_input: Union[str, bytes, io.BytesIO]) -> str:
     """
     text = ""
     try:
+        if hasattr(file_input, "seek"):
+            file_input.seek(0)
+
         if isinstance(file_input, str):
             with open(file_input, "rb") as f:
                 reader = PyPDF2.PdfReader(f)
@@ -147,6 +150,9 @@ def extract_text_from_txt(file_input: Union[str, bytes, io.BytesIO]) -> str:
     Extracts text from a TXT file path, bytes, or BytesIO stream.
     """
     try:
+        if hasattr(file_input, "seek"):
+            file_input.seek(0)
+
         if isinstance(file_input, str):
             with open(file_input, "r", encoding="utf-8", errors="ignore") as f:
                 return f.read().strip()

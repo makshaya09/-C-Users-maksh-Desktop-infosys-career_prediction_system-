@@ -5,9 +5,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const dropzone = document.getElementById("dropzone");
   const fileInput = document.getElementById("resumeFile");
   const fileNameDisplay = document.getElementById("fileNameDisplay");
+  const uploadForm = document.getElementById("uploadForm");
 
   if (dropzone && fileInput) {
-    dropzone.addEventListener("click", () => fileInput.click());
+    dropzone.addEventListener("click", function (e) {
+      if (e.target !== fileInput) {
+        fileInput.click();
+      }
+    });
 
     dropzone.addEventListener("dragover", (e) => {
       e.preventDefault();
@@ -34,16 +39,33 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  if (uploadForm && fileInput) {
+    uploadForm.addEventListener("submit", function (e) {
+      if (!fileInput.files || fileInput.files.length === 0) {
+        e.preventDefault();
+        if (fileNameDisplay) {
+          fileNameDisplay.innerHTML = `<span class="text-danger fw-bold">Please select a PDF or TXT resume file first.</span>`;
+        }
+        return;
+      }
+      const submitBtn = uploadForm.querySelector("button[type='submit']");
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = `<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span> Parsing Resume...`;
+      }
+    });
+  }
+
   function updateFileName(file) {
     if (fileNameDisplay && file) {
       const ext = file.name.split(".").pop().toLowerCase();
       if (!["pdf", "txt"].includes(ext)) {
-        fileNameDisplay.innerHTML = `<span class="text-danger font-weight-bold">Unsupported file format (.${ext}). Please select a PDF or TXT file.</span>`;
+        fileNameDisplay.innerHTML = `<span class="text-danger fw-bold">Unsupported format (.${ext}). Please select a PDF or TXT file.</span>`;
         fileInput.value = "";
         return;
       }
       const sizeMb = (file.size / (1024 * 1024)).toFixed(2);
-      fileNameDisplay.innerHTML = `<strong>Selected file:</strong> ${file.name} (${sizeMb} MB)`;
+      fileNameDisplay.innerHTML = `<span class="badge bg-success-subtle text-success border border-success-subtle p-2 px-3 fs-6"><i class="bi bi-file-earmark-check me-1"></i> ${file.name} (${sizeMb} MB)</span>`;
     }
   }
 
