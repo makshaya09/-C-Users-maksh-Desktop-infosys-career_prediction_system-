@@ -3,7 +3,7 @@ services:
     name: careerai
     runtime: python
     plan: free
-    buildCommand: pip install -r requirements.txt && python -m spacy download en_core_web_sm
+    buildCommand: pip install --no-cache-dir -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu && python -m spacy download en_core_web_sm
     startCommand: gunicorn --bind 0.0.0.0:$PORT --workers 1 --threads 2 --timeout 120 app:app
     envVars:
       - key: SECRET_KEY
