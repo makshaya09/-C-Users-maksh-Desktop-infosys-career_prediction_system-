@@ -67,8 +67,8 @@ _fallback_vectorizer = None
 
 def get_sbert_model():
     """
-    Loads SentenceTransformer model ('all-MiniLM-L6-v2') if available locally,
-    or falls back seamlessly to the semantic TF-IDF cosine vectorizer.
+    Loads SentenceTransformer model ('all-MiniLM-L6-v2') if available and memory permits,
+    or falls back seamlessly to the fast, lightweight semantic TF-IDF cosine vectorizer.
     """
     global _sbert_model, _sbert_available
 
@@ -78,34 +78,32 @@ def get_sbert_model():
     if _sbert_model is not None:
         return _sbert_model
 
-    # Check if a fine-tuned or downloaded model exists in local model dir
-    local_model_path = os.path.join(parent_dir, "models", "sentence_transformer")
-    model_to_load = local_model_path if os.path.exists(os.path.join(local_model_path, "modules.json")) else SBERT_MODEL_NAME
+    # Prevent Out-Of-Memory (OOM) crashes on 512MB cloud instances like Render free tier
+    if os.environ.get("RENDER") or os.environ.get("USE_LIGHTWEIGHT_EMBEDDINGS", "0") == "1":
+        _sbert_available = False
+        return None
 
-    try:
-        from sentence_transformers import SentenceTransformer
-        # Use local_files_only if available locally or try loading
-        if os.path.exists(os.path.join(local_model_path, "modules.json")):
+    local_model_path = os.path.join(parent_dir, "models", "sentence_transformer")
+    if os.path.exists(os.path.join(local_model_path, "modules.json")):
+        try:
+            from sentence_transformers import SentenceTransformer
             _sbert_model = SentenceTransformer(local_model_path)
             _sbert_available = True
             return _sbert_model
-        else:
-            # Check environment flag or attempt quick load
-            if os.environ.get("TRANSFORMERS_OFFLINE", "0") == "1":
-                _sbert_available = False
-                return None
+        except Exception:
+            _sbert_available = False
+            return None
 
-            import socket
-            # Quick check if huggingface.co is reachable in 1 second
-            try:
-                socket.create_connection(("huggingface.co", 443), timeout=1.0)
-                _sbert_model = SentenceTransformer(SBERT_MODEL_NAME)
-                _sbert_available = True
-                return _sbert_model
-            except Exception:
-                _sbert_available = False
-                return None
-    except Exception as e:
+    if os.environ.get("TRANSFORMERS_OFFLINE", "0") == "1":
+        _sbert_available = False
+        return None
+
+    try:
+        from sentence_transformers import SentenceTransformer
+        _sbert_model = SentenceTransformer(SBERT_MODEL_NAME)
+        _sbert_available = True
+        return _sbert_model
+    except Exception:
         _sbert_available = False
         return None
 
