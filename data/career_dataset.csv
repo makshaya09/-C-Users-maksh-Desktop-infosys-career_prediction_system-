@@ -1,0 +1,841 @@
+education,skills,experience,certifications,projects,career
+M.Tech,"Java, Git, Docker, .NET, Algorithms, MySQL",4.2,Microsoft Certified C# Developer,Distributed Cache Mechanism,Software Developer
+B.E,"Linux, Penetration Testing, SIEM, Wireshark, Nmap, Network Security, Firewall",6.0,Certified Ethical Hacker (CEH),Web Application Penetration Testing Report,Cybersecurity Analyst
+B.Sc,"REST API, JavaScript, Express, MongoDB, CSS, HTML",6.2,JavaScript Specialist,E-Commerce Web Portal with Stripe,Web Developer
+M.Sc,"PostgreSQL, Data Visualization, Power BI, MySQL, Python",1.9,Microsoft Certified Data Analyst,Supply Chain Inventory Analysis,Data Analyst
+B.Sc,"Wireshark, SOC, Network Security, Cryptography, Metasploit, Cybersecurity",5.5,CompTIA CySA+,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+B.Sc,"Algorithms, Linux, Python, Git",4.8,Oracle Certified Java Professional,Peer-to-Peer Chat Engine,Software Developer
+MCA,"Pandas, PyTorch, Python, Scikit-learn, Docker, Machine Learning, Model Deployment",2.0,None,Edge AI Device Defect Classifier,Machine Learning Engineer
+BCA,"Data Structures, Python, Algorithms, Java, Docker, C++",8.3,Oracle Certified Java Professional,Distributed Cache Mechanism,Software Developer
+M.Tech,"Python, Docker, Deep Learning, Model Deployment",8.2,None,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+BCA,"React, Express, Bootstrap, REST API, PostgreSQL, HTML, CSS",3.1,Full Stack Web Development Bootcamp,Social Media Feed Web Application,Web Developer
+M.S,"Spring Boot, Algorithms, Git, C++, Java, MySQL",4.5,Oracle Certified Java Professional,Hospital Management Desktop App,Software Developer
+M.Tech,"Deep Learning, Computer Vision, PyTorch, TensorFlow",2.6,AWS Certified Machine Learning Specialty,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.Tech,"Python, Deep Learning, Docker, PyTorch, Pandas, Machine Learning",3.1,AWS Certified Machine Learning Specialty,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+MCA,"MLOps, PyTorch, Docker, NLP, Python, AWS",6.5,DeepLearning.AI TensorFlow Developer,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.S,"HTML, TypeScript, Node.js, Angular, CSS, Express",5.6,Meta Front-End Developer Certificate,Portfolio Showcase with Dynamic Theming,Web Developer
+M.Tech,".NET, OOP, SQL, Algorithms, Python, C++, Linux",1.4,Oracle Certified Java Professional,Peer-to-Peer Chat Engine,Software Developer
+B.Tech,"Statistics, PyTorch, Pandas, SQL, Big Data, Python, NumPy",6.1,IBM Data Science Professional,Recommendation System for E-Commerce,Data Scientist
+BCA,"Python, FastAPI, Docker, PyTorch",2.1,DeepLearning.AI TensorFlow Developer,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.Sc,"Matplotlib, Pandas, NLP, SQL, NumPy, Statistics, R",9.9,Google Data Analytics,Recommendation System for E-Commerce,Data Scientist
+B.E,"Ethical Hacking, Wireshark, Cryptography, Linux, Cybersecurity, Network Security",4.7,Cisco CCNA Security,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.E,"GitLab CI, Kubernetes, Cloud Architecture, Networking, Microservices, Docker",7.9,Google Associate Cloud Engineer,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+M.Tech,"Deep Learning, TensorFlow, Docker, Machine Learning, NLP",9.6,None,Real-time Object Detection with YOLO,Machine Learning Engineer
+M.Sc,"NumPy, Pandas, SQL, Matplotlib",3.2,None,Customer Churn Prediction Model,Data Scientist
+M.S,"Python, C++, Unit Testing, Spring Boot, Data Structures, Algorithms, C#",6.2,AWS Certified Developer,Distributed Cache Mechanism,Software Developer
+M.S,"Docker, Python, Pandas, Scikit-learn, MLOps, Deep Learning, Machine Learning",1.0,None,Transformer-based Chatbot Engine,Machine Learning Engineer
+B.Sc,"Node.js, React, Tailwind, Next.js, MongoDB, CSS, Express",4.7,None,Restaurant Food Ordering Web App,Web Developer
+M.S,"Data Visualization, Statistics, Excel, Google Analytics, Power BI, Tableau, Data Analysis, R",9.1,None,Financial Quarterly KPI Visualization,Data Analyst
+M.Sc,"R, SQL, Pandas, Matplotlib, Machine Learning, PyTorch",9.3,IBM Data Science Professional,House Price Forecasting Pipeline,Data Scientist
+M.Tech,"Penetration Testing, Cybersecurity, Firewall, Wireshark",8.1,CompTIA CySA+,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+M.S,"Power BI, Google Analytics, SQL, Excel, Data Analysis, Business Intelligence",10.0,Tableau Desktop Specialist,Supply Chain Inventory Analysis,Data Analyst
+M.S,"SQL, Data Visualization, Excel, Tableau, R",1.2,Tableau Desktop Specialist,Marketing Campaign ROI Tracker,Data Analyst
+M.S,"Linux, Wireshark, Metasploit, Cryptography, Nmap, Ethical Hacking, Firewall, Penetration Testing",0.3,CompTIA Security+,Web Application Penetration Testing Report,Cybersecurity Analyst
+M.Tech,"Vue.js, Node.js, Django, HTML, JavaScript, CSS, REST API, Tailwind",2.4,Full Stack Web Development Bootcamp,E-Commerce Web Portal with Stripe,Web Developer
+BCA,"Kubernetes, Jenkins, Cloud Architecture, Linux",8.3,AWS Solutions Architect Associate,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+B.Sc,"Bash, Python, CI/CD, Terraform, Cloud Architecture, GCP, Linux, AWS",0.9,Certified Kubernetes Administrator (CKA),Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+M.Tech,"Java, Algorithms, OOP, C++, Spring Boot",6.5,Oracle Certified Java Professional,Banking Transaction Core System,Software Developer
+B.Tech,"Express, React, Bootstrap, HTML, CSS, REST API",4.7,Meta Front-End Developer Certificate,E-Commerce Web Portal with Stripe,Web Developer
+M.Sc,"Scikit-learn, TensorFlow, Machine Learning, Docker, Deep Learning, FastAPI, Computer Vision",7.0,DeepLearning.AI TensorFlow Developer,Transformer-based Chatbot Engine,Machine Learning Engineer
+B.Tech,"Cloud Architecture, Terraform, Docker, Prometheus, CI/CD",1.9,AWS Solutions Architect Associate,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+MCA,"Scikit-learn, Deep Learning, SQL, Tableau, Matplotlib, Statistics",9.5,None,Recommendation System for E-Commerce,Data Scientist
+MCA,"C++, Data Structures, OOP, Docker, Unit Testing, Git",2.7,AWS Certified Developer,Banking Transaction Core System,Software Developer
+M.Tech,"Computer Vision, Scikit-learn, PyTorch, Python, Machine Learning, Deep Learning, NLP, Pandas",4.1,None,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+B.Sc,"Python, Tableau, Excel, Power BI, R, NumPy",7.8,Microsoft Certified Data Analyst,HR Employee Attrition Insights,Data Analyst
+M.S,"Docker, Jenkins, GitLab CI, GCP, Linux, CI/CD",0.6,Google Associate Cloud Engineer,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+M.Tech,"Nmap, Cybersecurity, Ethical Hacking, Bash, Python",8.8,Certified Ethical Hacker (CEH),Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+M.Tech,"Docker, Linux, GCP, Cloud Architecture",4.0,Microsoft Azure Fundamentals,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+B.E,"TensorFlow, Machine Learning, MLOps, Scikit-learn, Docker, Pandas",4.3,DeepLearning.AI TensorFlow Developer,Transformer-based Chatbot Engine,Machine Learning Engineer
+B.Tech,"Scikit-learn, Matplotlib, SQL, Statistics, Deep Learning, Machine Learning, Spark, NumPy",5.6,Google Data Analytics,Customer Churn Prediction Model,Data Scientist
+MCA,"R, Statistics, Seaborn, Pandas, SQL",3.4,Google Data Analytics,Credit Risk Scoring Algorithm,Data Scientist
+M.S,"Firewall, SOC, Network Security, Metasploit, Bash, Linux, Ethical Hacking",4.9,CompTIA CySA+,Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+B.E,"Docker, CI/CD, Python, Terraform, Linux, Networking, Cloud Architecture, Prometheus",9.7,AWS Solutions Architect Associate,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+M.S,"Network Security, Linux, Wireshark, Metasploit, Cybersecurity, Ethical Hacking",6.0,CompTIA CySA+,Web Application Penetration Testing Report,Cybersecurity Analyst
+M.S,"Deep Learning, NumPy, Machine Learning, Python, Seaborn",9.1,TensorFlow Developer Certificate,House Price Forecasting Pipeline,Data Scientist
+B.Sc,"Docker, AWS, GitLab CI, Kubernetes, Linux",5.8,AWS Solutions Architect Associate,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+B.Tech,"Kubernetes, Linux, CI/CD, Docker, Microservices, AWS, Prometheus, Azure",2.9,Certified Kubernetes Administrator (CKA),Kubernetes Microservices Cluster Deployment,Cloud Engineer
+BCA,"Algorithms, Git, Design Patterns, Data Structures, C++",5.2,None,Banking Transaction Core System,Software Developer
+M.Tech,"Python, Data Analysis, PostgreSQL, Tableau",7.8,Tableau Desktop Specialist,Marketing Campaign ROI Tracker,Data Analyst
+M.S,"SQL, OOP, Git, Java, .NET, Python, Data Structures, Unit Testing",1.4,Oracle Certified Java Professional,Distributed Cache Mechanism,Software Developer
+B.Tech,"Scikit-learn, Deep Learning, FastAPI, AWS, Machine Learning, Docker, Python",7.5,GCP Professional ML Engineer,Transformer-based Chatbot Engine,Machine Learning Engineer
+B.E,"Linux, Terraform, Python, Microservices, Kubernetes, Bash",4.5,Microsoft Azure Fundamentals,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+B.Sc,"Deep Learning, Scikit-learn, Docker, FastAPI, PyTorch, Machine Learning, Model Deployment, NLP",5.0,GCP Professional ML Engineer,Real-time Object Detection with YOLO,Machine Learning Engineer
+B.Tech,"GitLab CI, Azure, Bash, AWS, Terraform, Linux",2.8,Certified Kubernetes Administrator (CKA),Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+B.Sc,"PyTorch, Computer Vision, TensorFlow, Kubernetes, FastAPI, Scikit-learn",7.5,DeepLearning.AI TensorFlow Developer,Edge AI Device Defect Classifier,Machine Learning Engineer
+M.Sc,"Git, Algorithms, C#, OOP, Java, Spring Boot",8.0,Microsoft Certified C# Developer,Distributed Cache Mechanism,Software Developer
+M.S,"R, Power BI, Data Visualization, Python, Data Analysis, Pandas, Excel, MySQL",9.9,Google Data Analytics Certificate,HR Employee Attrition Insights,Data Analyst
+B.E,"Big Data, Pandas, TensorFlow, Python, Scikit-learn, NumPy",3.8,TensorFlow Developer Certificate,Recommendation System for E-Commerce,Data Scientist
+M.S,"Python, Terraform, AWS, Docker, Kubernetes, Cloud Architecture",7.4,Microsoft Azure Fundamentals,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+M.Sc,"Node.js, JavaScript, React, Vue.js, HTML, Next.js",0.1,None,Portfolio Showcase with Dynamic Theming,Web Developer
+B.E,"R, Statistics, SQL, Scikit-learn, Python",5.2,Google Data Analytics,Sentiment Analysis on Product Reviews,Data Scientist
+M.S,"Scikit-learn, AWS, Model Deployment, Machine Learning, Python, TensorFlow, FastAPI",8.7,None,Autonomous Driving Lane Detection,Machine Learning Engineer
+M.S,"Tableau, Python, PostgreSQL, Excel, Data Analysis, Power BI",1.5,None,Sales Performance Interactive Dashboard,Data Analyst
+B.E,"Git, Java, Data Structures, MySQL, Algorithms",3.7,Oracle Certified Java Professional,Banking Transaction Core System,Software Developer
+M.Tech,"Python, MySQL, Excel, Google Analytics, Power BI, Data Analysis",3.5,Tableau Desktop Specialist,Sales Performance Interactive Dashboard,Data Analyst
+M.Sc,"SIEM, Ethical Hacking, Network Security, Wireshark, Nmap, Firewall",9.2,Certified Ethical Hacker (CEH),Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+M.Tech,"Vulnerability Assessment, Cybersecurity, SIEM, Metasploit, Nmap, Ethical Hacking",0.4,Cisco CCNA Security,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+B.Sc,"Pandas, Tableau, Scikit-learn, NumPy, PyTorch, Big Data, SQL",8.2,TensorFlow Developer Certificate,Recommendation System for E-Commerce,Data Scientist
+B.Sc,"Wireshark, Nmap, Cryptography, Ethical Hacking, Linux, Network Security",7.2,Cisco CCNA Security,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.E,"CSS, PostgreSQL, Express, React",3.3,None,E-Commerce Web Portal with Stripe,Web Developer
+MCA,"AWS, GitLab CI, Cloud Architecture, Linux, GCP, Kubernetes",2.0,Google Associate Cloud Engineer,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+M.Tech,"Linux, Python, Kubernetes, Cloud Architecture, Terraform",7.7,AWS Solutions Architect Associate,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+BCA,"Unit Testing, SQL, Linux, Python, Data Structures, OOP, Git, Java",6.6,None,Peer-to-Peer Chat Engine,Software Developer
+M.S,"Network Security, Nmap, Ethical Hacking, Metasploit, Wireshark, Python, Firewall",10.0,CompTIA CySA+,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+MCA,"TensorFlow, MLOps, Docker, Python",6.8,GCP Professional ML Engineer,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.Tech,"Data Structures, OOP, Git, C#, SQL, C++",3.4,AWS Certified Developer,Hospital Management Desktop App,Software Developer
+M.S,"TensorFlow, Deep Learning, Machine Learning, Kubernetes, Docker",1.7,AWS Certified Machine Learning Specialty,Edge AI Device Defect Classifier,Machine Learning Engineer
+M.Sc,"Python, Unit Testing, Algorithms, Git, C#",7.1,Oracle Certified Java Professional,Hospital Management Desktop App,Software Developer
+BCA,"Git, Algorithms, Python, C++, Linux, Data Structures",3.7,AWS Certified Developer,Multi-threaded File Downloader,Software Developer
+M.S,"Prometheus, GitLab CI, Docker, CI/CD, Cloud Architecture",0.9,Google Associate Cloud Engineer,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+M.Tech,"Python, Design Patterns, OOP, Algorithms, Docker, MySQL",4.2,AWS Certified Developer,Hospital Management Desktop App,Software Developer
+M.S,"Bash, Network Security, Wireshark, Firewall, Ethical Hacking",8.7,Certified Ethical Hacker (CEH),Phishing Simulation & Awareness Program,Cybersecurity Analyst
+MCA,"Pandas, Scikit-learn, NumPy, Statistics, R, Machine Learning",9.8,IBM Data Science Professional,House Price Forecasting Pipeline,Data Scientist
+MCA,"Express, Angular, JavaScript, React, Bootstrap",9.6,Full Stack Web Development Bootcamp,Real-time Collaborative Whiteboard,Web Developer
+M.Tech,"Bash, Linux, Network Security, Nmap, Penetration Testing, Ethical Hacking, Wireshark, SOC",7.2,Cisco CCNA Security,Web Application Penetration Testing Report,Cybersecurity Analyst
+B.Tech,"TensorFlow, SQL, Scikit-learn, NLP, Python, NumPy, Machine Learning, Spark",5.8,None,Recommendation System for E-Commerce,Data Scientist
+B.Sc,"Jenkins, AWS, Ansible, Bash, Cloud Architecture, Kubernetes",3.2,Certified Kubernetes Administrator (CKA),Disaster Recovery Infrastructure as Code,Cloud Engineer
+M.Tech,"Kubernetes, CI/CD, Terraform, Docker, GitLab CI, AWS",6.3,Google Associate Cloud Engineer,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+B.E,"PostgreSQL, Data Visualization, Tableau, Excel, Pandas, Google Analytics",1.1,Google Data Analytics Certificate,Sales Performance Interactive Dashboard,Data Analyst
+B.Sc,"Next.js, Vue.js, Angular, JavaScript, Express, HTML, REST API, Node.js",4.0,Meta Front-End Developer Certificate,Portfolio Showcase with Dynamic Theming,Web Developer
+B.Tech,"Data Visualization, Tableau, Python, R, SQL, Power BI",8.7,Tableau Desktop Specialist,Customer Segmentation and Cohort Study,Data Analyst
+M.Tech,"Python, Nmap, Penetration Testing, Firewall, Cybersecurity, Network Security",6.7,Cisco CCNA Security,Web Application Penetration Testing Report,Cybersecurity Analyst
+B.E,"Computer Vision, TensorFlow, PyTorch, Model Deployment, Deep Learning, Docker",5.0,None,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.Sc,"Firewall, Penetration Testing, Wireshark, SOC, Cybersecurity, Ethical Hacking",5.2,Cisco CCNA Security,Intrusion Detection System with Snort,Cybersecurity Analyst
+M.S,"NumPy, Tableau, SQL, Data Analysis, Google Analytics",4.8,Microsoft Certified Data Analyst,Financial Quarterly KPI Visualization,Data Analyst
+BCA,"Python, Azure, Linux, Docker, Terraform, Cloud Architecture, AWS, Ansible",8.2,Certified Kubernetes Administrator (CKA),Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+B.Tech,"OOP, Algorithms, Data Structures, Unit Testing",9.8,Microsoft Certified C# Developer,Peer-to-Peer Chat Engine,Software Developer
+B.E,"Data Structures, OOP, C#, Java, Git",2.1,AWS Certified Developer,Hospital Management Desktop App,Software Developer
+MCA,"Cloud Architecture, Microservices, Prometheus, Kubernetes, Python, AWS",9.9,Microsoft Azure Fundamentals,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+M.S,"Terraform, GCP, Prometheus, Azure, CI/CD, Cloud Architecture, Kubernetes",1.0,Microsoft Azure Fundamentals,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+BCA,"GCP, Microservices, Docker, GitLab CI, Cloud Architecture, AWS",0.7,Microsoft Azure Fundamentals,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+M.S,"Tableau, Matplotlib, NLP, Scikit-learn, NumPy, Pandas",4.5,Google Data Analytics,Healthcare Fraud Detection Engine,Data Scientist
+BCA,"TensorFlow, Machine Learning, Computer Vision, Scikit-learn, Deep Learning, NLP",0.9,DeepLearning.AI TensorFlow Developer,Edge AI Device Defect Classifier,Machine Learning Engineer
+M.Sc,"React, Node.js, Express, Angular, Tailwind, Django, CSS",9.7,None,Real-time Collaborative Whiteboard,Web Developer
+M.Sc,"Flask, React, CSS, Next.js, REST API, HTML, MongoDB, Node.js",3.4,JavaScript Specialist,Blog CMS with Markdown Support,Web Developer
+M.Tech,"Data Structures, OOP, C++, .NET, Algorithms, Python, Docker",8.8,Microsoft Certified C# Developer,Inventory and Billing Management Software,Software Developer
+M.Tech,"Express, REST API, JavaScript, Vue.js",1.6,None,E-Commerce Web Portal with Stripe,Web Developer
+B.E,"Kubernetes, Ansible, CI/CD, Terraform, Azure, AWS, Linux",1.7,Certified Kubernetes Administrator (CKA),Kubernetes Microservices Cluster Deployment,Cloud Engineer
+M.S,"Wireshark, Cryptography, Burp Suite, Cybersecurity, Network Security, Metasploit",5.8,Cisco CCNA Security,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+M.Tech,"Statistics, TensorFlow, Pandas, Scikit-learn, R, Python",5.0,Google Data Analytics,Customer Churn Prediction Model,Data Scientist
+B.E,"SQL, Pandas, Excel, Data Analysis, MySQL, NumPy, Data Visualization",3.1,Google Data Analytics Certificate,Sales Performance Interactive Dashboard,Data Analyst
+B.Tech,"Machine Learning, MLOps, Scikit-learn, Python, TensorFlow",0.6,DeepLearning.AI TensorFlow Developer,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+M.S,"CUDA, PyTorch, Python, Scikit-learn, AWS, Machine Learning, Deep Learning",0.0,None,Autonomous Driving Lane Detection,Machine Learning Engineer
+B.Tech,"Python, .NET, C++, Git",9.2,AWS Certified Developer,Peer-to-Peer Chat Engine,Software Developer
+B.Sc,"C++, Algorithms, OOP, Data Structures, Java, SQL",7.1,AWS Certified Developer,Peer-to-Peer Chat Engine,Software Developer
+B.Tech,"Unit Testing, OOP, Git, Algorithms, C++, C#, Python, SQL",7.6,Microsoft Certified C# Developer,Banking Transaction Core System,Software Developer
+M.Tech,"R, SQL, Data Visualization, Power BI, PostgreSQL, Data Analysis",8.3,Google Data Analytics Certificate,Financial Quarterly KPI Visualization,Data Analyst
+B.Sc,"Power BI, MySQL, Data Analysis, Google Analytics, Excel, Python, R, Data Visualization",2.2,Google Data Analytics Certificate,Sales Performance Interactive Dashboard,Data Analyst
+MCA,"Linux, Ethical Hacking, Cybersecurity, Metasploit, Firewall, Nmap",7.6,None,Intrusion Detection System with Snort,Cybersecurity Analyst
+B.Tech,"React, Angular, Node.js, HTML, REST API, JavaScript",6.9,JavaScript Specialist,Social Media Feed Web Application,Web Developer
+M.Tech,"Docker, Linux, Git, Algorithms, Java",1.3,AWS Certified Developer,Banking Transaction Core System,Software Developer
+B.E,"C++, Spring Boot, Git, Python, REST API, .NET, Data Structures",5.2,Microsoft Certified C# Developer,Peer-to-Peer Chat Engine,Software Developer
+M.S,"Express, Bootstrap, Node.js, JavaScript",7.3,Full Stack Web Development Bootcamp,Blog CMS with Markdown Support,Web Developer
+B.E,"Matplotlib, Machine Learning, Python, Statistics, R",0.5,Google Data Analytics,Credit Risk Scoring Algorithm,Data Scientist
+B.E,"Tableau, Data Visualization, Google Analytics, Power BI",9.7,Google Data Analytics Certificate,Supply Chain Inventory Analysis,Data Analyst
+M.S,"Data Structures, Linux, Git, C++, Algorithms, Java",3.8,Oracle Certified Java Professional,Peer-to-Peer Chat Engine,Software Developer
+B.Sc,"Algorithms, Java, C#, Git, Data Structures, Python",4.0,None,Hospital Management Desktop App,Software Developer
+M.Tech,"Data Analysis, MySQL, NumPy, SQL, Excel, Data Visualization, Tableau, R",4.1,Microsoft Certified Data Analyst,Supply Chain Inventory Analysis,Data Analyst
+MCA,"Cloud Architecture, Microservices, Bash, CI/CD, Docker, Jenkins, AWS",3.0,AWS Solutions Architect Associate,Disaster Recovery Infrastructure as Code,Cloud Engineer
+BCA,"CSS, HTML, Django, Next.js, REST API, MongoDB, React",5.7,None,Portfolio Showcase with Dynamic Theming,Web Developer
+B.Tech,"TensorFlow, CUDA, Scikit-learn, Docker, PyTorch, NLP",1.6,DeepLearning.AI TensorFlow Developer,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+M.Sc,"Linux, Cloud Architecture, AWS, Azure, CI/CD, Kubernetes",8.2,Certified Kubernetes Administrator (CKA),Disaster Recovery Infrastructure as Code,Cloud Engineer
+BCA,"Python, Docker, Kubernetes, TensorFlow, NLP, Pandas, Machine Learning, Deep Learning",6.4,AWS Certified Machine Learning Specialty,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+MCA,"Python, Terraform, AWS, CI/CD, Bash, Linux",4.8,Microsoft Azure Fundamentals,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+M.S,"Jenkins, CI/CD, Docker, Terraform, Cloud Architecture",0.8,Microsoft Azure Fundamentals,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+BCA,"CI/CD, Docker, Terraform, Bash, Linux, AWS",6.9,AWS Solutions Architect Associate,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+M.Tech,"Docker, Cloud Architecture, Terraform, Kubernetes, Prometheus",6.2,Google Associate Cloud Engineer,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+M.S,"Scikit-learn, NLP, Big Data, NumPy, Statistics",9.5,None,Healthcare Fraud Detection Engine,Data Scientist
+M.S,"JavaScript, HTML, Next.js, TypeScript, React",4.9,Meta Front-End Developer Certificate,Blog CMS with Markdown Support,Web Developer
+M.Sc,"REST API, CSS, React, Flask, JavaScript, HTML",0.6,Full Stack Web Development Bootcamp,Blog CMS with Markdown Support,Web Developer
+B.Tech,"AWS, Kubernetes, CI/CD, Docker, GitLab CI",1.8,Microsoft Azure Fundamentals,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+MCA,"Vue.js, HTML, CSS, Flask, React, PostgreSQL",6.1,Meta Front-End Developer Certificate,E-Commerce Web Portal with Stripe,Web Developer
+B.Tech,"PostgreSQL, SQL, Excel, Google Analytics, Data Analysis, NumPy",4.0,Microsoft Certified Data Analyst,HR Employee Attrition Insights,Data Analyst
+B.Tech,"Python, Pandas, Machine Learning, Deep Learning, NLP, Kubernetes",5.5,AWS Certified Machine Learning Specialty,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+B.Tech,"Docker, PyTorch, Deep Learning, MLOps, Computer Vision",9.2,None,Transformer-based Chatbot Engine,Machine Learning Engineer
+B.Tech,"Machine Learning, Docker, PyTorch, Kubernetes, NLP",2.4,GCP Professional ML Engineer,Real-time Object Detection with YOLO,Machine Learning Engineer
+M.Tech,"JavaScript, TypeScript, Django, Express, REST API, Tailwind, Node.js",1.9,Meta Front-End Developer Certificate,Real-time Collaborative Whiteboard,Web Developer
+B.Tech,"Python, NLP, Deep Learning, Docker, TensorFlow",1.8,DeepLearning.AI TensorFlow Developer,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.S,"HTML, Bootstrap, Express, Node.js, MongoDB, React, JavaScript, Django",6.3,JavaScript Specialist,Real-time Collaborative Whiteboard,Web Developer
+M.S,"Java, Python, SQL, Algorithms, Spring Boot",5.0,AWS Certified Developer,Peer-to-Peer Chat Engine,Software Developer
+B.Tech,"Spark, R, NumPy, Scikit-learn, Statistics",4.6,Google Data Analytics,Credit Risk Scoring Algorithm,Data Scientist
+M.Tech,"R, Matplotlib, NumPy, Machine Learning, Pandas, Scikit-learn",0.5,IBM Data Science Professional,Sentiment Analysis on Product Reviews,Data Scientist
+B.Sc,"PostgreSQL, Google Analytics, R, Data Analysis, Data Visualization, Python",6.4,None,Customer Segmentation and Cohort Study,Data Analyst
+MCA,"Python, NumPy, Pandas, Data Analysis, Tableau, Data Visualization, SQL",4.2,Tableau Desktop Specialist,Customer Segmentation and Cohort Study,Data Analyst
+BCA,"Scikit-learn, Deep Learning, PyTorch, MLOps",2.5,None,Autonomous Driving Lane Detection,Machine Learning Engineer
+BCA,"Python, C#, Java, Algorithms, C++",9.7,AWS Certified Developer,Banking Transaction Core System,Software Developer
+M.Sc,"Data Analysis, NumPy, PostgreSQL, Tableau, Excel, Statistics, Data Visualization",8.6,Google Data Analytics Certificate,HR Employee Attrition Insights,Data Analyst
+B.Tech,"Bash, Wireshark, Vulnerability Assessment, Burp Suite, Network Security, Nmap",8.3,Cisco CCNA Security,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+B.Tech,"Docker, Deep Learning, NLP, Pandas, Scikit-learn, MLOps, PyTorch",7.4,AWS Certified Machine Learning Specialty,Edge AI Device Defect Classifier,Machine Learning Engineer
+B.Tech,"SQL, NumPy, Pandas, Python, Excel, Data Analysis, Power BI",9.2,Microsoft Certified Data Analyst,Marketing Campaign ROI Tracker,Data Analyst
+BCA,"JavaScript, Django, Bootstrap, Angular, Express, React, REST API, HTML",8.7,JavaScript Specialist,Social Media Feed Web Application,Web Developer
+M.S,"Git, Algorithms, REST API, Data Structures, C#",8.0,Oracle Certified Java Professional,Inventory and Billing Management Software,Software Developer
+B.Sc,"PyTorch, Deep Learning, Docker, TensorFlow, Scikit-learn, CUDA",9.0,AWS Certified Machine Learning Specialty,Real-time Object Detection with YOLO,Machine Learning Engineer
+MCA,"Docker, PyTorch, Machine Learning, Computer Vision, Scikit-learn, Python",4.8,None,Edge AI Device Defect Classifier,Machine Learning Engineer
+M.Sc,"NumPy, Machine Learning, SQL, TensorFlow, Python",0.2,None,Healthcare Fraud Detection Engine,Data Scientist
+MCA,"Vulnerability Assessment, Network Security, Linux, Ethical Hacking, Firewall, Cryptography, Nmap",2.1,CompTIA CySA+,Intrusion Detection System with Snort,Cybersecurity Analyst
+BCA,"Node.js, Vue.js, REST API, TypeScript, React, MongoDB, Express",6.2,JavaScript Specialist,Blog CMS with Markdown Support,Web Developer
+M.S,"Python, PostgreSQL, R, Tableau, Excel",1.9,Tableau Desktop Specialist,Financial Quarterly KPI Visualization,Data Analyst
+B.E,"Statistics, Spark, TensorFlow, Machine Learning, Big Data, NumPy, Pandas",3.1,Google Data Analytics,Recommendation System for E-Commerce,Data Scientist
+M.S,"MLOps, Python, Scikit-learn, PyTorch, Pandas, Model Deployment, Docker",0.0,AWS Certified Machine Learning Specialty,Autonomous Driving Lane Detection,Machine Learning Engineer
+M.Tech,"CI/CD, Bash, Cloud Architecture, Terraform, Linux, Docker, Azure, Prometheus",2.6,Google Associate Cloud Engineer,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+M.Sc,"Seaborn, R, Pandas, Scikit-learn, Statistics, Spark",6.6,None,Recommendation System for E-Commerce,Data Scientist
+B.Sc,"R, Matplotlib, Statistics, Scikit-learn, Python, Machine Learning, Tableau, SQL",7.0,None,Sentiment Analysis on Product Reviews,Data Scientist
+M.Tech,"Data Analysis, Data Visualization, Tableau, Pandas, Python, Power BI",7.3,Google Data Analytics Certificate,Customer Segmentation and Cohort Study,Data Analyst
+B.Sc,"NumPy, Python, Machine Learning, Pandas, Scikit-learn, NLP",5.6,IBM Data Science Professional,Sentiment Analysis on Product Reviews,Data Scientist
+BCA,"Kubernetes, Terraform, CI/CD, Docker, Python, Networking, Cloud Architecture",1.0,Microsoft Azure Fundamentals,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+M.S,"Nmap, Vulnerability Assessment, Python, Firewall, Wireshark, Bash",7.9,Cisco CCNA Security,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+B.Sc,"AWS, Kubernetes, Linux, CI/CD, Cloud Architecture, Networking",2.6,Google Associate Cloud Engineer,Disaster Recovery Infrastructure as Code,Cloud Engineer
+M.Sc,"Firewall, Network Security, Ethical Hacking, Vulnerability Assessment, Bash",0.0,CompTIA Security+,Web Application Penetration Testing Report,Cybersecurity Analyst
+B.Tech,"SQL, Excel, Google Analytics, Data Analysis, R, Python, Tableau",9.5,Tableau Desktop Specialist,HR Employee Attrition Insights,Data Analyst
+M.Tech,"Java, C++, REST API, Algorithms, Python, Git, SQL, .NET",2.3,None,Banking Transaction Core System,Software Developer
+M.Tech,"Next.js, CSS, Node.js, HTML, REST API, JavaScript",3.7,JavaScript Specialist,Portfolio Showcase with Dynamic Theming,Web Developer
+B.E,"Cybersecurity, Wireshark, Metasploit, Nmap, Firewall, Ethical Hacking",4.1,CompTIA Security+,Intrusion Detection System with Snort,Cybersecurity Analyst
+M.Sc,"TypeScript, React, Node.js, REST API, CSS, HTML",8.0,Meta Front-End Developer Certificate,Portfolio Showcase with Dynamic Theming,Web Developer
+MCA,"Wireshark, Cybersecurity, Linux, Cryptography, Ethical Hacking, Burp Suite, Penetration Testing",7.6,CompTIA CySA+,Intrusion Detection System with Snort,Cybersecurity Analyst
+M.S,"PyTorch, Deep Learning, TensorFlow, Docker, MLOps, Machine Learning",9.9,AWS Certified Machine Learning Specialty,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.Tech,"Node.js, REST API, Bootstrap, HTML, CSS, MongoDB, Express, TypeScript",8.4,JavaScript Specialist,Real-time Collaborative Whiteboard,Web Developer
+M.Tech,"Data Visualization, PostgreSQL, Python, SQL, R, Google Analytics, Tableau",2.4,Microsoft Certified Data Analyst,Financial Quarterly KPI Visualization,Data Analyst
+M.S,"Scikit-learn, Kubernetes, TensorFlow, Python, CUDA",8.8,GCP Professional ML Engineer,Autonomous Driving Lane Detection,Machine Learning Engineer
+B.E,"Python, Pandas, Seaborn, SQL, Matplotlib, NumPy, Statistics",4.1,TensorFlow Developer Certificate,Customer Churn Prediction Model,Data Scientist
+B.Sc,"React, REST API, HTML, MongoDB, Flask, Express",1.6,Meta Front-End Developer Certificate,Real-time Collaborative Whiteboard,Web Developer
+B.E,"SQL, Python, Power BI, Google Analytics, Tableau, NumPy",6.0,Microsoft Certified Data Analyst,Supply Chain Inventory Analysis,Data Analyst
+M.Sc,"Linux, Network Security, Ethical Hacking, Firewall, Nmap, Bash, Burp Suite",7.8,None,Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+B.Sc,"Python, Algorithms, Design Patterns, SQL, Java, REST API, Data Structures, Git",2.2,Microsoft Certified C# Developer,Peer-to-Peer Chat Engine,Software Developer
+MCA,"Deep Learning, Python, MLOps, Machine Learning, Scikit-learn",0.9,AWS Certified Machine Learning Specialty,Edge AI Device Defect Classifier,Machine Learning Engineer
+B.Tech,"Git, C++, Java, OOP, Data Structures, Design Patterns",1.2,Microsoft Certified C# Developer,Inventory and Billing Management Software,Software Developer
+B.E,"Django, REST API, Node.js, CSS, JavaScript, React",3.3,None,Blog CMS with Markdown Support,Web Developer
+M.S,"NLP, NumPy, Big Data, Scikit-learn, Machine Learning",9.8,Google Data Analytics,Healthcare Fraud Detection Engine,Data Scientist
+M.Sc,"Wireshark, Ethical Hacking, Python, Cybersecurity",7.2,CompTIA Security+,Intrusion Detection System with Snort,Cybersecurity Analyst
+B.Tech,"NLP, Deep Learning, Kubernetes, Docker, TensorFlow",6.2,GCP Professional ML Engineer,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+MCA,"Terraform, Cloud Architecture, Linux, GCP, Kubernetes, Python",9.5,Certified Kubernetes Administrator (CKA),Disaster Recovery Infrastructure as Code,Cloud Engineer
+M.Tech,"Spring Boot, OOP, REST API, Data Structures, Algorithms",1.4,AWS Certified Developer,Inventory and Billing Management Software,Software Developer
+BCA,"Penetration Testing, Burp Suite, Nmap, SOC, Network Security, Firewall",5.4,Certified Ethical Hacker (CEH),Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+M.S,"Wireshark, Cybersecurity, Cryptography, Firewall, Linux, Nmap, Burp Suite",5.1,Cisco CCNA Security,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.Tech,"Ansible, Kubernetes, GCP, Terraform, CI/CD",0.5,Microsoft Azure Fundamentals,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+MCA,"SQL, Tableau, Scikit-learn, Pandas, Big Data",4.0,Google Data Analytics,Recommendation System for E-Commerce,Data Scientist
+B.Sc,"Firewall, Linux, Bash, Cybersecurity, Burp Suite",1.5,None,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.E,"CSS, Bootstrap, React, Node.js, Django",4.1,Full Stack Web Development Bootcamp,Real-time Collaborative Whiteboard,Web Developer
+M.S,"Penetration Testing, Cybersecurity, Metasploit, Bash, Ethical Hacking, Wireshark, Network Security",7.3,Cisco CCNA Security,Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+BCA,"AWS, Machine Learning, TensorFlow, Deep Learning",1.1,GCP Professional ML Engineer,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+B.Sc,"Cybersecurity, Network Security, Linux, Burp Suite, Bash, Wireshark, SOC, Nmap",0.2,CompTIA Security+,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+M.Sc,"Pandas, Scikit-learn, PyTorch, Docker, FastAPI, TensorFlow",6.0,AWS Certified Machine Learning Specialty,Real-time Object Detection with YOLO,Machine Learning Engineer
+M.Sc,"Node.js, HTML, REST API, Angular, Django, Vue.js, React, Express",9.3,Full Stack Web Development Bootcamp,Restaurant Food Ordering Web App,Web Developer
+B.Tech,"Ethical Hacking, Cybersecurity, Nmap, Penetration Testing, Linux, SIEM, Network Security",3.1,None,Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+M.Sc,"Cloud Architecture, AWS, CI/CD, Kubernetes, Python",7.7,AWS Solutions Architect Associate,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+MCA,"Vue.js, Express, CSS, REST API, React, PostgreSQL",1.9,None,Social Media Feed Web Application,Web Developer
+B.E,"Excel, Google Analytics, SQL, Python, Data Analysis, Data Visualization",2.3,Microsoft Certified Data Analyst,Customer Segmentation and Cohort Study,Data Analyst
+B.Tech,"SIEM, Ethical Hacking, Firewall, Nmap, Cybersecurity, Bash, SOC, Network Security",3.6,Cisco CCNA Security,Intrusion Detection System with Snort,Cybersecurity Analyst
+BCA,"CSS, Node.js, HTML, Angular, JavaScript, Vue.js",3.5,JavaScript Specialist,Social Media Feed Web Application,Web Developer
+M.Sc,"Big Data, Machine Learning, NumPy, Statistics, Spark, Tableau, Pandas",6.4,IBM Data Science Professional,Sentiment Analysis on Product Reviews,Data Scientist
+BCA,"Bootstrap, Express, HTML, React",6.9,Meta Front-End Developer Certificate,Blog CMS with Markdown Support,Web Developer
+M.Sc,"PostgreSQL, MySQL, Business Intelligence, Tableau, Data Analysis, SQL, Python",8.1,Tableau Desktop Specialist,Sales Performance Interactive Dashboard,Data Analyst
+M.S,"Python, PyTorch, Machine Learning, CUDA",2.0,GCP Professional ML Engineer,Edge AI Device Defect Classifier,Machine Learning Engineer
+M.S,"Wireshark, Python, Cybersecurity, Linux, Network Security, Ethical Hacking",5.2,CompTIA Security+,Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+M.Sc,"Linux, GCP, Bash, CI/CD, Kubernetes, Terraform, Docker",8.0,AWS Solutions Architect Associate,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+B.E,"Express, CSS, REST API, JavaScript, Django, TypeScript",8.5,Meta Front-End Developer Certificate,Blog CMS with Markdown Support,Web Developer
+M.S,"PyTorch, Python, Scikit-learn, SQL, Deep Learning, Pandas",3.4,Google Data Analytics,House Price Forecasting Pipeline,Data Scientist
+M.S,"OOP, C++, Data Structures, Python, Docker",9.5,None,Hospital Management Desktop App,Software Developer
+M.S,"Unit Testing, OOP, C++, Java",2.9,None,Multi-threaded File Downloader,Software Developer
+BCA,"Burp Suite, Ethical Hacking, Firewall, Cybersecurity, SIEM, Linux, Cryptography",3.8,CompTIA CySA+,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.Sc,"AWS, Kubernetes, Terraform, Azure",0.2,Microsoft Azure Fundamentals,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+M.Sc,"C++, Java, Spring Boot, Data Structures, C#, MySQL, Python",8.1,AWS Certified Developer,Peer-to-Peer Chat Engine,Software Developer
+M.Tech,"Machine Learning, SQL, Spark, NumPy, Pandas, Scikit-learn",6.0,TensorFlow Developer Certificate,House Price Forecasting Pipeline,Data Scientist
+M.S,"Spark, Machine Learning, Python, NumPy, Statistics",8.3,Google Data Analytics,Credit Risk Scoring Algorithm,Data Scientist
+B.E,"Java, Data Structures, C++, SQL, Git, OOP",9.4,Oracle Certified Java Professional,Distributed Cache Mechanism,Software Developer
+M.Tech,"R, Excel, Tableau, Business Intelligence, Pandas, Data Visualization, Power BI, Data Analysis",0.3,Google Data Analytics Certificate,Financial Quarterly KPI Visualization,Data Analyst
+B.E,"TensorFlow, Pandas, Machine Learning, Statistics, Big Data, Python, Scikit-learn",4.7,Google Data Analytics,Customer Churn Prediction Model,Data Scientist
+M.Tech,"FastAPI, TensorFlow, Deep Learning, PyTorch, Machine Learning, Docker",3.8,None,Autonomous Driving Lane Detection,Machine Learning Engineer
+MCA,"Docker, NLP, Python, Deep Learning, Scikit-learn, TensorFlow",6.0,GCP Professional ML Engineer,Autonomous Driving Lane Detection,Machine Learning Engineer
+B.E,"Express, React, HTML, CSS, TypeScript, Node.js",0.9,None,Real-time Collaborative Whiteboard,Web Developer
+M.S,"HTML, Next.js, JavaScript, Node.js, CSS, Express",6.7,Meta Front-End Developer Certificate,Restaurant Food Ordering Web App,Web Developer
+B.Sc,"Machine Learning, Python, Scikit-learn, FastAPI, TensorFlow, CUDA, PyTorch",9.8,AWS Certified Machine Learning Specialty,Real-time Object Detection with YOLO,Machine Learning Engineer
+M.Tech,"Terraform, Docker, AWS, Cloud Architecture, Networking, CI/CD",0.6,Google Associate Cloud Engineer,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+M.Tech,"C#, OOP, Git, Java, Linux, Python, C++, REST API",3.2,AWS Certified Developer,Banking Transaction Core System,Software Developer
+B.Sc,"Data Structures, Python, C#, Docker, Git, MySQL, C++, Java",5.5,Oracle Certified Java Professional,Hospital Management Desktop App,Software Developer
+B.Tech,"C++, MySQL, SQL, Git, Java",5.2,AWS Certified Developer,Hospital Management Desktop App,Software Developer
+B.E,"Nmap, Firewall, Linux, SIEM, Penetration Testing, Ethical Hacking, Vulnerability Assessment, Cybersecurity",1.3,Certified Ethical Hacker (CEH),Intrusion Detection System with Snort,Cybersecurity Analyst
+B.Tech,"Java, .NET, Git, OOP, Python, Algorithms",6.4,Oracle Certified Java Professional,Inventory and Billing Management Software,Software Developer
+B.Sc,"Data Structures, Spring Boot, Algorithms, OOP, Git",9.9,Microsoft Certified C# Developer,Distributed Cache Mechanism,Software Developer
+B.Tech,"Python, Matplotlib, Machine Learning, Tableau, Scikit-learn",2.3,TensorFlow Developer Certificate,House Price Forecasting Pipeline,Data Scientist
+M.S,"Cloud Architecture, Terraform, Linux, Microservices, Docker, Python",0.4,Microsoft Azure Fundamentals,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+B.Tech,"NumPy, Python, Machine Learning, Spark, Tableau, Scikit-learn, Pandas",0.8,Google Data Analytics,House Price Forecasting Pipeline,Data Scientist
+M.Tech,"Burp Suite, Cybersecurity, Ethical Hacking, Wireshark, Linux, SOC",5.7,CompTIA Security+,Intrusion Detection System with Snort,Cybersecurity Analyst
+BCA,"Spring Boot, C++, Unit Testing, Algorithms, Git",0.4,Microsoft Certified C# Developer,Distributed Cache Mechanism,Software Developer
+BCA,"NumPy, Data Visualization, Data Analysis, Tableau, Power BI",1.2,Google Data Analytics Certificate,Supply Chain Inventory Analysis,Data Analyst
+M.S,"Vulnerability Assessment, Firewall, Cybersecurity, Bash, Ethical Hacking",0.1,CompTIA Security+,Web Application Penetration Testing Report,Cybersecurity Analyst
+M.S,"Metasploit, Linux, Ethical Hacking, Nmap, Wireshark",4.3,None,Intrusion Detection System with Snort,Cybersecurity Analyst
+M.S,"Kubernetes, Machine Learning, Pandas, Deep Learning, Python, TensorFlow, Docker",1.5,AWS Certified Machine Learning Specialty,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+B.Sc,"Vue.js, React, Node.js, HTML, JavaScript",1.5,Meta Front-End Developer Certificate,Blog CMS with Markdown Support,Web Developer
+MCA,"Git, Unit Testing, MySQL, Docker, C++, Algorithms, Python",2.6,Oracle Certified Java Professional,Distributed Cache Mechanism,Software Developer
+MCA,"Data Visualization, Pandas, SQL, Tableau",4.2,Tableau Desktop Specialist,Financial Quarterly KPI Visualization,Data Analyst
+M.S,"Data Structures, Design Patterns, .NET, Java, Git, Algorithms",7.7,AWS Certified Developer,Inventory and Billing Management Software,Software Developer
+M.Sc,"Power BI, Tableau, Business Intelligence, Data Analysis, Pandas, R",5.5,None,Financial Quarterly KPI Visualization,Data Analyst
+B.Sc,"SIEM, Linux, Nmap, Bash, Ethical Hacking, Network Security, Wireshark",3.1,CompTIA Security+,Intrusion Detection System with Snort,Cybersecurity Analyst
+B.E,"Wireshark, Nmap, SIEM, Python, Network Security, Linux",4.4,None,Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+MCA,"JavaScript, CSS, Express, PostgreSQL",3.6,Full Stack Web Development Bootcamp,Blog CMS with Markdown Support,Web Developer
+M.Sc,"Python, Cloud Architecture, GCP, Azure, Kubernetes, Docker",2.5,Certified Kubernetes Administrator (CKA),Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+M.Sc,"Python, Scikit-learn, Tableau, Statistics, Big Data",2.5,None,Recommendation System for E-Commerce,Data Scientist
+MCA,"Firewall, SIEM, Wireshark, Cybersecurity, Nmap, Ethical Hacking",4.6,None,Intrusion Detection System with Snort,Cybersecurity Analyst
+M.Tech,"Network Security, Burp Suite, Wireshark, Linux, Vulnerability Assessment",2.0,Certified Ethical Hacker (CEH),Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+MCA,"JavaScript, CSS, REST API, React, Node.js, Next.js",5.2,JavaScript Specialist,Social Media Feed Web Application,Web Developer
+M.Tech,"Power BI, SQL, Pandas, Python, Excel, PostgreSQL, Tableau",3.9,None,Marketing Campaign ROI Tracker,Data Analyst
+M.Sc,"OOP, MySQL, Data Structures, C++, Git, Unit Testing, Java",3.3,None,Distributed Cache Mechanism,Software Developer
+M.Sc,"Azure, Docker, Networking, Cloud Architecture, Prometheus, Linux, Terraform, CI/CD",5.6,AWS Solutions Architect Associate,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+M.Sc,"Google Analytics, Python, Data Analysis, Data Visualization, Power BI, Pandas, MySQL, Excel",7.9,Tableau Desktop Specialist,Financial Quarterly KPI Visualization,Data Analyst
+B.Sc,"Kubernetes, Jenkins, GCP, Cloud Architecture, AWS, Linux, Docker, Azure",9.5,Certified Kubernetes Administrator (CKA),Kubernetes Microservices Cluster Deployment,Cloud Engineer
+M.Tech,"React, HTML, Node.js, Angular, Django, JavaScript",2.0,Meta Front-End Developer Certificate,Social Media Feed Web Application,Web Developer
+MCA,"SQL, Python, Git, C++",5.0,Microsoft Certified C# Developer,Banking Transaction Core System,Software Developer
+M.S,"Node.js, Flask, Bootstrap, Express, Django, REST API, JavaScript",5.9,None,E-Commerce Web Portal with Stripe,Web Developer
+BCA,"REST API, C++, OOP, SQL, C#, Data Structures",3.0,AWS Certified Developer,Hospital Management Desktop App,Software Developer
+M.Sc,"Terraform, Linux, Kubernetes, Jenkins, Networking, CI/CD, Cloud Architecture",7.1,Certified Kubernetes Administrator (CKA),Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+B.E,"Burp Suite, Wireshark, Cybersecurity, Network Security, Python, Bash",5.1,Cisco CCNA Security,Intrusion Detection System with Snort,Cybersecurity Analyst
+MCA,"Next.js, HTML, Vue.js, Express, Flask, REST API",9.6,Full Stack Web Development Bootcamp,Real-time Collaborative Whiteboard,Web Developer
+BCA,"Tableau, Python, Data Visualization, Pandas, Power BI, NumPy, Excel, Google Analytics",4.9,Tableau Desktop Specialist,Marketing Campaign ROI Tracker,Data Analyst
+B.Tech,"MySQL, .NET, Algorithms, Java, Data Structures",8.0,None,Multi-threaded File Downloader,Software Developer
+B.Tech,"Node.js, PostgreSQL, React, CSS, Express",6.1,Full Stack Web Development Bootcamp,Restaurant Food Ordering Web App,Web Developer
+B.Sc,"Power BI, Data Visualization, Data Analysis, Business Intelligence, SQL, Excel",2.4,Tableau Desktop Specialist,HR Employee Attrition Insights,Data Analyst
+B.E,"C#, Algorithms, OOP, C++, Git, Design Patterns",7.7,AWS Certified Developer,Distributed Cache Mechanism,Software Developer
+B.E,"Node.js, TypeScript, REST API, JavaScript, Vue.js, Express, React, Tailwind",3.4,None,Social Media Feed Web Application,Web Developer
+M.Tech,"Express, HTML, Django, Vue.js, JavaScript, CSS, React",0.9,JavaScript Specialist,Real-time Collaborative Whiteboard,Web Developer
+B.Tech,"Model Deployment, Machine Learning, Python, Scikit-learn, Docker, Computer Vision, Deep Learning",5.7,AWS Certified Machine Learning Specialty,Autonomous Driving Lane Detection,Machine Learning Engineer
+B.Tech,"Machine Learning, Matplotlib, Scikit-learn, Tableau, NumPy, Pandas, Python",10.0,Google Data Analytics,House Price Forecasting Pipeline,Data Scientist
+M.Sc,"Bash, Wireshark, Burp Suite, Linux, Python, Firewall, Nmap, Ethical Hacking",0.5,None,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+M.Tech,"REST API, Node.js, Express, JavaScript, Bootstrap, Next.js, TypeScript, HTML",0.4,Meta Front-End Developer Certificate,Social Media Feed Web Application,Web Developer
+MCA,"Data Visualization, Data Analysis, Statistics, PostgreSQL, Tableau, NumPy, Python",9.7,Tableau Desktop Specialist,Sales Performance Interactive Dashboard,Data Analyst
+B.Tech,"OOP, Git, C#, C++, Java, Data Structures",8.6,Microsoft Certified C# Developer,Peer-to-Peer Chat Engine,Software Developer
+M.Sc,"Network Security, Cybersecurity, Ethical Hacking, Penetration Testing, Linux",1.0,None,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+B.Tech,"React, Express, Node.js, Bootstrap",4.2,None,Portfolio Showcase with Dynamic Theming,Web Developer
+M.S,"Pandas, Machine Learning, Python, SQL, TensorFlow",2.7,None,Sentiment Analysis on Product Reviews,Data Scientist
+BCA,"Network Security, Wireshark, Firewall, Ethical Hacking, SOC, Cybersecurity",6.8,CompTIA Security+,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+BCA,"GitLab CI, CI/CD, Docker, Terraform, Bash",1.5,Certified Kubernetes Administrator (CKA),Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+MCA,"OOP, Algorithms, Data Structures, REST API",7.6,None,Hospital Management Desktop App,Software Developer
+B.Tech,"Data Analysis, Business Intelligence, MySQL, Data Visualization, NumPy, Python",8.7,Google Data Analytics Certificate,HR Employee Attrition Insights,Data Analyst
+MCA,"Wireshark, Metasploit, Ethical Hacking, Cryptography, Nmap, Cybersecurity, Network Security, Penetration Testing",5.1,Cisco CCNA Security,Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+B.Tech,"Kubernetes, GCP, Terraform, CI/CD",7.9,Microsoft Azure Fundamentals,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+BCA,"HTML, TypeScript, REST API, Express, Tailwind",7.8,Full Stack Web Development Bootcamp,Social Media Feed Web Application,Web Developer
+M.Sc,"Firewall, Network Security, Nmap, SIEM, Vulnerability Assessment, Python, Cybersecurity",9.0,Certified Ethical Hacker (CEH),Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+B.E,"Microservices, Docker, Linux, CI/CD, Networking",9.3,Certified Kubernetes Administrator (CKA),Kubernetes Microservices Cluster Deployment,Cloud Engineer
+B.Tech,"Statistics, NumPy, TensorFlow, Python",5.5,Google Data Analytics,House Price Forecasting Pipeline,Data Scientist
+B.Sc,"Scikit-learn, Pandas, NLP, TensorFlow, PyTorch, FastAPI, Machine Learning",4.9,None,Transformer-based Chatbot Engine,Machine Learning Engineer
+MCA,"SIEM, Wireshark, Linux, Ethical Hacking",1.4,CompTIA CySA+,Intrusion Detection System with Snort,Cybersecurity Analyst
+B.Sc,"Pandas, SQL, Big Data, Python",9.3,TensorFlow Developer Certificate,Recommendation System for E-Commerce,Data Scientist
+B.E,"PostgreSQL, MySQL, Tableau, Data Visualization, Power BI, R, SQL, Python",5.3,None,Sales Performance Interactive Dashboard,Data Analyst
+BCA,"Docker, AWS, Linux, Jenkins",6.9,AWS Solutions Architect Associate,Disaster Recovery Infrastructure as Code,Cloud Engineer
+BCA,"Docker, .NET, OOP, Design Patterns, Algorithms, Git, Java",7.2,None,Peer-to-Peer Chat Engine,Software Developer
+BCA,"Statistics, NumPy, Tableau, Scikit-learn, Machine Learning, SQL",1.0,None,Recommendation System for E-Commerce,Data Scientist
+M.S,"Kubernetes, Docker, Python, Deep Learning, TensorFlow, PyTorch",3.4,None,Edge AI Device Defect Classifier,Machine Learning Engineer
+B.Sc,"Terraform, Linux, Networking, Cloud Architecture",8.5,AWS Solutions Architect Associate,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+M.S,"Cybersecurity, Metasploit, Wireshark, Nmap, Linux, Burp Suite",2.2,Cisco CCNA Security,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+B.Sc,"Git, Algorithms, OOP, Unit Testing, C++, Docker",9.1,None,Banking Transaction Core System,Software Developer
+MCA,"Power BI, Excel, Data Analysis, PostgreSQL, Tableau, MySQL, R",3.3,Microsoft Certified Data Analyst,Supply Chain Inventory Analysis,Data Analyst
+M.S,"Python, Machine Learning, TensorFlow, Scikit-learn, Computer Vision",6.4,DeepLearning.AI TensorFlow Developer,Real-time Object Detection with YOLO,Machine Learning Engineer
+B.Sc,"Tableau, NumPy, Pandas, SQL, Machine Learning, TensorFlow",6.4,None,House Price Forecasting Pipeline,Data Scientist
+B.Tech,"Design Patterns, Git, Algorithms, C++, OOP",0.0,None,Multi-threaded File Downloader,Software Developer
+M.S,"Unit Testing, Data Structures, C++, Git",3.2,Microsoft Certified C# Developer,Banking Transaction Core System,Software Developer
+M.S,"MLOps, Kubernetes, Scikit-learn, Deep Learning, Docker, TensorFlow, Model Deployment",6.4,None,Edge AI Device Defect Classifier,Machine Learning Engineer
+M.S,"Scikit-learn, Deep Learning, Pandas, Machine Learning, SQL, TensorFlow, NumPy",6.9,TensorFlow Developer Certificate,Recommendation System for E-Commerce,Data Scientist
+MCA,"Burp Suite, Nmap, Cybersecurity, Linux",8.9,CompTIA Security+,Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+M.S,"Deep Learning, MLOps, PyTorch, Docker, Scikit-learn, Python",3.1,None,Autonomous Driving Lane Detection,Machine Learning Engineer
+B.Tech,"Cryptography, Nmap, Cybersecurity, Linux",8.2,CompTIA CySA+,Web Application Penetration Testing Report,Cybersecurity Analyst
+M.Sc,"Python, MLOps, TensorFlow, CUDA, NLP, PyTorch",8.0,None,Transformer-based Chatbot Engine,Machine Learning Engineer
+MCA,"Java, Python, C#, Algorithms, REST API, Spring Boot",1.6,AWS Certified Developer,Inventory and Billing Management Software,Software Developer
+B.E,"Pandas, PyTorch, Scikit-learn, Matplotlib, Statistics, Tableau, Machine Learning, NumPy",2.1,None,Sentiment Analysis on Product Reviews,Data Scientist
+B.Sc,"CI/CD, Kubernetes, Prometheus, Cloud Architecture",5.0,AWS Solutions Architect Associate,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+BCA,"Linux, Java, OOP, C++",4.9,AWS Certified Developer,Distributed Cache Mechanism,Software Developer
+B.Tech,"Flask, Node.js, REST API, JavaScript, HTML, Tailwind, Vue.js",2.7,JavaScript Specialist,Real-time Collaborative Whiteboard,Web Developer
+M.Tech,"SQL, Data Visualization, Data Analysis, Statistics, Excel, Python, Google Analytics, MySQL",1.5,Tableau Desktop Specialist,Financial Quarterly KPI Visualization,Data Analyst
+B.Tech,"Spark, Python, Seaborn, Machine Learning, SQL",3.6,TensorFlow Developer Certificate,Recommendation System for E-Commerce,Data Scientist
+B.E,"Scikit-learn, TensorFlow, MLOps, Deep Learning, PyTorch",2.9,GCP Professional ML Engineer,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+M.Tech,"Java, Design Patterns, Git, Python, OOP",8.7,AWS Certified Developer,Banking Transaction Core System,Software Developer
+MCA,"Algorithms, Java, Docker, Python, REST API, Unit Testing, OOP, Data Structures",5.2,Microsoft Certified C# Developer,Banking Transaction Core System,Software Developer
+B.Sc,"Pandas, Spark, Statistics, Python, Seaborn",9.0,TensorFlow Developer Certificate,Credit Risk Scoring Algorithm,Data Scientist
+BCA,"Next.js, CSS, Angular, REST API, React, PostgreSQL, Node.js",4.8,None,Portfolio Showcase with Dynamic Theming,Web Developer
+BCA,"Cloud Architecture, Bash, Azure, Terraform, Ansible, AWS, Linux, Docker",2.4,Google Associate Cloud Engineer,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+MCA,"Business Intelligence, SQL, Data Visualization, Tableau, Pandas",5.8,Microsoft Certified Data Analyst,Supply Chain Inventory Analysis,Data Analyst
+M.Sc,"React, Bootstrap, CSS, REST API, Express, Vue.js, HTML",4.9,Meta Front-End Developer Certificate,E-Commerce Web Portal with Stripe,Web Developer
+M.S,"Machine Learning, NumPy, Deep Learning, SQL, Big Data, PyTorch, Statistics",0.3,TensorFlow Developer Certificate,House Price Forecasting Pipeline,Data Scientist
+BCA,"Terraform, Python, Linux, Docker, Microservices, Cloud Architecture, CI/CD",8.3,AWS Solutions Architect Associate,Disaster Recovery Infrastructure as Code,Cloud Engineer
+M.Tech,"CI/CD, Bash, Kubernetes, Cloud Architecture, Docker, Prometheus, Jenkins, Terraform",9.8,Google Associate Cloud Engineer,Disaster Recovery Infrastructure as Code,Cloud Engineer
+B.Tech,"Wireshark, Ethical Hacking, Nmap, Metasploit, Vulnerability Assessment, Firewall, Network Security",2.8,Cisco CCNA Security,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+BCA,"Linux, Java, .NET, Python, C++, REST API, Data Structures, Git",9.6,Microsoft Certified C# Developer,Banking Transaction Core System,Software Developer
+M.S,"Prometheus, AWS, Jenkins, Linux, Docker, Terraform, Networking",5.4,AWS Solutions Architect Associate,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+M.S,"Bash, Jenkins, Kubernetes, GCP, Docker, AWS, Linux",1.6,AWS Solutions Architect Associate,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+M.Sc,"Machine Learning, PyTorch, Deep Learning, AWS, Scikit-learn",4.4,GCP Professional ML Engineer,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+MCA,"FastAPI, Model Deployment, Docker, Scikit-learn, Deep Learning, TensorFlow, AWS, Machine Learning",8.1,DeepLearning.AI TensorFlow Developer,Transformer-based Chatbot Engine,Machine Learning Engineer
+BCA,"Scikit-learn, Python, PyTorch, FastAPI, TensorFlow",8.6,AWS Certified Machine Learning Specialty,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+B.Sc,"Linux, Nmap, Wireshark, Network Security, Burp Suite, Python, SIEM, Cybersecurity",4.5,Certified Ethical Hacker (CEH),Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+B.Sc,"Spark, Machine Learning, Scikit-learn, R, Python, Pandas",7.0,None,House Price Forecasting Pipeline,Data Scientist
+B.E,"C++, SQL, Python, Data Structures, Algorithms",4.2,Microsoft Certified C# Developer,Peer-to-Peer Chat Engine,Software Developer
+M.S,"Deep Learning, Python, SQL, NLP, Seaborn, Scikit-learn",0.9,TensorFlow Developer Certificate,Credit Risk Scoring Algorithm,Data Scientist
+MCA,"PyTorch, Scikit-learn, Pandas, NumPy, R",8.9,Google Data Analytics,Customer Churn Prediction Model,Data Scientist
+B.Sc,"Python, CI/CD, GCP, Terraform, Azure, Cloud Architecture",0.1,AWS Solutions Architect Associate,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+B.Tech,"Docker, CI/CD, GitLab CI, Terraform, Python, Linux, Kubernetes",9.5,AWS Solutions Architect Associate,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+B.Tech,"Python, Metasploit, Ethical Hacking, Vulnerability Assessment, Linux, Network Security",5.5,Certified Ethical Hacker (CEH),Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.E,"Git, Unit Testing, Data Structures, Docker, Algorithms, C#",1.2,None,Banking Transaction Core System,Software Developer
+B.E,"Docker, AWS, MLOps, Scikit-learn, Deep Learning",7.9,None,Autonomous Driving Lane Detection,Machine Learning Engineer
+M.S,"Deep Learning, NumPy, Matplotlib, Python, NLP, Statistics, Machine Learning",9.8,None,Sentiment Analysis on Product Reviews,Data Scientist
+BCA,"Networking, Terraform, Kubernetes, CI/CD, Cloud Architecture",6.4,AWS Solutions Architect Associate,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+MCA,"Model Deployment, Computer Vision, Python, Scikit-learn, Deep Learning, Kubernetes, PyTorch, Docker",1.9,None,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.S,"Git, Python, Docker, Java",9.2,AWS Certified Developer,Multi-threaded File Downloader,Software Developer
+B.Tech,"Express, Node.js, Django, JavaScript",1.1,Meta Front-End Developer Certificate,E-Commerce Web Portal with Stripe,Web Developer
+B.Tech,"Linux, Nmap, Cybersecurity, Network Security, Metasploit, Firewall",4.4,None,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+MCA,"Machine Learning, Statistics, Scikit-learn, SQL, Spark, Python",6.5,TensorFlow Developer Certificate,House Price Forecasting Pipeline,Data Scientist
+M.Sc,"FastAPI, Python, Scikit-learn, PyTorch, CUDA, TensorFlow, Docker",9.8,AWS Certified Machine Learning Specialty,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+M.S,"Tableau, Data Visualization, Data Analysis, SQL, Business Intelligence, Pandas, Python, R",1.8,Google Data Analytics Certificate,Supply Chain Inventory Analysis,Data Analyst
+M.Sc,"Cloud Architecture, GitLab CI, Kubernetes, Linux, Networking",9.9,Microsoft Azure Fundamentals,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+B.E,"Cybersecurity, Ethical Hacking, Firewall, SIEM, Network Security, Burp Suite, Vulnerability Assessment, Linux",2.7,Certified Ethical Hacker (CEH),Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+B.Sc,"R, Excel, SQL, Tableau, Power BI",3.0,Tableau Desktop Specialist,Supply Chain Inventory Analysis,Data Analyst
+M.Sc,"NumPy, MySQL, Data Analysis, Data Visualization, Power BI, Tableau, SQL",3.7,None,Sales Performance Interactive Dashboard,Data Analyst
+BCA,"Machine Learning, NLP, Deep Learning, PyTorch, Docker",9.5,AWS Certified Machine Learning Specialty,Transformer-based Chatbot Engine,Machine Learning Engineer
+B.Tech,"CI/CD, Linux, GCP, Docker, AWS, Terraform",6.2,AWS Solutions Architect Associate,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+M.Tech,"Algorithms, Git, C++, .NET",9.8,Microsoft Certified C# Developer,Peer-to-Peer Chat Engine,Software Developer
+M.Sc,"Tableau, Excel, MySQL, Data Analysis, Python",0.9,Microsoft Certified Data Analyst,HR Employee Attrition Insights,Data Analyst
+BCA,"Django, React, Node.js, HTML, Flask, REST API, JavaScript",1.3,None,Real-time Collaborative Whiteboard,Web Developer
+M.S,"Burp Suite, Ethical Hacking, Network Security, Wireshark, Penetration Testing, Bash, Firewall",5.0,CompTIA Security+,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+B.Sc,"R, Python, SQL, Machine Learning",8.2,Google Data Analytics,Sentiment Analysis on Product Reviews,Data Scientist
+BCA,"Statistics, SQL, Google Analytics, Power BI, Data Analysis, Data Visualization",3.7,Microsoft Certified Data Analyst,HR Employee Attrition Insights,Data Analyst
+B.Tech,"Docker, CI/CD, AWS, Azure, GCP, GitLab CI",1.5,Certified Kubernetes Administrator (CKA),Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+B.E,"Power BI, Pandas, Data Visualization, SQL, Tableau",2.4,Tableau Desktop Specialist,Customer Segmentation and Cohort Study,Data Analyst
+BCA,"C++, Python, REST API, OOP",8.5,Microsoft Certified C# Developer,Peer-to-Peer Chat Engine,Software Developer
+M.S,"Vue.js, React, PostgreSQL, Bootstrap, JavaScript, REST API",8.6,Full Stack Web Development Bootcamp,Restaurant Food Ordering Web App,Web Developer
+M.Tech,"Flask, Express, HTML, TypeScript, JavaScript, PostgreSQL",5.0,JavaScript Specialist,Social Media Feed Web Application,Web Developer
+M.Tech,"Linux, GitLab CI, Kubernetes, AWS, Networking",0.8,Google Associate Cloud Engineer,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+B.E,"Networking, Kubernetes, Docker, AWS",0.3,Google Associate Cloud Engineer,Disaster Recovery Infrastructure as Code,Cloud Engineer
+B.Sc,"Cybersecurity, SOC, Nmap, SIEM, Linux, Python, Firewall",1.2,CompTIA CySA+,Web Application Penetration Testing Report,Cybersecurity Analyst
+B.Sc,"Algorithms, Unit Testing, C++, OOP, Linux, Design Patterns",5.5,AWS Certified Developer,Hospital Management Desktop App,Software Developer
+B.Tech,"Linux, Terraform, Jenkins, Kubernetes, Cloud Architecture",9.9,Certified Kubernetes Administrator (CKA),Kubernetes Microservices Cluster Deployment,Cloud Engineer
+BCA,"Java, C#, Data Structures, SQL, Algorithms",3.2,Microsoft Certified C# Developer,Hospital Management Desktop App,Software Developer
+B.Tech,"Cryptography, Linux, Ethical Hacking, Penetration Testing, Wireshark, Cybersecurity, Bash",1.0,None,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+MCA,"Kubernetes, AWS, Bash, Microservices, GCP, Docker",1.2,AWS Solutions Architect Associate,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+MCA,"NLP, Pandas, Python, Matplotlib, Machine Learning, PyTorch, SQL, NumPy",9.2,None,Customer Churn Prediction Model,Data Scientist
+M.Sc,"Machine Learning, Pandas, Scikit-learn, Statistics, R",8.5,IBM Data Science Professional,Credit Risk Scoring Algorithm,Data Scientist
+B.Tech,"SQL, Business Intelligence, Excel, Power BI, Google Analytics",7.8,Tableau Desktop Specialist,Customer Segmentation and Cohort Study,Data Analyst
+BCA,"Machine Learning, PyTorch, Pandas, Statistics",9.8,IBM Data Science Professional,Customer Churn Prediction Model,Data Scientist
+MCA,"MongoDB, JavaScript, React, Express, Tailwind, Flask, HTML",3.2,None,Restaurant Food Ordering Web App,Web Developer
+B.Tech,"MySQL, Data Structures, C++, OOP, Python, Linux",1.9,Oracle Certified Java Professional,Distributed Cache Mechanism,Software Developer
+M.Sc,"Pandas, Statistics, Spark, Scikit-learn, Python, SQL",8.4,None,Recommendation System for E-Commerce,Data Scientist
+M.Tech,".NET, Algorithms, Docker, MySQL, OOP, Data Structures",1.2,AWS Certified Developer,Banking Transaction Core System,Software Developer
+M.S,"Terraform, Kubernetes, Linux, CI/CD, GCP, Bash",0.1,Google Associate Cloud Engineer,Disaster Recovery Infrastructure as Code,Cloud Engineer
+MCA,"Spring Boot, Algorithms, Data Structures, Java, C++",8.6,Oracle Certified Java Professional,Hospital Management Desktop App,Software Developer
+MCA,"Networking, Cloud Architecture, Docker, CI/CD",0.6,Certified Kubernetes Administrator (CKA),Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+M.Tech,"SQL, Machine Learning, PyTorch, TensorFlow, Statistics, Pandas",7.4,None,Sentiment Analysis on Product Reviews,Data Scientist
+B.Sc,"Spring Boot, C++, Python, Data Structures, REST API, Java, OOP",1.3,Oracle Certified Java Professional,Distributed Cache Mechanism,Software Developer
+BCA,"Deep Learning, PyTorch, MLOps, Python",6.8,None,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+B.Sc,"Java, Design Patterns, Algorithms, OOP, SQL, Python, Git",9.2,AWS Certified Developer,Peer-to-Peer Chat Engine,Software Developer
+B.Sc,"Nmap, Metasploit, Ethical Hacking, Vulnerability Assessment, Cybersecurity, Linux, Cryptography",8.2,Cisco CCNA Security,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+M.Tech,"Azure, CI/CD, GCP, Linux, AWS, Prometheus",7.3,Certified Kubernetes Administrator (CKA),Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+B.Sc,"AWS, Cloud Architecture, Networking, Docker, CI/CD",1.0,Google Associate Cloud Engineer,Disaster Recovery Infrastructure as Code,Cloud Engineer
+M.Sc,"Docker, Linux, Unit Testing, Algorithms, C++, Java",5.3,Microsoft Certified C# Developer,Inventory and Billing Management Software,Software Developer
+M.S,"Azure, Cloud Architecture, Kubernetes, Terraform, Docker, Linux",4.2,Microsoft Azure Fundamentals,Disaster Recovery Infrastructure as Code,Cloud Engineer
+BCA,"AWS, Deep Learning, TensorFlow, Docker, Kubernetes, PyTorch, Model Deployment",0.2,None,Edge AI Device Defect Classifier,Machine Learning Engineer
+B.Tech,"React, Express, Node.js, Django, REST API",0.9,Meta Front-End Developer Certificate,Blog CMS with Markdown Support,Web Developer
+B.E,"PyTorch, Spark, SQL, Pandas, Python",3.7,None,House Price Forecasting Pipeline,Data Scientist
+BCA,"Network Security, Cybersecurity, Linux, Cryptography, Nmap, SIEM",0.4,CompTIA CySA+,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+BCA,"REST API, CSS, PostgreSQL, Node.js, Django, JavaScript, HTML",6.9,Meta Front-End Developer Certificate,Blog CMS with Markdown Support,Web Developer
+M.Sc,"SQL, PyTorch, Scikit-learn, Statistics, Python, Pandas",6.7,TensorFlow Developer Certificate,Credit Risk Scoring Algorithm,Data Scientist
+B.Sc,"Git, Spring Boot, Linux, C++, REST API, Python",8.8,AWS Certified Developer,Multi-threaded File Downloader,Software Developer
+B.E,"Azure, Ansible, Cloud Architecture, Terraform, Docker",6.6,AWS Solutions Architect Associate,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+M.Sc,"SQL, Big Data, Pandas, Statistics, Python",2.2,TensorFlow Developer Certificate,Customer Churn Prediction Model,Data Scientist
+BCA,"Python, Tableau, Pandas, Machine Learning, Seaborn, TensorFlow",9.7,TensorFlow Developer Certificate,Sentiment Analysis on Product Reviews,Data Scientist
+B.E,"Networking, Azure, Docker, AWS, Cloud Architecture, GitLab CI, Terraform, Kubernetes",3.3,Google Associate Cloud Engineer,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+B.E,"Django, Flask, React, JavaScript, Node.js, HTML, CSS",3.8,JavaScript Specialist,E-Commerce Web Portal with Stripe,Web Developer
+M.Sc,"SIEM, Firewall, Ethical Hacking, Cybersecurity, Wireshark, Nmap",5.6,None,Web Application Penetration Testing Report,Cybersecurity Analyst
+B.E,"Machine Learning, NumPy, Tableau, SQL",5.0,Google Data Analytics,House Price Forecasting Pipeline,Data Scientist
+B.E,"OOP, Python, Docker, Git",7.6,Oracle Certified Java Professional,Banking Transaction Core System,Software Developer
+M.S,"Scikit-learn, Tableau, Deep Learning, NumPy, Seaborn, Pandas, SQL",2.4,Google Data Analytics,Healthcare Fraud Detection Engine,Data Scientist
+B.Sc,"SOC, Cybersecurity, Network Security, Penetration Testing, Wireshark, Ethical Hacking",4.2,Certified Ethical Hacker (CEH),Web Application Penetration Testing Report,Cybersecurity Analyst
+B.Sc,"SQL, Tableau, Excel, Pandas, Business Intelligence, Data Visualization, Power BI",0.9,Google Data Analytics Certificate,Supply Chain Inventory Analysis,Data Analyst
+M.Tech,"Docker, Scikit-learn, AWS, Machine Learning, Pandas, Kubernetes",9.0,GCP Professional ML Engineer,Real-time Object Detection with YOLO,Machine Learning Engineer
+M.S,"SQL, Power BI, R, Statistics, Excel, Google Analytics",0.6,None,Customer Segmentation and Cohort Study,Data Analyst
+MCA,"Python, MySQL, Business Intelligence, Data Analysis, NumPy, Data Visualization, Excel, Power BI",8.2,Microsoft Certified Data Analyst,Marketing Campaign ROI Tracker,Data Analyst
+B.Tech,"Firewall, Linux, Nmap, Bash, Wireshark",3.8,Certified Ethical Hacker (CEH),Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+B.Sc,"CSS, Node.js, Vue.js, React, Express, JavaScript",8.2,JavaScript Specialist,Blog CMS with Markdown Support,Web Developer
+M.Tech,"Kubernetes, Cloud Architecture, Linux, Terraform, GCP, CI/CD",3.6,Microsoft Azure Fundamentals,Disaster Recovery Infrastructure as Code,Cloud Engineer
+BCA,"Node.js, HTML, CSS, REST API, Express, Django",5.2,JavaScript Specialist,Restaurant Food Ordering Web App,Web Developer
+M.Tech,"Vue.js, React, HTML, Node.js, Express",3.2,Meta Front-End Developer Certificate,Blog CMS with Markdown Support,Web Developer
+M.Tech,"Ethical Hacking, Nmap, Burp Suite, Bash, Penetration Testing, Cybersecurity, Firewall",7.5,Cisco CCNA Security,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+M.S,"Machine Learning, Tableau, Pandas, Spark, Scikit-learn",7.6,TensorFlow Developer Certificate,Sentiment Analysis on Product Reviews,Data Scientist
+BCA,"Python, Terraform, AWS, Prometheus, Linux, Cloud Architecture, Azure",2.2,AWS Solutions Architect Associate,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+B.Sc,"Terraform, Kubernetes, Microservices, AWS",3.3,AWS Solutions Architect Associate,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+B.Sc,"Scikit-learn, Machine Learning, Pandas, SQL, Matplotlib",8.5,TensorFlow Developer Certificate,Credit Risk Scoring Algorithm,Data Scientist
+B.E,"Machine Learning, PyTorch, Statistics, Matplotlib, Scikit-learn, Python",8.2,TensorFlow Developer Certificate,Healthcare Fraud Detection Engine,Data Scientist
+M.Tech,"Tableau, NLP, Machine Learning, Matplotlib, SQL, NumPy, Statistics",0.8,IBM Data Science Professional,House Price Forecasting Pipeline,Data Scientist
+MCA,"Python, MySQL, .NET, Java, Git, C++",7.3,Microsoft Certified C# Developer,Distributed Cache Mechanism,Software Developer
+BCA,"R, Statistics, Pandas, Tableau, NumPy, Deep Learning",1.9,IBM Data Science Professional,Credit Risk Scoring Algorithm,Data Scientist
+M.S,"Docker, TensorFlow, Computer Vision, Scikit-learn",2.9,DeepLearning.AI TensorFlow Developer,Edge AI Device Defect Classifier,Machine Learning Engineer
+B.E,"Power BI, Data Analysis, Data Visualization, MySQL, Statistics",7.2,Google Data Analytics Certificate,Financial Quarterly KPI Visualization,Data Analyst
+M.S,"Business Intelligence, Power BI, SQL, Python, NumPy, Data Analysis, Excel",0.1,Tableau Desktop Specialist,Supply Chain Inventory Analysis,Data Analyst
+B.Tech,"Bootstrap, REST API, HTML, React, CSS, PostgreSQL",5.2,JavaScript Specialist,Portfolio Showcase with Dynamic Theming,Web Developer
+B.Tech,"Ethical Hacking, Cybersecurity, SIEM, Linux",7.7,Certified Ethical Hacker (CEH),Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+B.E,"Prometheus, Networking, Docker, Linux, Kubernetes",2.9,Google Associate Cloud Engineer,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+B.Sc,"Penetration Testing, Network Security, Metasploit, Linux, Cryptography, Firewall, Nmap, Ethical Hacking",3.2,CompTIA Security+,Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+M.Tech,"React, Node.js, HTML, Tailwind, Express, CSS",2.6,None,Social Media Feed Web Application,Web Developer
+B.E,"SQL, Excel, Google Analytics, Data Analysis, Tableau",6.7,None,Financial Quarterly KPI Visualization,Data Analyst
+MCA,"Tailwind, Node.js, Next.js, CSS, Flask, HTML, Express, REST API",8.3,Full Stack Web Development Bootcamp,Blog CMS with Markdown Support,Web Developer
+BCA,"Python, MySQL, Java, Algorithms, OOP",4.2,AWS Certified Developer,Multi-threaded File Downloader,Software Developer
+B.Tech,"AWS, Docker, Deep Learning, Python, TensorFlow",1.2,DeepLearning.AI TensorFlow Developer,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+B.E,"Cloud Architecture, CI/CD, Linux, AWS, Python",0.6,AWS Solutions Architect Associate,Disaster Recovery Infrastructure as Code,Cloud Engineer
+MCA,"Linux, Burp Suite, SOC, Cybersecurity, Bash, Wireshark",2.1,CompTIA Security+,Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+MCA,"Kubernetes, Ansible, Terraform, Docker, Networking",8.2,Certified Kubernetes Administrator (CKA),Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+B.E,"JavaScript, REST API, CSS, Bootstrap, Express",6.9,Meta Front-End Developer Certificate,Portfolio Showcase with Dynamic Theming,Web Developer
+B.E,"C++, Data Structures, Unit Testing, Git, MySQL",7.2,Oracle Certified Java Professional,Inventory and Billing Management Software,Software Developer
+M.Sc,"Django, JavaScript, React, Express, Tailwind, Node.js, HTML",1.8,Meta Front-End Developer Certificate,Real-time Collaborative Whiteboard,Web Developer
+M.Tech,"Firewall, Bash, Cryptography, Nmap, Ethical Hacking",6.1,Cisco CCNA Security,Intrusion Detection System with Snort,Cybersecurity Analyst
+MCA,"Tableau, PostgreSQL, Power BI, MySQL, Python, Data Analysis, R",4.6,Tableau Desktop Specialist,Marketing Campaign ROI Tracker,Data Analyst
+M.S,"Linux, Nmap, Ethical Hacking, SIEM",5.0,Certified Ethical Hacker (CEH),Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+BCA,"GCP, Docker, AWS, Terraform, Prometheus, Kubernetes, Cloud Architecture",8.4,Microsoft Azure Fundamentals,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+M.S,"Cybersecurity, Linux, Firewall, Metasploit, SIEM",8.6,Cisco CCNA Security,Web Application Penetration Testing Report,Cybersecurity Analyst
+MCA,"Docker, Model Deployment, FastAPI, TensorFlow, Machine Learning, Deep Learning, Python",6.2,DeepLearning.AI TensorFlow Developer,Edge AI Device Defect Classifier,Machine Learning Engineer
+B.E,"NumPy, Data Visualization, SQL, PostgreSQL, Python, Statistics, Excel",0.2,Microsoft Certified Data Analyst,Supply Chain Inventory Analysis,Data Analyst
+MCA,"Docker, PyTorch, Deep Learning, Scikit-learn, FastAPI",7.9,DeepLearning.AI TensorFlow Developer,Real-time Object Detection with YOLO,Machine Learning Engineer
+B.Sc,"TensorFlow, Machine Learning, Kubernetes, Docker, Python, Deep Learning",4.4,AWS Certified Machine Learning Specialty,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.Sc,"React, Node.js, HTML, Express, Angular, JavaScript",9.6,None,Blog CMS with Markdown Support,Web Developer
+B.Sc,"TensorFlow, Docker, Machine Learning, Python, Kubernetes, Computer Vision",6.0,DeepLearning.AI TensorFlow Developer,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+B.E,"Cloud Architecture, Python, Docker, Kubernetes, Networking, Terraform",8.9,Certified Kubernetes Administrator (CKA),Disaster Recovery Infrastructure as Code,Cloud Engineer
+M.Tech,"Node.js, CSS, REST API, MongoDB, Vue.js, React",4.5,Meta Front-End Developer Certificate,Restaurant Food Ordering Web App,Web Developer
+MCA,"Spark, NumPy, Python, R, Pandas",5.7,Google Data Analytics,Customer Churn Prediction Model,Data Scientist
+B.Tech,"Data Analysis, NumPy, Excel, Statistics, R, Data Visualization, Python, SQL",5.0,Microsoft Certified Data Analyst,HR Employee Attrition Insights,Data Analyst
+M.Tech,"SQL, Data Structures, C++, Java, Python, Unit Testing",5.7,Microsoft Certified C# Developer,Multi-threaded File Downloader,Software Developer
+BCA,"NLP, Machine Learning, PyTorch, Python, Deep Learning, TensorFlow",0.7,None,Edge AI Device Defect Classifier,Machine Learning Engineer
+MCA,"PyTorch, Pandas, Python, Machine Learning, Scikit-learn, Kubernetes, MLOps",0.7,GCP Professional ML Engineer,Real-time Object Detection with YOLO,Machine Learning Engineer
+B.E,"R, Power BI, Python, Data Analysis, Statistics",6.8,Tableau Desktop Specialist,HR Employee Attrition Insights,Data Analyst
+B.E,"Tableau, Scikit-learn, Seaborn, Statistics, NumPy, Machine Learning",3.3,Google Data Analytics,Recommendation System for E-Commerce,Data Scientist
+M.Sc,"Docker, Deep Learning, Scikit-learn, Machine Learning, NLP, Python, MLOps, Kubernetes",6.6,AWS Certified Machine Learning Specialty,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+B.Sc,"Power BI, Statistics, Excel, SQL",9.2,Google Data Analytics Certificate,Financial Quarterly KPI Visualization,Data Analyst
+BCA,"C++, Git, SQL, Data Structures, OOP, Java",7.4,AWS Certified Developer,Multi-threaded File Downloader,Software Developer
+B.E,"Machine Learning, Computer Vision, Docker, Python, Scikit-learn, Model Deployment",7.1,DeepLearning.AI TensorFlow Developer,Transformer-based Chatbot Engine,Machine Learning Engineer
+B.E,"CSS, React, REST API, Express, HTML, Next.js, TypeScript",0.2,Meta Front-End Developer Certificate,Portfolio Showcase with Dynamic Theming,Web Developer
+M.Sc,"Node.js, Vue.js, React, Flask, JavaScript, REST API",4.9,None,Portfolio Showcase with Dynamic Theming,Web Developer
+M.S,"Firewall, Metasploit, Nmap, Cryptography, Linux, Wireshark, Network Security",7.0,Cisco CCNA Security,Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+M.Sc,"Machine Learning, NLP, PyTorch, Statistics, NumPy",3.1,IBM Data Science Professional,Recommendation System for E-Commerce,Data Scientist
+B.Tech,"GCP, Prometheus, Cloud Architecture, AWS, GitLab CI, Linux, Docker",0.8,Microsoft Azure Fundamentals,Disaster Recovery Infrastructure as Code,Cloud Engineer
+M.Sc,"TypeScript, Node.js, Express, CSS, HTML",1.7,Full Stack Web Development Bootcamp,E-Commerce Web Portal with Stripe,Web Developer
+MCA,"MLOps, PyTorch, Docker, Scikit-learn",2.1,AWS Certified Machine Learning Specialty,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.S,"Machine Learning, Deep Learning, Python, NLP, FastAPI, MLOps",2.3,GCP Professional ML Engineer,Edge AI Device Defect Classifier,Machine Learning Engineer
+M.S,"Big Data, Pandas, Scikit-learn, Python",1.2,IBM Data Science Professional,Customer Churn Prediction Model,Data Scientist
+MCA,"TensorFlow, PyTorch, Machine Learning, Deep Learning, Computer Vision",7.1,AWS Certified Machine Learning Specialty,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+M.Tech,"Flask, REST API, CSS, MongoDB, React",3.4,Full Stack Web Development Bootcamp,E-Commerce Web Portal with Stripe,Web Developer
+M.S,"SQL, MySQL, Excel, Pandas, Tableau",5.9,Tableau Desktop Specialist,Financial Quarterly KPI Visualization,Data Analyst
+M.Sc,".NET, Spring Boot, OOP, Python, Algorithms",3.1,Microsoft Certified C# Developer,Multi-threaded File Downloader,Software Developer
+B.E,"SQL, Machine Learning, R, Statistics, TensorFlow",1.4,None,Customer Churn Prediction Model,Data Scientist
+M.S,"Model Deployment, Scikit-learn, PyTorch, Pandas, TensorFlow, Python",7.2,GCP Professional ML Engineer,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+MCA,"Machine Learning, NLP, Pandas, Statistics, NumPy",1.9,IBM Data Science Professional,Recommendation System for E-Commerce,Data Scientist
+MCA,"Firewall, SOC, Cybersecurity, Wireshark",6.7,None,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.E,"Data Visualization, Python, Statistics, Excel, SQL, Power BI",5.8,Tableau Desktop Specialist,Customer Segmentation and Cohort Study,Data Analyst
+M.Tech,"Nmap, Wireshark, Linux, Penetration Testing",6.6,CompTIA Security+,Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+MCA,"CSS, JavaScript, Express, React, Node.js, Bootstrap",7.3,Meta Front-End Developer Certificate,Restaurant Food Ordering Web App,Web Developer
+BCA,"Firewall, Ethical Hacking, Penetration Testing, Linux",2.9,CompTIA CySA+,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+M.Tech,"SQL, Power BI, Google Analytics, Data Visualization, Tableau",3.9,None,HR Employee Attrition Insights,Data Analyst
+BCA,"React, PostgreSQL, JavaScript, Vue.js, Node.js, Express, Django",7.0,JavaScript Specialist,Blog CMS with Markdown Support,Web Developer
+BCA,"Node.js, Flask, CSS, Express, JavaScript, Tailwind, HTML, MongoDB",1.4,None,Portfolio Showcase with Dynamic Theming,Web Developer
+M.S,"AWS, Ansible, Docker, Cloud Architecture, Linux, GitLab CI",5.7,Certified Kubernetes Administrator (CKA),Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+M.Tech,"Power BI, Pandas, PostgreSQL, Excel, Data Analysis",9.3,Tableau Desktop Specialist,Customer Segmentation and Cohort Study,Data Analyst
+B.E,"Linux, Algorithms, Java, C++, Design Patterns, Python, Unit Testing",0.5,Oracle Certified Java Professional,Peer-to-Peer Chat Engine,Software Developer
+M.S,"Docker, Scikit-learn, Deep Learning, Python, Machine Learning, Pandas, FastAPI",7.6,AWS Certified Machine Learning Specialty,Transformer-based Chatbot Engine,Machine Learning Engineer
+BCA,"MLOps, TensorFlow, Scikit-learn, Docker, AWS, Python, Deep Learning",4.8,DeepLearning.AI TensorFlow Developer,Edge AI Device Defect Classifier,Machine Learning Engineer
+BCA,"CSS, Vue.js, JavaScript, Next.js, Node.js",7.9,None,Social Media Feed Web Application,Web Developer
+B.Tech,"OOP, C#, Python, C++, Git",5.2,None,Inventory and Billing Management Software,Software Developer
+M.Tech,"Linux, OOP, Python, Algorithms, Java, C++",9.8,None,Hospital Management Desktop App,Software Developer
+M.S,"Excel, R, SQL, Python",8.6,Microsoft Certified Data Analyst,Supply Chain Inventory Analysis,Data Analyst
+M.S,"Data Structures, Java, Linux, .NET, Python, Git",0.9,AWS Certified Developer,Distributed Cache Mechanism,Software Developer
+MCA,"Power BI, MySQL, SQL, Tableau",8.4,None,HR Employee Attrition Insights,Data Analyst
+B.E,"OOP, Java, Python, Docker, C++",7.5,None,Multi-threaded File Downloader,Software Developer
+B.Tech,"Pandas, TensorFlow, Python, Matplotlib, Statistics",7.5,None,Sentiment Analysis on Product Reviews,Data Scientist
+B.Tech,"Penetration Testing, Ethical Hacking, Linux, Bash, Wireshark, Metasploit, Cybersecurity",7.8,CompTIA CySA+,Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+BCA,"Docker, Machine Learning, PyTorch, Python, Deep Learning, CUDA, NLP",2.8,GCP Professional ML Engineer,Autonomous Driving Lane Detection,Machine Learning Engineer
+M.Sc,"Python, Machine Learning, Spark, Scikit-learn, Statistics, NumPy",8.8,TensorFlow Developer Certificate,House Price Forecasting Pipeline,Data Scientist
+BCA,"R, Machine Learning, Seaborn, Python, Scikit-learn, Pandas",4.9,IBM Data Science Professional,Credit Risk Scoring Algorithm,Data Scientist
+M.S,"Ethical Hacking, Firewall, Wireshark, SIEM, Vulnerability Assessment, Penetration Testing, Linux, Nmap",4.2,Cisco CCNA Security,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+MCA,"Business Intelligence, Data Analysis, Power BI, Excel, Python",4.1,Tableau Desktop Specialist,HR Employee Attrition Insights,Data Analyst
+MCA,"NumPy, Data Analysis, Power BI, Tableau",6.4,None,HR Employee Attrition Insights,Data Analyst
+MCA,"Computer Vision, Python, FastAPI, Scikit-learn, PyTorch, Deep Learning, Kubernetes",0.5,DeepLearning.AI TensorFlow Developer,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+B.E,"Power BI, Excel, Business Intelligence, Python, PostgreSQL, R, SQL",0.9,Google Data Analytics Certificate,Financial Quarterly KPI Visualization,Data Analyst
+M.S,"SQL, Google Analytics, Tableau, MySQL, Python, Data Visualization, Excel, Business Intelligence",8.7,Tableau Desktop Specialist,Marketing Campaign ROI Tracker,Data Analyst
+MCA,"Google Analytics, Python, Tableau, SQL, Excel",1.5,Google Data Analytics Certificate,Supply Chain Inventory Analysis,Data Analyst
+BCA,"Docker, FastAPI, PyTorch, Model Deployment, Computer Vision, Python",9.9,None,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.Tech,"Terraform, Microservices, GitLab CI, Python, Cloud Architecture, CI/CD",7.7,AWS Solutions Architect Associate,Disaster Recovery Infrastructure as Code,Cloud Engineer
+B.Sc,"Scikit-learn, NLP, Machine Learning, NumPy, Pandas",7.5,None,Healthcare Fraud Detection Engine,Data Scientist
+M.Tech,"MongoDB, Django, HTML, JavaScript, Next.js, REST API, CSS",9.4,Meta Front-End Developer Certificate,Blog CMS with Markdown Support,Web Developer
+MCA,"CUDA, Python, PyTorch, FastAPI, Scikit-learn, Machine Learning, Docker",0.0,GCP Professional ML Engineer,Edge AI Device Defect Classifier,Machine Learning Engineer
+M.Sc,"Python, Linux, Firewall, Network Security, Nmap, Wireshark, Bash",9.4,Cisco CCNA Security,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.E,"Terraform, Python, Prometheus, Microservices, Kubernetes, Docker",1.0,AWS Solutions Architect Associate,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+B.Sc,"Git, OOP, .NET, Python, Data Structures, C++",6.9,Microsoft Certified C# Developer,Multi-threaded File Downloader,Software Developer
+B.E,"Docker, MLOps, Pandas, PyTorch, Scikit-learn, Python, NLP",2.5,None,Autonomous Driving Lane Detection,Machine Learning Engineer
+B.Sc,"Nmap, Bash, Ethical Hacking, Burp Suite, Linux, Cybersecurity, Metasploit",3.3,CompTIA CySA+,Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+B.Sc,"C++, Java, Algorithms, Linux, Python, SQL",0.1,None,Multi-threaded File Downloader,Software Developer
+B.E,"Statistics, Python, Spark, Machine Learning, Scikit-learn",0.3,TensorFlow Developer Certificate,Credit Risk Scoring Algorithm,Data Scientist
+MCA,"PostgreSQL, SQL, Google Analytics, Tableau, Python, Data Visualization",4.5,None,Customer Segmentation and Cohort Study,Data Analyst
+M.Tech,"GitLab CI, CI/CD, Kubernetes, Docker, Terraform, AWS, Networking",9.2,Microsoft Azure Fundamentals,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+M.Tech,"Scikit-learn, CUDA, Kubernetes, Machine Learning, Deep Learning, Pandas, Docker",9.8,GCP Professional ML Engineer,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+B.E,"Azure, Docker, Linux, GitLab CI, AWS, CI/CD, Cloud Architecture",3.2,Certified Kubernetes Administrator (CKA),Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+B.Tech,"Flask, React, Bootstrap, REST API, Express, TypeScript, JavaScript, HTML",0.1,Meta Front-End Developer Certificate,Real-time Collaborative Whiteboard,Web Developer
+B.Tech,"TensorFlow, Scikit-learn, AWS, Pandas, Python, Machine Learning, Deep Learning",1.1,GCP Professional ML Engineer,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+B.Tech,"Ethical Hacking, Firewall, Wireshark, Bash, Nmap, Network Security",1.6,CompTIA CySA+,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+M.Tech,"TensorFlow, PyTorch, Python, Pandas, Statistics, Seaborn, NumPy, SQL",6.3,Google Data Analytics,Healthcare Fraud Detection Engine,Data Scientist
+M.Sc,"AWS, Kubernetes, Ansible, GitLab CI, Terraform, Jenkins, Cloud Architecture, CI/CD",2.4,Microsoft Azure Fundamentals,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+MCA,"Wireshark, Network Security, Bash, SIEM, Python, Nmap, Ethical Hacking, Cybersecurity",9.4,Certified Ethical Hacker (CEH),Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+B.Sc,"Cybersecurity, Nmap, Vulnerability Assessment, Penetration Testing, Linux",9.4,Certified Ethical Hacker (CEH),Phishing Simulation & Awareness Program,Cybersecurity Analyst
+M.Tech,"REST API, Git, Data Structures, Java",7.2,AWS Certified Developer,Multi-threaded File Downloader,Software Developer
+B.Tech,"Statistics, SQL, NumPy, NLP",9.7,None,Customer Churn Prediction Model,Data Scientist
+M.S,"Docker, Cloud Architecture, Kubernetes, Bash",9.6,Google Associate Cloud Engineer,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+MCA,"Linux, CI/CD, AWS, Ansible, Kubernetes, Terraform, Python",9.5,AWS Solutions Architect Associate,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+BCA,"Power BI, NumPy, Google Analytics, Data Analysis, Excel, Pandas, Python, Data Visualization",4.0,Tableau Desktop Specialist,Customer Segmentation and Cohort Study,Data Analyst
+M.S,"Deep Learning, Python, Machine Learning, Kubernetes, Scikit-learn, MLOps, TensorFlow",1.9,DeepLearning.AI TensorFlow Developer,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+M.Sc,"Tailwind, React, Django, JavaScript, Next.js, Express",0.3,Meta Front-End Developer Certificate,Social Media Feed Web Application,Web Developer
+M.Tech,"Deep Learning, NLP, Kubernetes, Pandas, Python, Scikit-learn",9.9,DeepLearning.AI TensorFlow Developer,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+B.Sc,"NumPy, Matplotlib, Statistics, Python, Tableau, Deep Learning",7.0,Google Data Analytics,House Price Forecasting Pipeline,Data Scientist
+B.E,"Node.js, React, Vue.js, HTML",4.5,Full Stack Web Development Bootcamp,Portfolio Showcase with Dynamic Theming,Web Developer
+BCA,"Power BI, MySQL, Excel, Data Analysis, Python, Statistics",4.1,None,Marketing Campaign ROI Tracker,Data Analyst
+MCA,"Seaborn, SQL, Tableau, Python, Deep Learning, NumPy, Scikit-learn",8.3,Google Data Analytics,House Price Forecasting Pipeline,Data Scientist
+MCA,"Firewall, Bash, Metasploit, Nmap, Wireshark, Network Security, Penetration Testing, Linux",1.5,Cisco CCNA Security,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+M.S,"CI/CD, Cloud Architecture, Bash, AWS, Microservices, Linux, Jenkins, Docker",4.1,AWS Solutions Architect Associate,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+B.Tech,"C++, Algorithms, Linux, Python, Java, Git",3.2,Microsoft Certified C# Developer,Multi-threaded File Downloader,Software Developer
+M.Sc,"Networking, Terraform, Kubernetes, AWS, Linux",7.5,Certified Kubernetes Administrator (CKA),Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+M.Tech,"Scikit-learn, Statistics, Python, Pandas, R, NLP",6.2,None,Recommendation System for E-Commerce,Data Scientist
+M.Tech,"Burp Suite, Bash, Ethical Hacking, Firewall, Cybersecurity",6.8,Certified Ethical Hacker (CEH),Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.Sc,"OOP, SQL, Git, MySQL, Algorithms, Java, Data Structures",0.2,Oracle Certified Java Professional,Banking Transaction Core System,Software Developer
+B.Tech,"Firewall, Cybersecurity, Network Security, Penetration Testing, Wireshark, Ethical Hacking",3.2,Cisco CCNA Security,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+BCA,"REST API, Express, CSS, Vue.js, MongoDB, React, JavaScript",1.4,JavaScript Specialist,Social Media Feed Web Application,Web Developer
+BCA,"Data Structures, Linux, OOP, Spring Boot, Git, Algorithms",2.7,Microsoft Certified C# Developer,Distributed Cache Mechanism,Software Developer
+B.Tech,"SQL, Google Analytics, Data Analysis, R, Power BI, Data Visualization, Python",1.7,Tableau Desktop Specialist,Financial Quarterly KPI Visualization,Data Analyst
+B.Sc,"Computer Vision, Scikit-learn, Machine Learning, Deep Learning",4.9,DeepLearning.AI TensorFlow Developer,Autonomous Driving Lane Detection,Machine Learning Engineer
+MCA,"Scikit-learn, Statistics, SQL, Python, Pandas, NLP",5.1,IBM Data Science Professional,Customer Churn Prediction Model,Data Scientist
+MCA,"Firewall, Network Security, Nmap, SIEM",5.5,Certified Ethical Hacker (CEH),Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+M.Tech,"SQL, NumPy, NLP, Matplotlib, Tableau, Python, Pandas",5.0,None,Customer Churn Prediction Model,Data Scientist
+MCA,"HTML, React, JavaScript, TypeScript, Node.js, Angular, REST API",2.9,JavaScript Specialist,Real-time Collaborative Whiteboard,Web Developer
+M.S,"Prometheus, Linux, GCP, Networking, Kubernetes, Terraform",9.8,Google Associate Cloud Engineer,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+MCA,"SOC, Cryptography, Ethical Hacking, Nmap, Wireshark",2.7,CompTIA Security+,Web Application Penetration Testing Report,Cybersecurity Analyst
+B.Tech,"Kubernetes, AWS, Networking, Cloud Architecture, Linux",6.6,Certified Kubernetes Administrator (CKA),Kubernetes Microservices Cluster Deployment,Cloud Engineer
+B.Sc,"SQL, Power BI, Statistics, Data Visualization, NumPy, Python, PostgreSQL",1.7,Microsoft Certified Data Analyst,Financial Quarterly KPI Visualization,Data Analyst
+M.Tech,"Python, R, Excel, Data Visualization, Power BI, Data Analysis, NumPy, PostgreSQL",4.9,None,Supply Chain Inventory Analysis,Data Analyst
+MCA,"Flask, Django, HTML, CSS, Node.js",4.5,Meta Front-End Developer Certificate,Restaurant Food Ordering Web App,Web Developer
+B.E,"Data Analysis, Statistics, R, Data Visualization, Excel",0.8,Tableau Desktop Specialist,Financial Quarterly KPI Visualization,Data Analyst
+B.E,"Express, React, JavaScript, Flask, MongoDB, Django",0.2,Full Stack Web Development Bootcamp,Real-time Collaborative Whiteboard,Web Developer
+B.Sc,"Express, Node.js, PostgreSQL, MongoDB, HTML, Next.js",9.6,Meta Front-End Developer Certificate,Social Media Feed Web Application,Web Developer
+B.Tech,"Cryptography, Nmap, Metasploit, Ethical Hacking, Linux, Cybersecurity",3.3,None,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+M.Sc,"Python, AWS, Bash, Terraform, Azure, Kubernetes",2.1,Microsoft Azure Fundamentals,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+M.Tech,"CI/CD, Bash, Docker, GCP, Terraform",3.7,Google Associate Cloud Engineer,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+BCA,"NumPy, Pandas, Scikit-learn, NLP, Matplotlib, Statistics, TensorFlow, Python",9.5,None,Credit Risk Scoring Algorithm,Data Scientist
+B.Sc,"TensorFlow, SQL, PyTorch, Python, Scikit-learn, Matplotlib",7.7,None,Recommendation System for E-Commerce,Data Scientist
+M.S,"PyTorch, Scikit-learn, Docker, Model Deployment, Python, CUDA, FastAPI",4.5,GCP Professional ML Engineer,Real-time Object Detection with YOLO,Machine Learning Engineer
+M.Sc,"Linux, Bash, Ethical Hacking, Nmap, Network Security, Cybersecurity, Burp Suite",1.3,None,Web Application Penetration Testing Report,Cybersecurity Analyst
+BCA,"Google Analytics, Excel, Tableau, Pandas, Data Visualization, SQL, Power BI",6.8,Tableau Desktop Specialist,Sales Performance Interactive Dashboard,Data Analyst
+M.S,"Deep Learning, FastAPI, Scikit-learn, Computer Vision, Kubernetes, Docker, Python, PyTorch",8.0,GCP Professional ML Engineer,Transformer-based Chatbot Engine,Machine Learning Engineer
+B.Sc,"PostgreSQL, Tableau, Data Analysis, Python",7.5,Microsoft Certified Data Analyst,Sales Performance Interactive Dashboard,Data Analyst
+B.E,"Machine Learning, TensorFlow, Scikit-learn, Python, Statistics",9.3,TensorFlow Developer Certificate,Recommendation System for E-Commerce,Data Scientist
+B.E,"SIEM, Network Security, Wireshark, Firewall, Ethical Hacking",5.4,Certified Ethical Hacker (CEH),Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+B.Sc,"Data Analysis, Power BI, Google Analytics, Data Visualization, R, SQL, PostgreSQL, Excel",9.5,Microsoft Certified Data Analyst,HR Employee Attrition Insights,Data Analyst
+B.E,"Git, C++, OOP, Python, Unit Testing, Data Structures",4.3,None,Banking Transaction Core System,Software Developer
+B.Sc,"Power BI, Data Analysis, Data Visualization, Python, MySQL, SQL",1.9,Microsoft Certified Data Analyst,HR Employee Attrition Insights,Data Analyst
+B.Sc,"Statistics, Machine Learning, Matplotlib, Pandas, Deep Learning",9.8,IBM Data Science Professional,Healthcare Fraud Detection Engine,Data Scientist
+M.S,"MySQL, C#, Docker, Git, Data Structures, OOP",1.9,None,Hospital Management Desktop App,Software Developer
+B.Tech,"MySQL, OOP, Docker, C++, Algorithms, Java, Python",8.1,Microsoft Certified C# Developer,Banking Transaction Core System,Software Developer
+M.Tech,"Jenkins, Azure, CI/CD, Linux, Docker, Networking",2.7,Microsoft Azure Fundamentals,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+B.E,"NLP, PyTorch, Scikit-learn, TensorFlow, Pandas, Deep Learning, Python",5.5,DeepLearning.AI TensorFlow Developer,Real-time Object Detection with YOLO,Machine Learning Engineer
+M.Tech,"Firewall, Wireshark, Burp Suite, Ethical Hacking, Nmap, SOC",2.6,Certified Ethical Hacker (CEH),Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+M.S,"Big Data, Scikit-learn, NumPy, Machine Learning",7.5,IBM Data Science Professional,House Price Forecasting Pipeline,Data Scientist
+B.Tech,"Excel, Statistics, Python, MySQL, PostgreSQL, SQL",4.7,None,Customer Segmentation and Cohort Study,Data Analyst
+B.Sc,"Python, Linux, OOP, Data Structures, Unit Testing, C++, SQL",2.4,AWS Certified Developer,Peer-to-Peer Chat Engine,Software Developer
+BCA,"React, JavaScript, Tailwind, Express, HTML, CSS",4.2,Meta Front-End Developer Certificate,E-Commerce Web Portal with Stripe,Web Developer
+B.Sc,"Tableau, SQL, Pandas, Scikit-learn, Statistics, Python, Matplotlib",0.2,Google Data Analytics,Recommendation System for E-Commerce,Data Scientist
+M.S,"Python, C++, Docker, Algorithms, Spring Boot, Java",3.1,None,Multi-threaded File Downloader,Software Developer
+MCA,"Network Security, Penetration Testing, Burp Suite, Nmap, Linux",8.0,CompTIA CySA+,Automated Log Analysis SIEM Dashboard,Cybersecurity Analyst
+M.Sc,"Wireshark, Cybersecurity, Vulnerability Assessment, Network Security, Metasploit, Nmap",3.5,CompTIA Security+,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+B.Tech,"Scikit-learn, Big Data, Statistics, Machine Learning, Spark",9.1,Google Data Analytics,Customer Churn Prediction Model,Data Scientist
+B.E,"Vue.js, Django, Next.js, Node.js, JavaScript, Express",9.9,None,Blog CMS with Markdown Support,Web Developer
+M.S,"Flask, CSS, React, MongoDB, REST API, Bootstrap",6.8,JavaScript Specialist,Blog CMS with Markdown Support,Web Developer
+MCA,"Linux, Cloud Architecture, AWS, Jenkins, CI/CD",3.9,Google Associate Cloud Engineer,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+B.Sc,"TensorFlow, SQL, Seaborn, Python, Matplotlib, Scikit-learn",9.7,Google Data Analytics,Healthcare Fraud Detection Engine,Data Scientist
+BCA,"Ethical Hacking, Firewall, Cybersecurity, Linux, Network Security, Python",1.6,Cisco CCNA Security,Intrusion Detection System with Snort,Cybersecurity Analyst
+M.S,"Next.js, HTML, CSS, REST API, Express, JavaScript, PostgreSQL",6.3,Meta Front-End Developer Certificate,Real-time Collaborative Whiteboard,Web Developer
+M.S,"Scikit-learn, Pandas, NumPy, Statistics, Machine Learning, Matplotlib, TensorFlow, Spark",0.3,TensorFlow Developer Certificate,Sentiment Analysis on Product Reviews,Data Scientist
+M.Tech,"PyTorch, Machine Learning, Model Deployment, Python, Docker, Deep Learning",7.4,GCP Professional ML Engineer,Autonomous Driving Lane Detection,Machine Learning Engineer
+M.Sc,"Ethical Hacking, Linux, Wireshark, Python, SOC, Network Security, SIEM, Cybersecurity",7.3,None,Intrusion Detection System with Snort,Cybersecurity Analyst
+M.Sc,"Python, Machine Learning, TensorFlow, Kubernetes, Model Deployment, PyTorch, Computer Vision, Deep Learning",6.9,DeepLearning.AI TensorFlow Developer,Edge AI Device Defect Classifier,Machine Learning Engineer
+BCA,"Flask, JavaScript, Bootstrap, REST API, Django, Node.js",9.3,Full Stack Web Development Bootcamp,Real-time Collaborative Whiteboard,Web Developer
+B.Tech,"TensorFlow, Docker, Scikit-learn, Python, Machine Learning, AWS, Model Deployment",8.1,GCP Professional ML Engineer,Real-time Object Detection with YOLO,Machine Learning Engineer
+B.E,"NLP, Spark, NumPy, Scikit-learn, Python, Machine Learning, SQL",6.2,IBM Data Science Professional,Sentiment Analysis on Product Reviews,Data Scientist
+M.Tech,"Power BI, NumPy, Business Intelligence, Tableau, Excel, Data Visualization, Google Analytics",7.3,Microsoft Certified Data Analyst,Supply Chain Inventory Analysis,Data Analyst
+B.E,"Cybersecurity, Nmap, Linux, Wireshark, Firewall, Bash",6.5,Cisco CCNA Security,Web Application Penetration Testing Report,Cybersecurity Analyst
+M.Tech,"REST API, MongoDB, JavaScript, TypeScript, HTML",7.9,JavaScript Specialist,Social Media Feed Web Application,Web Developer
+M.Tech,"Unit Testing, MySQL, Design Patterns, Algorithms, Java, OOP",6.3,Oracle Certified Java Professional,Banking Transaction Core System,Software Developer
+BCA,"Vue.js, HTML, Express, Angular, Node.js, CSS",4.1,Meta Front-End Developer Certificate,E-Commerce Web Portal with Stripe,Web Developer
+M.Tech,"AWS, Linux, Terraform, Kubernetes, Cloud Architecture, Bash",4.3,Microsoft Azure Fundamentals,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+BCA,"NLP, Docker, PyTorch, Computer Vision, Python, TensorFlow, Deep Learning, Model Deployment",9.0,AWS Certified Machine Learning Specialty,Autonomous Driving Lane Detection,Machine Learning Engineer
+B.Tech,"Tableau, Python, Data Visualization, Excel, R, MySQL, PostgreSQL, SQL",4.0,None,Customer Segmentation and Cohort Study,Data Analyst
+B.Tech,"Data Visualization, Python, SQL, Data Analysis, Tableau, Google Analytics",1.5,Tableau Desktop Specialist,Supply Chain Inventory Analysis,Data Analyst
+M.Tech,"Excel, Statistics, Google Analytics, Data Analysis, Tableau, Power BI, Data Visualization, Business Intelligence",3.0,Tableau Desktop Specialist,Sales Performance Interactive Dashboard,Data Analyst
+M.Sc,"Data Visualization, Python, Power BI, Pandas, Excel",5.6,None,Marketing Campaign ROI Tracker,Data Analyst
+M.Sc,"Docker, AWS, FastAPI, Python, Deep Learning, NLP, Machine Learning, Scikit-learn",3.1,AWS Certified Machine Learning Specialty,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+BCA,"Scikit-learn, Pandas, Python, Deep Learning, TensorFlow, MLOps, FastAPI, PyTorch",3.9,DeepLearning.AI TensorFlow Developer,Edge AI Device Defect Classifier,Machine Learning Engineer
+B.E,"Scikit-learn, Deep Learning, Kubernetes, NLP, TensorFlow, Docker, Pandas, PyTorch",2.5,None,Real-time Object Detection with YOLO,Machine Learning Engineer
+B.E,"Power BI, NumPy, Excel, SQL, Tableau, Data Analysis",7.4,None,Supply Chain Inventory Analysis,Data Analyst
+B.Sc,"Python, Machine Learning, Seaborn, NumPy, SQL, R, Big Data, Scikit-learn",9.7,Google Data Analytics,Customer Churn Prediction Model,Data Scientist
+BCA,"Business Intelligence, SQL, Data Visualization, Python, Excel, Data Analysis",1.5,None,Marketing Campaign ROI Tracker,Data Analyst
+B.E,"Networking, Kubernetes, GCP, Docker, AWS, Cloud Architecture",3.6,Certified Kubernetes Administrator (CKA),Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+M.S,"Bash, Nmap, Python, Network Security, Firewall, Linux, Metasploit, Wireshark",2.3,CompTIA CySA+,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+M.Sc,"PostgreSQL, Power BI, NumPy, Data Analysis, Tableau, Python",4.8,Google Data Analytics Certificate,Financial Quarterly KPI Visualization,Data Analyst
+BCA,"Python, Ethical Hacking, SIEM, Penetration Testing, Cybersecurity, Wireshark, Linux",2.1,None,Web Application Penetration Testing Report,Cybersecurity Analyst
+M.Tech,"HTML, TypeScript, CSS, Next.js, Express, React, JavaScript",6.4,Full Stack Web Development Bootcamp,Social Media Feed Web Application,Web Developer
+B.Tech,"CSS, JavaScript, Express, Flask, REST API, Django, Tailwind",9.7,None,Blog CMS with Markdown Support,Web Developer
+B.E,"Node.js, CSS, React, Angular, HTML, JavaScript, Flask",5.7,None,Real-time Collaborative Whiteboard,Web Developer
+B.E,"Tableau, Big Data, R, Machine Learning, Python, Statistics",1.6,None,Customer Churn Prediction Model,Data Scientist
+B.E,"Express, Angular, JavaScript, Node.js, CSS, Bootstrap",8.5,None,Real-time Collaborative Whiteboard,Web Developer
+B.Tech,"Kubernetes, Docker, Bash, AWS, Terraform, Prometheus, CI/CD, GCP",8.2,Certified Kubernetes Administrator (CKA),Kubernetes Microservices Cluster Deployment,Cloud Engineer
+B.Tech,"Flask, React, PostgreSQL, Express, Node.js",5.4,Meta Front-End Developer Certificate,Real-time Collaborative Whiteboard,Web Developer
+B.Tech,"AWS, Docker, CI/CD, Terraform, Ansible, Linux",7.0,AWS Solutions Architect Associate,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+M.Tech,"React, Express, CSS, HTML, Node.js, Next.js",2.9,None,Blog CMS with Markdown Support,Web Developer
+M.Sc,"Business Intelligence, Python, SQL, Tableau, Statistics",3.3,None,Supply Chain Inventory Analysis,Data Analyst
+B.Sc,"CSS, MongoDB, React, REST API, Next.js, HTML, Express, PostgreSQL",5.4,Full Stack Web Development Bootcamp,Blog CMS with Markdown Support,Web Developer
+M.S,"SQL, Business Intelligence, Power BI, Python, Data Visualization",8.1,Google Data Analytics Certificate,HR Employee Attrition Insights,Data Analyst
+B.E,"SQL, Pandas, Statistics, NumPy, Python, Big Data",3.9,Google Data Analytics,Healthcare Fraud Detection Engine,Data Scientist
+M.S,"Cloud Architecture, CI/CD, Terraform, Bash, Jenkins, Docker, GitLab CI, Kubernetes",3.8,AWS Solutions Architect Associate,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+BCA,"Google Analytics, MySQL, Power BI, Excel, NumPy, SQL, Python, Data Visualization",0.9,None,HR Employee Attrition Insights,Data Analyst
+M.Tech,"Python, Google Analytics, Excel, Tableau, Data Visualization",2.9,Tableau Desktop Specialist,Financial Quarterly KPI Visualization,Data Analyst
+MCA,"Algorithms, Docker, C++, Java, OOP",6.2,Microsoft Certified C# Developer,Hospital Management Desktop App,Software Developer
+B.Sc,"Express, Bootstrap, Next.js, React, REST API, JavaScript, Vue.js, HTML",3.0,None,Restaurant Food Ordering Web App,Web Developer
+MCA,"MySQL, Tableau, Python, Data Visualization, SQL, Power BI",5.9,Microsoft Certified Data Analyst,HR Employee Attrition Insights,Data Analyst
+MCA,"MySQL, REST API, Data Structures, Unit Testing, Algorithms, Java, Python",8.1,AWS Certified Developer,Inventory and Billing Management Software,Software Developer
+M.S,"SQL, Excel, Statistics, Data Analysis",1.0,Google Data Analytics Certificate,Marketing Campaign ROI Tracker,Data Analyst
+B.Tech,"Python, Excel, Business Intelligence, Statistics, SQL, Pandas",0.9,Tableau Desktop Specialist,Sales Performance Interactive Dashboard,Data Analyst
+B.Tech,"Cloud Architecture, CI/CD, AWS, Linux, Ansible, Terraform",6.4,Microsoft Azure Fundamentals,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+MCA,"PostgreSQL, Python, Business Intelligence, SQL, Data Analysis, Google Analytics, Power BI, Data Visualization",4.7,Tableau Desktop Specialist,HR Employee Attrition Insights,Data Analyst
+M.S,"C++, OOP, Linux, MySQL, Java",7.0,Microsoft Certified C# Developer,Multi-threaded File Downloader,Software Developer
+BCA,"Algorithms, MySQL, C++, Linux, Docker, OOP, Git",8.3,Microsoft Certified C# Developer,Peer-to-Peer Chat Engine,Software Developer
+M.Sc,"Matplotlib, NumPy, TensorFlow, R, Python, SQL",9.2,IBM Data Science Professional,Customer Churn Prediction Model,Data Scientist
+B.E,"Data Structures, C#, Algorithms, OOP, C++, Design Patterns, Git, Spring Boot",1.8,Microsoft Certified C# Developer,Distributed Cache Mechanism,Software Developer
+B.Sc,"Docker, MLOps, TensorFlow, PyTorch, Computer Vision, Deep Learning, Python, CUDA",5.9,None,Edge AI Device Defect Classifier,Machine Learning Engineer
+M.Sc,"Excel, Power BI, Google Analytics, Tableau, Python, SQL, R",5.6,Tableau Desktop Specialist,Financial Quarterly KPI Visualization,Data Analyst
+MCA,"SQL, R, Python, Seaborn, Pandas, Scikit-learn, Machine Learning, Deep Learning",0.8,IBM Data Science Professional,House Price Forecasting Pipeline,Data Scientist
+M.Tech,"Python, Docker, CI/CD, Cloud Architecture, Kubernetes, AWS",1.6,Certified Kubernetes Administrator (CKA),Kubernetes Microservices Cluster Deployment,Cloud Engineer
+B.Sc,"MLOps, Scikit-learn, Python, Model Deployment, Machine Learning, Deep Learning",8.2,None,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+BCA,"Deep Learning, Statistics, Matplotlib, Pandas, Machine Learning, Scikit-learn, Python",6.8,None,Healthcare Fraud Detection Engine,Data Scientist
+B.Tech,"Big Data, Python, Pandas, Deep Learning, NumPy, Statistics, NLP, SQL",2.4,TensorFlow Developer Certificate,Recommendation System for E-Commerce,Data Scientist
+B.Tech,"Data Analysis, PostgreSQL, Excel, Tableau, Data Visualization",9.9,Tableau Desktop Specialist,HR Employee Attrition Insights,Data Analyst
+BCA,"Docker, Spring Boot, Data Structures, C++, Unit Testing, Python",3.1,None,Peer-to-Peer Chat Engine,Software Developer
+M.Sc,"Data Visualization, Excel, PostgreSQL, SQL",7.7,Tableau Desktop Specialist,Supply Chain Inventory Analysis,Data Analyst
+B.E,"Data Visualization, Excel, Pandas, Data Analysis, R, Tableau, Python",8.0,Tableau Desktop Specialist,Supply Chain Inventory Analysis,Data Analyst
+B.Sc,"Statistics, SQL, Tableau, Data Visualization, Business Intelligence, Data Analysis, Power BI",6.3,None,Marketing Campaign ROI Tracker,Data Analyst
+BCA,"Tableau, Data Visualization, Excel, NumPy, Python, Google Analytics",0.8,None,Marketing Campaign ROI Tracker,Data Analyst
+B.Tech,"Python, MLOps, Kubernetes, PyTorch, Docker, Deep Learning, CUDA",6.0,DeepLearning.AI TensorFlow Developer,Autonomous Driving Lane Detection,Machine Learning Engineer
+B.Sc,"Node.js, Angular, REST API, React, HTML",3.2,JavaScript Specialist,Restaurant Food Ordering Web App,Web Developer
+B.E,"Penetration Testing, Bash, Firewall, Linux, Nmap, Cybersecurity, Vulnerability Assessment",6.1,CompTIA Security+,Intrusion Detection System with Snort,Cybersecurity Analyst
+M.Sc,"SQL, PostgreSQL, Data Analysis, Tableau, Power BI, Python",1.5,Microsoft Certified Data Analyst,Sales Performance Interactive Dashboard,Data Analyst
+B.E,"Linux, Docker, AWS, Kubernetes, Terraform, Prometheus",3.9,Certified Kubernetes Administrator (CKA),Kubernetes Microservices Cluster Deployment,Cloud Engineer
+B.Tech,"CI/CD, Prometheus, Cloud Architecture, Python, Terraform",0.2,Google Associate Cloud Engineer,Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+BCA,"TypeScript, Django, Next.js, REST API, HTML, React, Node.js, JavaScript",6.0,Meta Front-End Developer Certificate,Social Media Feed Web Application,Web Developer
+B.E,"PyTorch, Machine Learning, Scikit-learn, AWS, Docker, TensorFlow",3.6,AWS Certified Machine Learning Specialty,Transformer-based Chatbot Engine,Machine Learning Engineer
+BCA,"SIEM, Firewall, Cryptography, Nmap, Linux, Wireshark, Network Security, Penetration Testing",4.2,Certified Ethical Hacker (CEH),Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+B.E,"Terraform, Jenkins, Linux, Cloud Architecture, Microservices",9.1,Microsoft Azure Fundamentals,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+B.Tech,"Python, NLP, MLOps, Pandas, Docker, Scikit-learn, Deep Learning, Machine Learning",3.9,DeepLearning.AI TensorFlow Developer,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+M.Tech,"Python, Tableau, SQL, MySQL, Power BI, Pandas, Data Analysis, Google Analytics",6.2,Tableau Desktop Specialist,Financial Quarterly KPI Visualization,Data Analyst
+M.S,"Bash, Network Security, Wireshark, Nmap, SIEM, Firewall",0.4,Certified Ethical Hacker (CEH),Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+M.S,"Pandas, Python, Data Analysis, Power BI, SQL, R, Data Visualization, PostgreSQL",3.7,Google Data Analytics Certificate,Marketing Campaign ROI Tracker,Data Analyst
+M.Tech,"Bash, Cybersecurity, Linux, Nmap, Burp Suite",3.2,None,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+BCA,"C#, Java, Algorithms, Git",6.4,AWS Certified Developer,Hospital Management Desktop App,Software Developer
+M.S,"Business Intelligence, Power BI, Tableau, Python, SQL, Statistics, Pandas",2.1,Microsoft Certified Data Analyst,Supply Chain Inventory Analysis,Data Analyst
+M.Tech,"Spark, NLP, PyTorch, Pandas, SQL, Scikit-learn",5.1,None,Customer Churn Prediction Model,Data Scientist
+B.E,"Pandas, NLP, Seaborn, TensorFlow, Machine Learning, Statistics",0.7,IBM Data Science Professional,Recommendation System for E-Commerce,Data Scientist
+B.E,"REST API, Django, Node.js, React, HTML, Express, Bootstrap",0.7,None,Restaurant Food Ordering Web App,Web Developer
+M.Tech,"Bash, Docker, Kubernetes, CI/CD, Prometheus, Terraform, Linux",1.8,Certified Kubernetes Administrator (CKA),Disaster Recovery Infrastructure as Code,Cloud Engineer
+MCA,"PyTorch, SQL, Python, NumPy, TensorFlow, Big Data",10.0,None,Healthcare Fraud Detection Engine,Data Scientist
+BCA,"Algorithms, Python, Java, Git, MySQL, OOP",5.1,None,Peer-to-Peer Chat Engine,Software Developer
+M.Tech,"Vulnerability Assessment, Linux, Firewall, Ethical Hacking",9.3,Cisco CCNA Security,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+B.E,"Node.js, CSS, HTML, React, Express, Vue.js",7.4,JavaScript Specialist,Social Media Feed Web Application,Web Developer
+M.Sc,"R, Python, SQL, NumPy, Pandas, Matplotlib, Scikit-learn",2.0,TensorFlow Developer Certificate,Recommendation System for E-Commerce,Data Scientist
+M.Sc,"Node.js, REST API, MongoDB, JavaScript, Vue.js, TypeScript",0.3,Full Stack Web Development Bootcamp,Portfolio Showcase with Dynamic Theming,Web Developer
+B.Tech,"GCP, AWS, Python, Terraform, CI/CD, Cloud Architecture, Docker",4.6,AWS Solutions Architect Associate,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+MCA,"TensorFlow, Python, PyTorch, Scikit-learn, MLOps",8.5,None,Autonomous Driving Lane Detection,Machine Learning Engineer
+M.Tech,"Next.js, JavaScript, HTML, Flask, React, Node.js",2.1,None,Portfolio Showcase with Dynamic Theming,Web Developer
+B.Tech,"Python, C++, Java, Data Structures, Unit Testing, REST API, Git",0.4,Oracle Certified Java Professional,Distributed Cache Mechanism,Software Developer
+M.Tech,"Deep Learning, CUDA, TensorFlow, NLP, Docker, Python, FastAPI, PyTorch",5.2,DeepLearning.AI TensorFlow Developer,Autonomous Driving Lane Detection,Machine Learning Engineer
+B.Tech,"Azure, Linux, Terraform, GCP, CI/CD, Jenkins",9.9,Microsoft Azure Fundamentals,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+M.Tech,"Tableau, Excel, NumPy, Power BI, Data Analysis, Google Analytics, Data Visualization",0.5,Microsoft Certified Data Analyst,Marketing Campaign ROI Tracker,Data Analyst
+MCA,"Metasploit, Linux, Wireshark, Python, Burp Suite, Firewall",7.8,Cisco CCNA Security,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.Sc,"Algorithms, Linux, Python, Java, C++, OOP, .NET",0.4,Oracle Certified Java Professional,Inventory and Billing Management Software,Software Developer
+BCA,"Terraform, AWS, CI/CD, Cloud Architecture, Networking, Linux, Azure, GCP",6.3,AWS Solutions Architect Associate,Disaster Recovery Infrastructure as Code,Cloud Engineer
+BCA,"SQL, MySQL, Excel, Python",8.1,Tableau Desktop Specialist,Customer Segmentation and Cohort Study,Data Analyst
+M.S,"REST API, JavaScript, Node.js, Tailwind",7.8,None,Portfolio Showcase with Dynamic Theming,Web Developer
+BCA,"HTML, MongoDB, CSS, React, Angular",1.4,JavaScript Specialist,Blog CMS with Markdown Support,Web Developer
+M.Tech,".NET, Git, MySQL, Java, C++, Data Structures",7.4,Microsoft Certified C# Developer,Multi-threaded File Downloader,Software Developer
+B.E,"Express, Tailwind, HTML, JavaScript",9.1,Full Stack Web Development Bootcamp,Social Media Feed Web Application,Web Developer
+M.Tech,"Python, Terraform, Linux, CI/CD",3.6,Google Associate Cloud Engineer,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+M.Sc,"SQL, Statistics, Python, Machine Learning, Pandas, TensorFlow",7.7,TensorFlow Developer Certificate,Healthcare Fraud Detection Engine,Data Scientist
+M.Tech,"Tableau, PostgreSQL, NumPy, Python, Data Visualization",7.0,Google Data Analytics Certificate,Sales Performance Interactive Dashboard,Data Analyst
+BCA,"Terraform, Docker, AWS, Python, Networking, Linux, Kubernetes",3.5,Microsoft Azure Fundamentals,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+M.Tech,"CI/CD, Terraform, Python, Microservices, Kubernetes",0.4,Microsoft Azure Fundamentals,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+M.Sc,"Nmap, Penetration Testing, Wireshark, Cybersecurity, Firewall, Ethical Hacking, SOC",5.0,CompTIA CySA+,Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+B.E,"Model Deployment, Scikit-learn, Machine Learning, Kubernetes, MLOps, Deep Learning, Docker",6.4,DeepLearning.AI TensorFlow Developer,Autonomous Driving Lane Detection,Machine Learning Engineer
+M.Sc,"Big Data, Seaborn, SQL, NLP, Python, Scikit-learn",7.8,Google Data Analytics,Credit Risk Scoring Algorithm,Data Scientist
+MCA,"MLOps, TensorFlow, Docker, Scikit-learn, NLP, Machine Learning, CUDA, Python",6.6,GCP Professional ML Engineer,Autonomous Driving Lane Detection,Machine Learning Engineer
+M.Sc,"Excel, Power BI, SQL, Business Intelligence",7.6,Google Data Analytics Certificate,Customer Segmentation and Cohort Study,Data Analyst
+BCA,"NLP, Scikit-learn, Docker, PyTorch, Python",0.2,AWS Certified Machine Learning Specialty,Real-time Object Detection with YOLO,Machine Learning Engineer
+B.E,"Big Data, SQL, Pandas, R, Scikit-learn, Deep Learning, Python, Machine Learning",4.5,TensorFlow Developer Certificate,Sentiment Analysis on Product Reviews,Data Scientist
+M.Tech,"PyTorch, Scikit-learn, Deep Learning, AWS, CUDA",5.5,DeepLearning.AI TensorFlow Developer,Autonomous Driving Lane Detection,Machine Learning Engineer
+BCA,"Big Data, Python, Statistics, SQL, R, TensorFlow, Pandas, Machine Learning",7.7,TensorFlow Developer Certificate,Sentiment Analysis on Product Reviews,Data Scientist
+M.Tech,"Machine Learning, Python, Scikit-learn, TensorFlow, Kubernetes, Deep Learning",3.7,DeepLearning.AI TensorFlow Developer,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.S,"Scikit-learn, PyTorch, Machine Learning, Python, Matplotlib",0.7,None,Healthcare Fraud Detection Engine,Data Scientist
+MCA,"Wireshark, Firewall, Bash, Linux, Penetration Testing",0.1,CompTIA Security+,Malware Reverse Engineering Sandbox,Cybersecurity Analyst
+B.Sc,"Statistics, Tableau, SQL, Python, TensorFlow, Pandas",8.3,IBM Data Science Professional,House Price Forecasting Pipeline,Data Scientist
+M.Sc,"AWS, Docker, Prometheus, CI/CD, Terraform",0.3,AWS Solutions Architect Associate,Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+BCA,"Ethical Hacking, Python, SOC, Burp Suite, Nmap, Network Security, Firewall",6.3,Certified Ethical Hacker (CEH),Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.E,"Deep Learning, Python, AWS, Machine Learning, Computer Vision",5.7,GCP Professional ML Engineer,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.Tech,"Algorithms, Python, C++, .NET, Unit Testing, Data Structures, Git",6.2,AWS Certified Developer,Peer-to-Peer Chat Engine,Software Developer
+M.Sc,"Docker, Python, PyTorch, TensorFlow, Machine Learning, CUDA, AWS, NLP",3.9,DeepLearning.AI TensorFlow Developer,Transformer-based Chatbot Engine,Machine Learning Engineer
+BCA,"Computer Vision, Machine Learning, CUDA, Docker, Python",2.8,None,Edge AI Device Defect Classifier,Machine Learning Engineer
+M.Sc,"Data Structures, Linux, Java, REST API, Algorithms, Docker, Python, C++",6.7,Microsoft Certified C# Developer,Multi-threaded File Downloader,Software Developer
+BCA,"NLP, PyTorch, Deep Learning, Computer Vision, Scikit-learn",1.0,None,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+MCA,"NumPy, Python, Scikit-learn, Spark, SQL, Machine Learning, PyTorch, Tableau",1.8,TensorFlow Developer Certificate,Recommendation System for E-Commerce,Data Scientist
+MCA,"HTML, Express, CSS, React, Node.js, Django, Angular",3.4,None,Restaurant Food Ordering Web App,Web Developer
+BCA,"NLP, Docker, Machine Learning, TensorFlow, Scikit-learn, Python",4.4,AWS Certified Machine Learning Specialty,End-to-End MLOps Pipeline on Kubernetes,Machine Learning Engineer
+BCA,"PyTorch, Statistics, NLP, NumPy, SQL, Scikit-learn",2.7,Google Data Analytics,Customer Churn Prediction Model,Data Scientist
+B.Tech,"HTML, CSS, Bootstrap, JavaScript, Express, Flask, REST API",6.1,Meta Front-End Developer Certificate,Social Media Feed Web Application,Web Developer
+M.S,"Machine Learning, Computer Vision, Deep Learning, Kubernetes, Docker",9.7,None,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+M.S,"SQL, TensorFlow, Machine Learning, NumPy, Statistics",1.0,IBM Data Science Professional,Sentiment Analysis on Product Reviews,Data Scientist
+B.E,"Scikit-learn, Machine Learning, Model Deployment, Deep Learning, NLP, CUDA, PyTorch",1.7,None,Transformer-based Chatbot Engine,Machine Learning Engineer
+BCA,"Pandas, Deep Learning, NumPy, Scikit-learn, Statistics, Spark",4.5,Google Data Analytics,Recommendation System for E-Commerce,Data Scientist
+M.Tech,"Docker, Deep Learning, Python, FastAPI, Scikit-learn, Machine Learning, Model Deployment",7.3,AWS Certified Machine Learning Specialty,Automated Image Segmentation for Medical Scans,Machine Learning Engineer
+B.E,"PostgreSQL, Node.js, JavaScript, CSS, HTML, React",5.0,Meta Front-End Developer Certificate,Restaurant Food Ordering Web App,Web Developer
+B.Sc,"HTML, Express, JavaScript, Node.js, Angular, REST API, TypeScript, Bootstrap",2.7,Full Stack Web Development Bootcamp,Social Media Feed Web Application,Web Developer
+B.E,"CSS, Flask, Tailwind, HTML, Vue.js, Express, JavaScript",3.8,Full Stack Web Development Bootcamp,Portfolio Showcase with Dynamic Theming,Web Developer
+BCA,"CI/CD, AWS, GCP, Terraform, Kubernetes, Linux",8.7,Microsoft Azure Fundamentals,Kubernetes Microservices Cluster Deployment,Cloud Engineer
+M.Sc,"R, Power BI, Pandas, Data Visualization, Tableau, Python",0.5,None,Customer Segmentation and Cohort Study,Data Analyst
+B.Tech,"SOC, Ethical Hacking, Cybersecurity, Wireshark, Metasploit, Penetration Testing",5.8,Cisco CCNA Security,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.Tech,"Seaborn, Python, Machine Learning, R, SQL, Big Data",9.0,None,Customer Churn Prediction Model,Data Scientist
+M.S,"Python, SIEM, Bash, Linux, Ethical Hacking, Nmap, Wireshark, Cybersecurity",4.6,CompTIA CySA+,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+M.S,"Cloud Architecture, Jenkins, Ansible, Prometheus, CI/CD, Terraform",7.1,Certified Kubernetes Administrator (CKA),Automated CI/CD Pipeline with Jenkins and Docker,Cloud Engineer
+M.Tech,"Data Structures, Git, Unit Testing, Algorithms",7.3,None,Peer-to-Peer Chat Engine,Software Developer
+B.Sc,"OOP, Python, Docker, Java, Data Structures, C++",2.0,None,Multi-threaded File Downloader,Software Developer
+B.Tech,"Nmap, Burp Suite, SIEM, Ethical Hacking, Firewall",8.1,Certified Ethical Hacker (CEH),Intrusion Detection System with Snort,Cybersecurity Analyst
+B.E,"Docker, Kubernetes, Linux, Ansible, CI/CD, Bash, Networking",0.5,Google Associate Cloud Engineer,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+M.S,"SQL, Python, Statistics, Excel",2.7,None,Customer Segmentation and Cohort Study,Data Analyst
+M.S,"Algorithms, Git, SQL, .NET, OOP, C++",5.6,Oracle Certified Java Professional,Distributed Cache Mechanism,Software Developer
+M.Sc,"CSS, HTML, MongoDB, JavaScript, Node.js",4.5,Meta Front-End Developer Certificate,Blog CMS with Markdown Support,Web Developer
+M.Tech,"Tailwind, CSS, JavaScript, HTML, REST API, TypeScript, Node.js",0.5,Meta Front-End Developer Certificate,Social Media Feed Web Application,Web Developer
+B.E,"Excel, MySQL, Data Visualization, Data Analysis, Python",2.9,Google Data Analytics Certificate,HR Employee Attrition Insights,Data Analyst
+B.E,"JavaScript, REST API, Node.js, CSS, Django",2.0,Full Stack Web Development Bootcamp,Blog CMS with Markdown Support,Web Developer
+M.Tech,"Spring Boot, Data Structures, Python, .NET, Docker, Algorithms, C++",5.4,None,Distributed Cache Mechanism,Software Developer
+BCA,"Google Analytics, Data Visualization, PostgreSQL, SQL, Pandas, Excel",7.7,Microsoft Certified Data Analyst,Financial Quarterly KPI Visualization,Data Analyst
+MCA,"Data Analysis, SQL, PostgreSQL, Tableau",1.6,Microsoft Certified Data Analyst,Financial Quarterly KPI Visualization,Data Analyst
+M.Tech,"Burp Suite, Nmap, Wireshark, Firewall, Cybersecurity, Metasploit, Linux",1.0,None,Web Application Penetration Testing Report,Cybersecurity Analyst
+B.E,"PostgreSQL, Express, HTML, JavaScript, React, REST API",8.4,JavaScript Specialist,Real-time Collaborative Whiteboard,Web Developer
+M.Sc,"Ethical Hacking, Burp Suite, Firewall, Wireshark, Network Security, Nmap, Python",7.0,CompTIA CySA+,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.Tech,"React, TypeScript, CSS, Angular, Node.js, REST API, Tailwind",3.4,None,Social Media Feed Web Application,Web Developer
+M.S,"C++, SQL, Java, Data Structures",7.3,None,Inventory and Billing Management Software,Software Developer
+B.E,"Cybersecurity, Cryptography, Network Security, Wireshark, Ethical Hacking, Linux",4.9,CompTIA CySA+,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+B.Tech,"Cybersecurity, Network Security, Cryptography, Vulnerability Assessment, Linux",1.3,CompTIA Security+,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+M.Tech,"Terraform, AWS, Linux, Cloud Architecture, Ansible, Prometheus, Docker",2.8,Certified Kubernetes Administrator (CKA),Cloud Cost Optimization & Monitoring Setup,Cloud Engineer
+B.Sc,"Wireshark, Linux, Metasploit, Bash, Nmap, Python",7.7,None,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+B.Tech,"SQL, Spark, R, Pandas, Statistics",2.6,None,Customer Churn Prediction Model,Data Scientist
+B.Sc,"Linux, Ethical Hacking, Firewall, Cybersecurity, Python",7.0,CompTIA Security+,Phishing Simulation & Awareness Program,Cybersecurity Analyst
+M.S,"Cybersecurity, Nmap, Penetration Testing, Vulnerability Assessment, Wireshark, SOC",2.6,None,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+MCA,"Python, PostgreSQL, Power BI, Data Visualization, R",8.3,Tableau Desktop Specialist,Supply Chain Inventory Analysis,Data Analyst
+M.S,"Deep Learning, SQL, Python, Machine Learning, Statistics, Seaborn, Big Data",5.5,Google Data Analytics,Sentiment Analysis on Product Reviews,Data Scientist
+BCA,"Ansible, CI/CD, Kubernetes, Networking, Docker, Jenkins, Cloud Architecture",6.8,Google Associate Cloud Engineer,Serverless Event-Driven ETL with AWS Lambda,Cloud Engineer
+M.Tech,"Git, Java, MySQL, C++, OOP",6.7,None,Peer-to-Peer Chat Engine,Software Developer
+B.E,"TensorFlow, Python, Machine Learning, PyTorch, FastAPI, Pandas, Deep Learning",3.0,GCP Professional ML Engineer,Transformer-based Chatbot Engine,Machine Learning Engineer
+M.S,"Pandas, Scikit-learn, Model Deployment, Deep Learning, Machine Learning, TensorFlow",0.8,AWS Certified Machine Learning Specialty,Transformer-based Chatbot Engine,Machine Learning Engineer
+BCA,"Python, Algorithms, OOP, Unit Testing, Git, Java, Design Patterns",9.6,Microsoft Certified C# Developer,Multi-threaded File Downloader,Software Developer
+B.Tech,"Jenkins, Kubernetes, AWS, Python, Azure, Cloud Architecture, Docker, CI/CD",5.4,Google Associate Cloud Engineer,Multi-Region High Availability AWS Infrastructure,Cloud Engineer
+M.Sc,"Penetration Testing, Ethical Hacking, Linux, Network Security, Firewall, Cybersecurity",9.2,None,Enterprise Network Vulnerability Assessment,Cybersecurity Analyst
+BCA,"TensorFlow, Machine Learning, Deep Learning, MLOps, Docker, PyTorch",1.7,AWS Certified Machine Learning Specialty,Edge AI Device Defect Classifier,Machine Learning Engineer

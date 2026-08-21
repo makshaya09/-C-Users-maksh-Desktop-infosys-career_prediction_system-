@@ -1,0 +1,74 @@
+{
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "coverage": 1.0,
+    "total_test_samples": 168,
+    "classes": [
+        "Cloud Engineer",
+        "Cybersecurity Analyst",
+        "Data Analyst",
+        "Data Scientist",
+        "Machine Learning Engineer",
+        "Software Developer",
+        "Web Developer"
+    ],
+    "classification_report": {
+        "Cloud Engineer": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+        },
+        "Cybersecurity Analyst": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+        },
+        "Data Analyst": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+        },
+        "Data Scientist": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+        },
+        "Machine Learning Engineer": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+        },
+        "Software Developer": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+        },
+        "Web Developer": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 168.0
+        },
+        "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 168.0
+        }
+    }
+}

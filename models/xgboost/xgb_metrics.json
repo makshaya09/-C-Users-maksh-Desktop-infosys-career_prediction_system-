@@ -1,0 +1,146 @@
+{
+    "model_name": "XGBoost",
+    "best_params": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "n_estimators": 50,
+        "subsample": 0.8
+    },
+    "accuracy": 0.9762,
+    "precision": 0.9773,
+    "recall": 0.9762,
+    "f1_score": 0.9764,
+    "cv_best_score": 0.9955,
+    "classes": [
+        "Cloud Engineer",
+        "Cybersecurity Analyst",
+        "Data Analyst",
+        "Data Scientist",
+        "Machine Learning Engineer",
+        "Software Developer",
+        "Web Developer"
+    ],
+    "classification_report": {
+        "Cloud Engineer": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+        },
+        "Cybersecurity Analyst": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+        },
+        "Data Analyst": {
+            "precision": 1.0,
+            "recall": 0.9583333333333334,
+            "f1-score": 0.9787234042553191,
+            "support": 24.0
+        },
+        "Data Scientist": {
+            "precision": 0.8846153846153846,
+            "recall": 0.9583333333333334,
+            "f1-score": 0.92,
+            "support": 24.0
+        },
+        "Machine Learning Engineer": {
+            "precision": 0.9565217391304348,
+            "recall": 0.9166666666666666,
+            "f1-score": 0.9361702127659575,
+            "support": 24.0
+        },
+        "Software Developer": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+        },
+        "Web Developer": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+        },
+        "accuracy": 0.9761904761904762,
+        "macro avg": {
+            "precision": 0.97730530339226,
+            "recall": 0.9761904761904763,
+            "f1-score": 0.9764133738601822,
+            "support": 168.0
+        },
+        "weighted avg": {
+            "precision": 0.9773053033922598,
+            "recall": 0.9761904761904762,
+            "f1-score": 0.9764133738601825,
+            "support": 168.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            24,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            24,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            23,
+            1,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            23,
+            1,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            2,
+            22,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            24,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            24
+        ]
+    ]
+}

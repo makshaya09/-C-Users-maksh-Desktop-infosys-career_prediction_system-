@@ -1,0 +1,21 @@
+previous_role,education,skills,experience_years,actual_transition_career
+Junior Developer,B.Tech,"Java, C++, Data Structures, Algorithms, Git, OOP, REST API",2.0,Software Developer
+Data Intern,B.Sc,"SQL, Excel, Tableau, Power BI, Python, Data Analysis",1.0,Data Analyst
+Research Assistant,M.Tech,"Python, Machine Learning, Deep Learning, PyTorch, TensorFlow, Statistics",2.5,Data Scientist
+Frontend Intern,BCA,"HTML, CSS, JavaScript, React, Bootstrap, Node.js",1.5,Web Developer
+System Admin,B.Tech,"Linux, AWS, Docker, Networking, Bash, CI/CD",3.0,Cloud Engineer
+Security Specialist,B.Tech,"Network Security, Wireshark, Ethical Hacking, Nmap, Firewall, Linux",2.0,Cybersecurity Analyst
+Python Developer,MCA,"Python, TensorFlow, Deep Learning, Docker, Scikit-learn, MLOps",3.0,Machine Learning Engineer
+BI Analyst,B.Sc,"Power BI, SQL, Tableau, Excel, Data Visualization, MySQL",2.0,Data Analyst
+Full Stack Intern,B.Tech,"React, Node.js, Express, JavaScript, MongoDB, CSS, HTML",1.0,Web Developer
+DevOps Associate,B.E,"AWS, Kubernetes, Docker, Terraform, Jenkins, Linux",2.5,Cloud Engineer
+AI Researcher,M.S,"Deep Learning, PyTorch, Python, Computer Vision, TensorFlow, Scikit-learn",3.5,Machine Learning Engineer
+SOC Analyst,B.Tech,"SIEM, Wireshark, Ethical Hacking, Metasploit, Network Security, SOC",2.0,Cybersecurity Analyst
+Backend Engineer,B.Tech,"Java, Spring Boot, SQL, REST API, Git, Docker, Algorithms",3.0,Software Developer
+Data Science Intern,M.Sc,"Python, Machine Learning, Pandas, Scikit-learn, Statistics, SQL",1.0,Data Scientist
+Cloud Associate,B.Tech,"AWS, Azure, Terraform, Docker, Linux, CI/CD",1.5,Cloud Engineer
+IT Support Engineer,BCA,"Network Security, Firewall, Wireshark, Linux, Cyber Security",2.0,Cybersecurity Analyst
+Junior Frontend Dev,B.Sc,"HTML, CSS, JavaScript, React, Bootstrap, Git",1.0,Web Developer
+Associate ML Engineer,M.Tech,"Python, TensorFlow, Scikit-learn, Deep Learning, MLOps, Docker",2.0,Machine Learning Engineer
+Database Developer,B.Tech,"SQL, PostgreSQL, Python, Data Analysis, Tableau, Excel",3.0,Data Analyst
+C++ Programmer,B.Tech,"C++, Java, OOP, Data Structures, Algorithms, Linux, Git",2.0,Software Developer

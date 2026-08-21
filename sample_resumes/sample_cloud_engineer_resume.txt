@@ -1,0 +1,31 @@
+David Chen
+Email: david.chen@cloudtech.io | Phone: +1-555-0248
+San Francisco, CA
+
+PROFESSIONAL SUMMARY
+Cloud Infrastructure and DevOps Engineer with 4 years of experience architecting scalable AWS cloud systems, Kubernetes clusters, and automated CI/CD deployment pipelines.
+
+EDUCATION
+Master of Technology (M.Tech) in Software Engineering
+Bachelor of Technology (B.Tech) in Information Technology
+
+TECHNICAL SKILLS
+- Cloud Platforms: AWS, Azure, Google Cloud Platform (GCP)
+- Containers & Orchestration: Docker, Kubernetes, Helm
+- Infrastructure as Code (IaC): Terraform, Ansible
+- CI/CD & Automation: Jenkins, GitHub Actions, GitLab CI, Bash, Linux
+- Monitoring & Networking: Prometheus, Grafana, TCP/IP, VPC, DNS
+
+EXPERIENCE
+Cloud Engineer | CloudScale Systems | 2022 - Present
+- Architected multi-region AWS cloud environments utilizing Terraform and CloudFormation.
+- Managed Kubernetes clusters running 50+ containerized microservices with zero downtime deployments.
+- Implemented automated CI/CD pipelines in Jenkins and Docker reducing deployment time by 60%.
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect Associate
+- Certified Kubernetes Administrator (CKA)
+
+PROJECTS
+- Multi-Tier High-Availability Cloud Infrastructure on AWS
+- Automated Disaster Recovery Pipeline with Terraform and Ansible

@@ -1,0 +1,16 @@
+candidate_id,education,skills,experience_years,ground_truth_career
+SE-001,B.Tech,"Python, Machine Learning, SQL, Pandas, NumPy, Scikit-learn, Statistics",3.0,Data Scientist
+SE-002,B.Sc,"SQL, Excel, Tableau, Power BI, Python, Data Visualization",2.0,Data Analyst
+SE-003,B.Tech,"Java, C++, Data Structures, Algorithms, Git, OOP, REST API",4.0,Software Developer
+SE-004,BCA,"HTML, CSS, JavaScript, React, Node.js, Express, Bootstrap",2.0,Web Developer
+SE-005,M.Tech,"Python, TensorFlow, PyTorch, Deep Learning, Docker, Scikit-learn, MLOps",3.5,Machine Learning Engineer
+SE-006,B.E,"AWS, Docker, Kubernetes, Linux, Terraform, CI/CD, Azure",4.0,Cloud Engineer
+SE-007,B.Tech,"Network Security, Wireshark, Linux, Ethical Hacking, Firewall, Nmap, Metasploit",2.5,Cybersecurity Analyst
+SE-008,M.Sc,"Python, Machine Learning, Deep Learning, Statistics, NLP, Pandas",2.0,Data Scientist
+SE-009,B.Com,"Excel, SQL, Power BI, Tableau, Data Analysis, Business Intelligence",3.0,Data Analyst
+SE-010,B.Tech,"C#, .NET, Java, SQL, OOP, Design Patterns, Git",3.0,Software Developer
+SE-011,B.Sc,"JavaScript, TypeScript, React, Next.js, HTML, CSS, Tailwind",2.5,Web Developer
+SE-012,M.S,"Python, PyTorch, Computer Vision, Deep Learning, TensorFlow, CUDA",4.0,Machine Learning Engineer
+SE-013,B.Tech,"AWS, GCP, Terraform, Ansible, Kubernetes, Jenkins, Linux",3.0,Cloud Engineer
+SE-014,MCA,"Ethical Hacking, Penetration Testing, Wireshark, SIEM, SOC, Linux",3.0,Cybersecurity Analyst
+SE-015,B.Tech,"Python, SQL, Scikit-learn, Machine Learning, Tableau, Pandas",1.5,Data Scientist

@@ -1,0 +1,174 @@
+{% extends "base.html" %}
+
+{% block title %}User Profile - AI Career Prediction{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-9">
+
+      <!-- If prefilled from resume parsing, show extraction summary banner -->
+      {% if parsed_from_resume %}
+      <div class="custom-card border-primary mb-4 p-4 bg-light">
+        <div class="d-flex align-items-center mb-3">
+          <div class="badge bg-success p-2 me-2">
+            <i class="bi bi-check2-circle fs-5"></i>
+          </div>
+          <div>
+            <h5 class="fw-bold mb-0 text-success">Resume Parsed Successfully!</h5>
+            <small class="text-muted">Extracted entities with SpaCy NER have been prefilled below. Please review or adjust them before predicting.</small>
+          </div>
+        </div>
+
+        <div class="row g-2 pt-2 border-top">
+          <div class="col-12">
+            <strong class="small text-muted d-block mb-1">Extracted Skills:</strong>
+            {% if extracted_entities.skills %}
+              {% for skill in extracted_entities.skills %}
+                <span class="skill-tag">{{ skill }}</span>
+              {% endfor %}
+            {% else %}
+              <span class="text-muted small">No specific skills detected automatically. Please add your skills below.</span>
+            {% endif %}
+          </div>
+
+          <div class="col-md-6 mt-2">
+            <strong class="small text-muted d-block mb-1">Extracted Education:</strong>
+            {% if extracted_entities.education %}
+              {% for edu in extracted_entities.education %}
+                <span class="edu-tag">{{ edu }}</span>
+              {% endfor %}
+            {% else %}
+              <span class="text-muted small">None detected automatically.</span>
+            {% endif %}
+          </div>
+
+          <div class="col-md-6 mt-2">
+            <strong class="small text-muted d-block mb-1">Extracted Past Roles:</strong>
+            {% if extracted_entities.roles %}
+              {% for role in extracted_entities.roles %}
+                <span class="role-tag">{{ role }}</span>
+              {% endfor %}
+            {% else %}
+              <span class="text-muted small">None detected.</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      <!-- Error Alert Container for Client-Side Validation -->
+      <div id="clientErrorContainer"></div>
+
+      <!-- Server-Side Validation Errors -->
+      {% if form_errors %}
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Validation Error:</strong>
+        <ul class="mb-0 mt-1">
+          {% for err in form_errors %}
+            <li>{{ err }}</li>
+          {% endfor %}
+        </ul>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      {% endif %}
+
+      <!-- User Profile Form Card -->
+      <div class="custom-card">
+        <div class="card-header-custom d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <i class="bi bi-person-bounding-box text-primary fs-4 me-2"></i>
+            <span>Structured User Profile Ingestion Form</span>
+          </div>
+          <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Validation Active</span>
+        </div>
+
+        <div class="card-body p-4 p-md-5">
+          <form action="{{ url_for('predict_route') }}" method="POST" id="profileForm" novalidate>
+
+            <h6 class="text-uppercase text-muted fw-bold small mb-3">1. Personal Information</h6>
+            <div class="row g-3 mb-4">
+              <div class="col-md-6">
+                <label for="name" class="form-label">Full Name <span class="required-asterisk">*</span></label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="e.g., John Doe"
+                       value="{{ profile_data.get('name', '') }}" required>
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">Email Address <span class="required-asterisk">*</span></label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="e.g., john.doe@example.com"
+                       value="{{ profile_data.get('email', '') }}" required>
+              </div>
+            </div>
+
+            <h6 class="text-uppercase text-muted fw-bold small mb-3">2. Academic &amp; Professional Background</h6>
+            <div class="row g-3 mb-4">
+              <div class="col-md-6">
+                <label for="education" class="form-label">Highest Education Degree <span class="required-asterisk">*</span></label>
+                <select class="form-select" id="education" name="education" required>
+                  <option value="" disabled {% if not profile_data.get('education') %}selected{% endif %}>Select Degree...</option>
+                  {% for edu in ['B.Tech', 'B.E', 'M.Tech', 'MCA', 'B.Sc', 'M.Sc', 'BCA', 'B.S', 'M.S', 'MBA', 'Diploma', 'Ph.D'] %}
+                    <option value="{{ edu }}" {% if profile_data.get('education') == edu %}selected{% endif %}>{{ edu }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+
+              <div class="col-md-6">
+                <label for="degree_major" class="form-label">Major / Field of Study</label>
+                <input type="text" class="form-control" id="degree_major" name="degree_major" placeholder="e.g., Computer Science, IT, Data Science"
+                       value="{{ profile_data.get('degree_major', '') }}">
+              </div>
+
+              <div class="col-md-6">
+                <label for="experience" class="form-label">Years of Experience <span class="required-asterisk">*</span></label>
+                <input type="number" step="0.5" min="0" max="50" class="form-control" id="experience" name="experience"
+                       placeholder="0 for freshers" value="{{ profile_data.get('experience', 0) }}" required>
+                <div class="form-text">Enter 0 if you are a fresher or student.</div>
+              </div>
+
+              <div class="col-md-6">
+                <label for="preferred_career" class="form-label">Preferred Career Domain (Optional)</label>
+                <select class="form-select" id="preferred_career" name="preferred_career">
+                  <option value="" selected>No Preference (Let AI Decide)</option>
+                  {% for career in ['Data Scientist', 'Data Analyst', 'Software Developer', 'Web Developer', 'Machine Learning Engineer', 'Cloud Engineer', 'Cybersecurity Analyst'] %}
+                    <option value="{{ career }}" {% if profile_data.get('preferred_career') == career %}selected{% endif %}>{{ career }}</option>
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+
+            <h6 class="text-uppercase text-muted fw-bold small mb-3">3. Skills, Certifications &amp; Projects</h6>
+            <div class="mb-3">
+              <label for="skills" class="form-label">Technical Skills (Comma Separated) <span class="required-asterisk">*</span></label>
+              <textarea class="form-control" id="skills" name="skills" rows="3"
+                        placeholder="e.g., Python, Machine Learning, SQL, Pandas, Scikit-learn, TensorFlow" required>{{ profile_data.get('skills', '') }}</textarea>
+              <div class="form-text">Enter at least 1-3 relevant skills for accurate ML career classification.</div>
+            </div>
+
+            <div class="mb-3">
+              <label for="certifications" class="form-label">Certifications (Optional)</label>
+              <input type="text" class="form-control" id="certifications" name="certifications"
+                     placeholder="e.g., AWS Certified Solutions Architect, Google Data Analytics, CompTIA Security+"
+                     value="{{ profile_data.get('certifications', '') }}">
+            </div>
+
+            <div class="mb-4">
+              <label for="projects" class="form-label">Key Projects (Optional)</label>
+              <textarea class="form-control" id="projects" name="projects" rows="2"
+                        placeholder="e.g., E-Commerce Web App with React and Flask, Churn Prediction with Scikit-learn">{{ profile_data.get('projects', '') }}</textarea>
+            </div>
+
+            <div class="d-flex justify-content-end gap-3 pt-3 border-top">
+              <a href="{{ url_for('index') }}" class="btn btn-secondary-custom">Cancel</a>
+              <button type="submit" class="btn btn-primary-custom btn-lg">
+                <i class="bi bi-magic me-2"></i> Run Career Prediction
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}

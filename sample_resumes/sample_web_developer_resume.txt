@@ -1,0 +1,29 @@
+Sarah Jenkins
+Email: sarah.jenkins@webdev.net | Phone: +1-555-0812
+Austin, TX
+
+PROFESSIONAL SUMMARY
+Full Stack Web Developer with 2.5 years of experience designing and developing responsive web applications using React, Node.js, Express, and modern JavaScript/TypeScript.
+
+EDUCATION
+Bachelor of Computer Applications (BCA)
+
+TECHNICAL SKILLS
+- Frontend: HTML5, CSS3, JavaScript, TypeScript, React, Bootstrap, Tailwind CSS
+- Backend: Node.js, Express, REST API, Flask
+- Databases: MongoDB, PostgreSQL, SQLite
+- Version Control & Tools: Git, GitHub, Postman, Webpack, Vite
+
+PROFESSIONAL EXPERIENCE
+Web Developer | PixelCraft Solutions | 2023 - Present
+- Developed responsive front-end user interfaces using React, Bootstrap, and modern CSS.
+- Built robust RESTful APIs in Node.js and Express to support dynamic web client features.
+- Integrated payment gateways and third-party authentication services with 99.9% uptime.
+
+CERTIFICATIONS
+- Meta Front-End Developer Professional Certificate
+- Full Stack Web Development Bootcamp Certificate
+
+KEY PROJECTS
+- Modern E-Commerce Platform with React, Stripe & Node.js
+- Real-Time Collaborative Task Management Dashboard

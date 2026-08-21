@@ -1,0 +1,27 @@
+=================================================================
+CAREER PREDICTION MODEL - CLASSIFICATION REPORT (MILESTONE 1)
+=================================================================
+
+                           precision    recall  f1-score   support
+
+           Cloud Engineer     1.0000    1.0000    1.0000        24
+    Cybersecurity Analyst     1.0000    1.0000    1.0000        24
+             Data Analyst     1.0000    1.0000    1.0000        24
+           Data Scientist     1.0000    1.0000    1.0000        24
+Machine Learning Engineer     1.0000    1.0000    1.0000        24
+       Software Developer     1.0000    1.0000    1.0000        24
+            Web Developer     1.0000    1.0000    1.0000        24
+
+                 accuracy                         1.0000       168
+                macro avg     1.0000    1.0000    1.0000       168
+             weighted avg     1.0000    1.0000    1.0000       168
+
+
+=================================================================
+Summary Metrics:
+Accuracy : 100.00%
+Precision: 100.00%
+Recall   : 100.00%
+F1-Score : 100.00%
+Coverage : 100.00%
+=================================================================
