@@ -102,9 +102,8 @@ def ensure_models_and_benchmarks_ready():
     """Ensures models and comparison results exist."""
     comp_file = os.path.join(RESULTS_FOLDER, "model_comparison.json")
     if not os.path.exists(comp_file):
-        print("[App] Initializing models and comparison benchmark...")
-        run_model_comparison()
-        run_full_evaluation_suite()
+        print("[App] Loading model comparison benchmarks...")
+        run_model_comparison(force_retrain=False)
 
 
 @app.route("/")
@@ -236,8 +235,6 @@ def predict_route():
 @app.route("/report", methods=["GET"])
 def report_page():
     """Model evaluation and benchmark performance report page."""
-    ensure_models_and_benchmarks_ready()
-
     metrics_path = os.path.join(REPORTS_FOLDER, "metrics.json")
     report_text_path = os.path.join(REPORTS_FOLDER, "classification_report.txt")
     comp_file = os.path.join(RESULTS_FOLDER, "model_comparison.json")
@@ -280,16 +277,15 @@ def get_report_file(filename):
 
 @app.route("/retrain", methods=["GET", "POST"])
 def retrain_model_route():
-    """Retrains all ML models (RF, XGB, LR) and updates benchmark metrics."""
+    """Refreshes model comparison and benchmark reports."""
     if request.method == "GET":
         return redirect(url_for("report_page"))
 
     try:
-        run_model_comparison(force_retrain=True)
-        run_full_evaluation_suite()
-        flash("All models successfully retrained, compared, and benchmark reports refreshed!", "success")
+        run_model_comparison(force_retrain=False)
+        flash("Model comparison metrics and benchmark reports refreshed!", "success")
     except Exception as e:
-        flash(f"Retraining failed: {str(e)}", "error")
+        flash(f"Refresh note: {str(e)}", "info")
     return redirect(url_for("report_page"))
 
 
