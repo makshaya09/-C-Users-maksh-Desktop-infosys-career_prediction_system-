@@ -119,9 +119,12 @@ def upload_page():
     return render_template("upload_resume.html")
 
 
-@app.route("/parse", methods=["POST"])
+@app.route("/parse", methods=["GET", "POST"])
 def parse_resume_route():
     """Handles resume upload and SpaCy parsing."""
+    if request.method == "GET":
+        return redirect(url_for("upload_page"))
+
     if "resume" not in request.files:
         flash("No file part provided in the upload request.", "error")
         return redirect(url_for("upload_page"))
@@ -186,12 +189,14 @@ def profile_page():
     return render_template("profile.html", profile_data=default_profile, parsed_from_resume=False)
 
 
-@app.route("/predict", methods=["POST"])
+@app.route("/predict", methods=["GET", "POST"])
 def predict_route():
     """
     Validates profile and generates Top-K recommendations using the recommendation engine
     (combining best ML model, Sentence-BERT semantic similarity, and skill alignment).
     """
+    if request.method == "GET":
+        return redirect(url_for("profile_page"))
     form_data = {
         "name": request.form.get("name", "").strip(),
         "email": request.form.get("email", "").strip(),
@@ -273,9 +278,12 @@ def get_report_file(filename):
     return send_from_directory(REPORTS_FOLDER, filename)
 
 
-@app.route("/retrain", methods=["POST"])
+@app.route("/retrain", methods=["GET", "POST"])
 def retrain_model_route():
     """Retrains all ML models (RF, XGB, LR) and updates benchmark metrics."""
+    if request.method == "GET":
+        return redirect(url_for("report_page"))
+
     try:
         run_model_comparison(force_retrain=True)
         run_full_evaluation_suite()
