@@ -150,7 +150,7 @@ def parse_resume_route():
             "name": "",
             "email": "",
             "education": parsed_data.get("primary_education", "B.Tech"),
-            "degree_major": "Computer Science",
+            "degree_major": "",
             "skills": skills_str,
             "experience": parsed_data.get("experience", 0),
             "certifications": certifications_str,
@@ -158,7 +158,7 @@ def parse_resume_route():
             "preferred_career": ""
         }
 
-        flash("Resume successfully parsed with SpaCy NER! Review and confirm your profile details.", "success")
+        flash("Resume successfully parsed! Please review and confirm your profile details.", "success")
         return render_template(
             "profile.html",
             profile_data=profile_data,

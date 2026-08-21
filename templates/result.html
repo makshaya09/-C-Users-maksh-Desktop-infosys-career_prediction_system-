@@ -5,22 +5,17 @@
 {% block content %}
 <div class="container my-5">
 
+{% if result and result.recommendations %}
   <!-- Top Hero Banner with Primary Recommendation -->
   <div class="prediction-banner text-center text-md-start">
     <div class="row align-items-center">
       <div class="col-md-8">
         <div class="d-inline-flex align-items-center mb-2 flex-wrap gap-2">
           <span class="badge bg-white text-primary fw-bold px-3 py-1">Top Career Recommendation</span>
-          <span class="confidence-badge">
-            <i class="bi bi-cpu me-1"></i> Active Model: {{ result.active_model }}
-          </span>
-          <span class="confidence-badge">
-            <i class="bi bi-shield-check me-1"></i> Confidence: {{ result.confidence_percentage }}%
-          </span>
         </div>
         <h1 class="prediction-title">{{ result.prediction }}</h1>
         <p class="mb-0 text-white-50">
-          Ranked using multi-modal scoring combining <strong>{{ result.active_model }} Probability</strong> (40%), <strong>Skill Alignment</strong> (35%), and <strong>Sentence-BERT Semantic Similarity</strong> (25%).
+          Based on your skills, experience, and background, here are the career paths that best match your profile.
         </p>
       </div>
       <div class="col-md-4 text-md-end mt-4 mt-md-0">
@@ -39,11 +34,10 @@
         <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom flex-wrap gap-2">
           <div>
             <h5 class="fw-bold mb-0">
-              <i class="bi bi-trophy-fill text-warning me-2"></i> Top-{{ result.recommendations | length }} Career Recommendations
+              <i class="bi bi-trophy-fill text-warning me-2"></i> Top Career Recommendations
             </h5>
-            <small class="text-muted">Ranked by combined ML probability, skill alignment &amp; semantic similarity</small>
+            <small class="text-muted">Ranked by overall profile match and skill compatibility</small>
           </div>
-          <span class="badge bg-primary-subtle text-primary">Top-K Active</span>
         </div>
 
         {% for rec in result.recommendations %}
@@ -55,20 +49,17 @@
                 <h5 class="fw-bold mb-0 text-dark">{{ rec.career }}</h5>
                 <div class="d-flex gap-2 mt-1 flex-wrap">
                   <span class="badge bg-light text-dark border small">
-                    <i class="bi bi-speedometer2 text-primary me-1"></i> ML Conf: {{ rec.confidence_percentage }}%
+                    <i class="bi bi-bullseye text-success me-1"></i> Skill Fit: {{ rec.skill_alignment }}%
                   </span>
                   <span class="badge bg-light text-dark border small">
-                    <i class="bi bi-bullseye text-success me-1"></i> Skill Align: {{ rec.skill_alignment }}%
-                  </span>
-                  <span class="badge bg-light text-dark border small">
-                    <i class="bi bi-diagram-3 text-info me-1"></i> Semantic: {{ rec.semantic_percentage }}%
+                    <i class="bi bi-check2-circle text-primary me-1"></i> Matched: {{ rec.matched_count }}/{{ rec.total_required_count }} skills
                   </span>
                 </div>
               </div>
             </div>
             <div class="text-end">
               <span class="fw-bold text-primary fs-4">{{ rec.overall_score }}%</span>
-              <small class="d-block text-muted">Overall Match</small>
+              <small class="d-block text-muted">Match Score</small>
             </div>
           </div>
 
@@ -87,7 +78,7 @@
           <div class="row g-2 pt-2 border-top small">
             <div class="col-md-6">
               <strong class="text-success d-block mb-1">
-                <i class="bi bi-check-circle-fill me-1"></i> Matched Skills ({{ rec.matched_count }}/{{ rec.total_required_count }}):
+                <i class="bi bi-check-circle-fill me-1"></i> Matched Skills:
               </strong>
               {% if rec.matched_skills %}
                 <div class="d-flex flex-wrap gap-1">
@@ -102,7 +93,7 @@
 
             <div class="col-md-6">
               <strong class="text-warning-emphasis d-block mb-1">
-                <i class="bi bi-exclamation-triangle-fill text-warning me-1"></i> Missing / Skill Gap:
+                <i class="bi bi-exclamation-circle-fill text-warning me-1"></i> Skills to Learn (Skill Gap):
               </strong>
               {% if rec.missing_skills %}
                 <div class="d-flex flex-wrap gap-1">
@@ -114,17 +105,12 @@
                   {% endif %}
                 </div>
               {% else %}
-                <span class="text-success fst-italic">All canonical skills covered!</span>
+                <span class="text-success fst-italic">All required skills covered!</span>
               {% endif %}
             </div>
           </div>
         </div>
         {% endfor %}
-
-        <div class="alert alert-light border mt-3 mb-0 small text-muted">
-          <i class="bi bi-info-circle me-1"></i>
-          <strong>Scoring Formula:</strong> Overall Score = (40% &times; ML Probability) + (35% &times; Skill Alignment) + (25% &times; Sentence-BERT Semantic Similarity).
-        </div>
       </div>
     </div>
 
@@ -196,6 +182,24 @@
       </div>
     </div>
   </div>
+{% else %}
+  <!-- Empty State -->
+  <div class="custom-card text-center p-5 my-5">
+    <div class="p-4 bg-light rounded-circle d-inline-block mb-3">
+      <i class="bi bi-person-workspace fs-1 text-primary"></i>
+    </div>
+    <h3 class="fw-bold mb-2">No Career Recommendations Available</h3>
+    <p class="text-muted mb-4">Complete your career profile or upload a resume to generate personalized career recommendations.</p>
+    <div class="d-flex justify-content-center gap-3">
+      <a href="{{ url_for('upload_page') }}" class="btn btn-primary-custom btn-lg">
+        <i class="bi bi-file-earmark-arrow-up me-2"></i> Upload Resume
+      </a>
+      <a href="{{ url_for('profile_page') }}" class="btn btn-secondary-custom btn-lg">
+        <i class="bi bi-pencil-square me-2"></i> Enter Profile
+      </a>
+    </div>
+  </div>
+{% endif %}
 
 </div>
 {% endblock %}

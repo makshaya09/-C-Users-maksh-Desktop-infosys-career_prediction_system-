@@ -6,12 +6,9 @@
 <!-- Hero Section -->
 <section class="hero-section text-center">
   <div class="container">
-    <div class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill mb-3">
-      <i class="bi bi-stars me-1"></i> Major Project &bull; Milestone 1 Complete
-    </div>
     <h1 class="hero-title">AI-Based Career Prediction &amp; Recommendation System</h1>
     <p class="hero-subtitle">
-      An AI-powered system that analyzes a user's resume, skills, education, experience and projects to predict suitable career paths.
+      Discover career paths that match your skills, education, experience, and interests.
     </p>
     <div class="d-flex justify-content-center gap-3 flex-wrap">
       <a href="{{ url_for('upload_page') }}" class="btn btn-primary-custom btn-lg">
@@ -30,8 +27,8 @@
 <!-- Features Grid -->
 <div class="container my-5">
   <div class="text-center mb-5">
-    <h2 class="fw-bold">Milestone 1 Architecture &amp; Pipeline</h2>
-    <p class="text-muted">End-to-end automated workflow from raw resume ingestion to AI prediction</p>
+    <h2 class="fw-bold">How It Works</h2>
+    <p class="text-muted">A simple, intelligent platform to help you navigate your career journey.</p>
   </div>
 
   <div class="row g-4">
@@ -42,13 +39,13 @@
           <div class="p-3 bg-primary-subtle text-primary rounded-3 me-3">
             <i class="bi bi-file-earmark-text fs-3"></i>
           </div>
-          <h5 class="fw-bold mb-0">1. Resume Parsing</h5>
+          <h5 class="fw-bold mb-0">Resume Parsing</h5>
         </div>
         <p class="text-muted">
-          Extracts plain text from PDF and TXT resumes. Utilizes <strong>SpaCy NER</strong> and custom EntityRuler to extract candidate <strong>Skills</strong>, <strong>Education</strong>, and <strong>Roles</strong>.
+          Extracts important information from your resume automatically, identifying your core technical skills, education, and past experience.
         </p>
         <a href="{{ url_for('upload_page') }}" class="text-primary text-decoration-none fw-semibold">
-          Try Resume Parser <i class="bi bi-arrow-right"></i>
+          Upload Resume <i class="bi bi-arrow-right"></i>
         </a>
       </div>
     </div>
@@ -60,13 +57,13 @@
           <div class="p-3 bg-success-subtle text-success rounded-3 me-3">
             <i class="bi bi-ui-checks fs-3"></i>
           </div>
-          <h5 class="fw-bold mb-0">2. Profile Ingestion</h5>
+          <h5 class="fw-bold mb-0">Profile Ingestion</h5>
         </div>
         <p class="text-muted">
-          Structured ingestion form with strict client-side &amp; server-side validation for name, email, degrees, skills, and experience to prevent corrupted inputs.
+          Add or review your career profile details anytime to ensure your information is up to date and accurate.
         </p>
         <a href="{{ url_for('profile_page') }}" class="text-success text-decoration-none fw-semibold">
-          Enter Profile <i class="bi bi-arrow-right"></i>
+          Edit Profile <i class="bi bi-arrow-right"></i>
         </a>
       </div>
     </div>
@@ -78,13 +75,13 @@
           <div class="p-3 bg-info-subtle text-info rounded-3 me-3">
             <i class="bi bi-cpu fs-3"></i>
           </div>
-          <h5 class="fw-bold mb-0">3. Baseline ML Model</h5>
+          <h5 class="fw-bold mb-0">Career Prediction</h5>
         </div>
         <p class="text-muted">
-          Transforms profile features via <strong>TF-IDF</strong> and classifies across 7 technical careers using <strong>Logistic Regression</strong> with multi-class probability scoring.
+          Identifies career paths that best match your profile and highlights the skills you have and those you can learn next.
         </p>
         <a href="{{ url_for('report_page') }}" class="text-info text-decoration-none fw-semibold">
-          Explore Metrics <i class="bi bi-arrow-right"></i>
+          View Insights <i class="bi bi-arrow-right"></i>
         </a>
       </div>
     </div>
@@ -92,7 +89,7 @@
 
   <!-- Supported Careers Overview -->
   <div class="custom-card p-4 mt-5">
-    <h5 class="fw-bold mb-3"><i class="bi bi-briefcase-fill text-primary me-2"></i>Supported Career Categories</h5>
+    <h5 class="fw-bold mb-3"><i class="bi bi-briefcase-fill text-primary me-2"></i>Supported Career Domains</h5>
     <div class="d-flex flex-wrap gap-2">
       <span class="badge bg-light text-dark border p-2 px-3"><i class="bi bi-check-circle-fill text-success me-1"></i> Data Scientist</span>
       <span class="badge bg-light text-dark border p-2 px-3"><i class="bi bi-check-circle-fill text-success me-1"></i> Data Analyst</span>

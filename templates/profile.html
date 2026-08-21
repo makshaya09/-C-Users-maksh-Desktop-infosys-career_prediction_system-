@@ -16,7 +16,7 @@
           </div>
           <div>
             <h5 class="fw-bold mb-0 text-success">Resume Parsed Successfully!</h5>
-            <small class="text-muted">Extracted entities with SpaCy NER have been prefilled below. Please review or adjust them before predicting.</small>
+            <small class="text-muted">Extracted information from your resume has been prefilled below. Please review or adjust your details before predicting.</small>
           </div>
         </div>
 
@@ -77,10 +77,9 @@
       <div class="custom-card">
         <div class="card-header-custom d-flex justify-content-between align-items-center">
           <div class="d-flex align-items-center">
-            <i class="bi bi-person-bounding-box text-primary fs-4 me-2"></i>
-            <span>Structured User Profile Ingestion Form</span>
+            <i class="bi bi-person-lines-fill text-primary fs-4 me-2"></i>
+            <span>Your Career Profile</span>
           </div>
-          <span class="badge bg-primary-subtle text-primary border border-primary-subtle">Validation Active</span>
         </div>
 
         <div class="card-body p-4 p-md-5">
@@ -90,12 +89,12 @@
             <div class="row g-3 mb-4">
               <div class="col-md-6">
                 <label for="name" class="form-label">Full Name <span class="required-asterisk">*</span></label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="e.g., John Doe"
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name"
                        value="{{ profile_data.get('name', '') }}" required>
               </div>
               <div class="col-md-6">
                 <label for="email" class="form-label">Email Address <span class="required-asterisk">*</span></label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="e.g., john.doe@example.com"
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address"
                        value="{{ profile_data.get('email', '') }}" required>
               </div>
             </div>
@@ -114,14 +113,14 @@
 
               <div class="col-md-6">
                 <label for="degree_major" class="form-label">Major / Field of Study</label>
-                <input type="text" class="form-control" id="degree_major" name="degree_major" placeholder="e.g., Computer Science, IT, Data Science"
+                <input type="text" class="form-control" id="degree_major" name="degree_major" placeholder="e.g., Computer Science, Information Technology"
                        value="{{ profile_data.get('degree_major', '') }}">
               </div>
 
               <div class="col-md-6">
                 <label for="experience" class="form-label">Years of Experience <span class="required-asterisk">*</span></label>
                 <input type="number" step="0.5" min="0" max="50" class="form-control" id="experience" name="experience"
-                       placeholder="0 for freshers" value="{{ profile_data.get('experience', 0) }}" required>
+                       placeholder="0 for students / freshers" value="{{ profile_data.get('experience', 0) }}" required>
                 <div class="form-text">Enter 0 if you are a fresher or student.</div>
               </div>
 
@@ -140,27 +139,27 @@
             <div class="mb-3">
               <label for="skills" class="form-label">Technical Skills (Comma Separated) <span class="required-asterisk">*</span></label>
               <textarea class="form-control" id="skills" name="skills" rows="3"
-                        placeholder="e.g., Python, Machine Learning, SQL, Pandas, Scikit-learn, TensorFlow" required>{{ profile_data.get('skills', '') }}</textarea>
-              <div class="form-text">Enter at least 1-3 relevant skills for accurate ML career classification.</div>
+                        placeholder="e.g., Python, Machine Learning, SQL, Pandas, React, Node.js" required>{{ profile_data.get('skills', '') }}</textarea>
+              <div class="form-text">Enter your key technical skills separated by commas.</div>
             </div>
 
             <div class="mb-3">
               <label for="certifications" class="form-label">Certifications (Optional)</label>
               <input type="text" class="form-control" id="certifications" name="certifications"
-                     placeholder="e.g., AWS Certified Solutions Architect, Google Data Analytics, CompTIA Security+"
+                     placeholder="e.g., AWS Certified Solutions Architect, Google Data Analytics"
                      value="{{ profile_data.get('certifications', '') }}">
             </div>
 
             <div class="mb-4">
               <label for="projects" class="form-label">Key Projects (Optional)</label>
               <textarea class="form-control" id="projects" name="projects" rows="2"
-                        placeholder="e.g., E-Commerce Web App with React and Flask, Churn Prediction with Scikit-learn">{{ profile_data.get('projects', '') }}</textarea>
+                        placeholder="e.g., E-Commerce Web App, Churn Prediction Model">{{ profile_data.get('projects', '') }}</textarea>
             </div>
 
             <div class="d-flex justify-content-end gap-3 pt-3 border-top">
               <a href="{{ url_for('index') }}" class="btn btn-secondary-custom">Cancel</a>
               <button type="submit" class="btn btn-primary-custom btn-lg">
-                <i class="bi bi-magic me-2"></i> Run Career Prediction
+                <i class="bi bi-stars me-2"></i> Generate Career Predictions
               </button>
             </div>
 

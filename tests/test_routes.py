@@ -38,7 +38,7 @@ def test_upload_page_route(client):
 def test_profile_page_route(client):
     response = client.get("/profile")
     assert response.status_code == 200
-    assert b"Structured User Profile Ingestion Form" in response.data
+    assert b"Your Career Profile" in response.data or b"Career Profile" in response.data
 
 
 def test_report_page_route(client):

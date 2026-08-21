@@ -7,17 +7,14 @@
 
   <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
     <div>
-      <div class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-1 rounded-pill mb-2">
-        <i class="bi bi-cpu-fill me-1"></i> Milestone 2: Advanced ML &amp; Recommendation Engine
-      </div>
       <h2 class="fw-bold mb-1">
-        <i class="bi bi-bar-chart-line-fill text-primary me-2"></i> Model Comparison &amp; Recommendation Benchmarks
+        <i class="bi bi-bar-chart-line-fill text-primary me-2"></i> Model Comparison &amp; Evaluation
       </h2>
-      <p class="text-muted mb-0">Cross-Validated Ensemble Classifiers (Random Forest, XGBoost) &amp; Recommendation Ranking Metrics</p>
+      <p class="text-muted mb-0">Performance comparison of machine learning models and career recommendation benchmarks.</p>
     </div>
     <form action="{{ url_for('retrain_model_route') }}" method="POST" class="d-inline">
       <button type="submit" class="btn btn-outline-primary btn-sm">
-        <i class="bi bi-arrow-clockwise me-1"></i> Retrain All Models &amp; Refresh
+        <i class="bi bi-arrow-clockwise me-1"></i> Refresh Results
       </button>
     </form>
   </div>
@@ -31,10 +28,10 @@
           <i class="bi bi-trophy-fill fs-3 text-white"></i>
         </div>
         <div>
-          <span class="badge bg-success mb-1">⭐ Active Production Classifier</span>
+          <span class="badge bg-success mb-1">Top Performing Model</span>
           <h4 class="fw-bold mb-1 text-dark">{{ model_comparison.best_model }}</h4>
           <p class="text-muted small mb-0">
-            Selected dynamically based on <strong>F1-Score: {{ (model_comparison.best_f1_score * 100) | round(2) }}%</strong> &bull; Test Accuracy: <strong>{{ (model_comparison.best_accuracy * 100) | round(2) }}%</strong>
+            Selected based on <strong>F1-Score: {{ (model_comparison.best_f1_score * 100) | round(2) }}%</strong> &bull; Accuracy: <strong>{{ (model_comparison.best_accuracy * 100) | round(2) }}%</strong>
           </p>
         </div>
       </div>
@@ -51,20 +48,19 @@
   <div class="custom-card p-4 mb-5">
     <div class="d-flex justify-content-between align-items-center mb-3 pb-2 border-bottom flex-wrap gap-2">
       <h5 class="fw-bold mb-0">
-        <i class="bi bi-table text-primary me-2"></i> Classifier Benchmark &amp; Hyperparameter Comparison
+        <i class="bi bi-table text-primary me-2"></i> Model Performance Comparison
       </h5>
-      <span class="badge bg-secondary">Stratified 5-Fold Cross-Validation</span>
     </div>
 
     <div class="table-responsive">
       <table class="table table-hover align-middle mb-0">
         <thead class="table-dark">
           <tr>
-            <th>Model Architecture</th>
+            <th>Model</th>
             <th class="text-center">Accuracy</th>
-            <th class="text-center">Precision (Weighted)</th>
-            <th class="text-center">Recall (Weighted)</th>
-            <th class="text-center">F1-Score (Weighted)</th>
+            <th class="text-center">Precision</th>
+            <th class="text-center">Recall</th>
+            <th class="text-center">F1-Score</th>
             <th class="text-center">Status</th>
           </tr>
         </thead>
@@ -75,11 +71,6 @@
               <td>
                 <i class="bi {% if 'Random Forest' in m.model %}bi-tree-fill text-success{% elif 'XGBoost' in m.model %}bi-lightning-charge-fill text-warning{% else %}bi-diagram-2-fill text-primary{% endif %} me-2"></i>
                 {{ m.model }}
-                {% if m.best_params %}
-                  <small class="d-block text-muted fw-normal font-monospace" style="font-size: 0.75rem;">
-                    Tuned: {{ m.best_params }}
-                  </small>
-                {% endif %}
               </td>
               <td class="text-center">{{ (m.accuracy * 100) | round(2) }}%</td>
               <td class="text-center">{{ (m.precision * 100) | round(2) }}%</td>
@@ -96,7 +87,7 @@
             {% endfor %}
           {% else %}
             <tr>
-              <td colspan="6" class="text-center text-muted py-3">No model comparison data available yet. Please train models.</td>
+              <td colspan="6" class="text-center text-muted py-4">No model comparison data available yet.</td>
             </tr>
           {% endif %}
         </tbody>
@@ -110,9 +101,9 @@
       <div class="custom-card h-100 p-4">
         <div class="d-flex justify-content-between align-items-center mb-3 pb-2 border-bottom">
           <h5 class="fw-bold mb-0">
-            <i class="bi bi-linkedin text-primary me-2"></i> LinkedIn Career Transitions
+            <i class="bi bi-person-workspace text-primary me-2"></i> Career Transition Benchmarks
           </h5>
-          <span class="badge bg-primary-subtle text-primary">Top-K Metrics</span>
+          <span class="badge bg-primary-subtle text-primary">Top-K Evaluation</span>
         </div>
 
         {% if eval_report and eval_report.benchmarks and eval_report.benchmarks.linkedin_transitions %}
@@ -147,12 +138,12 @@
               <span class="fw-bold">{{ lk.ndcg_at_5 }}</span>
             </li>
             <li class="list-group-item d-flex justify-content-between px-0">
-              <span class="text-muted">Evaluated Transition Samples:</span>
+              <span class="text-muted">Evaluated Transition Profiles:</span>
               <span class="fw-semibold">{{ lk.total_samples }}</span>
             </li>
           </ul>
         {% else %}
-          <p class="text-muted small">Curated LinkedIn transition dataset evaluation pending integration.</p>
+          <p class="text-muted small">Career transition benchmark evaluation data will appear here.</p>
         {% endif %}
       </div>
     </div>
@@ -161,9 +152,9 @@
       <div class="custom-card h-100 p-4">
         <div class="d-flex justify-content-between align-items-center mb-3 pb-2 border-bottom">
           <h5 class="fw-bold mb-0">
-            <i class="bi bi-award-fill text-warning me-2"></i> SemEval Career Benchmark
+            <i class="bi bi-award-fill text-warning me-2"></i> Industry Benchmark Evaluation
           </h5>
-          <span class="badge bg-warning-subtle text-warning-emphasis">Benchmark Corpus</span>
+          <span class="badge bg-warning-subtle text-warning-emphasis">Standard Benchmark</span>
         </div>
 
         {% if eval_report and eval_report.benchmarks and eval_report.benchmarks.semeval_career_benchmark %}
@@ -198,18 +189,18 @@
               <span class="fw-bold">{{ se.ndcg_at_5 }}</span>
             </li>
             <li class="list-group-item d-flex justify-content-between px-0">
-              <span class="text-muted">Benchmark Profile Count:</span>
+              <span class="text-muted">Evaluated Benchmark Profiles:</span>
               <span class="fw-semibold">{{ se.total_samples }}</span>
             </li>
           </ul>
         {% else %}
-          <p class="text-muted small">SemEval career benchmark evaluation pending integration.</p>
+          <p class="text-muted small">Standard benchmark evaluation data will appear here.</p>
         {% endif %}
       </div>
     </div>
   </div>
 
-  <!-- Section 3: Baseline Confusion Matrix & Classification Details -->
+  <!-- Section 3: Confusion Matrix & Classification Details -->
   <div class="row g-4">
     <div class="col-lg-6">
       <div class="custom-card h-100 p-4">
@@ -217,7 +208,7 @@
           <h5 class="fw-bold mb-0">
             <i class="bi bi-grid-3x3-gap-fill text-primary me-2"></i> Confusion Matrix Heatmap
           </h5>
-          <span class="badge bg-light text-dark border">Test Split</span>
+          <span class="badge bg-light text-dark border">Evaluation Split</span>
         </div>
         <div class="text-center p-2">
           <img src="{{ url_for('get_report_file', filename='confusion_matrix.png') }}"
@@ -232,9 +223,9 @@
       <div class="custom-card h-100 p-4">
         <div class="d-flex justify-content-between align-items-center mb-3 pb-2 border-bottom">
           <h5 class="fw-bold mb-0">
-            <i class="bi bi-file-earmark-code-fill text-success me-2"></i> Classification Report
+            <i class="bi bi-file-earmark-text-fill text-success me-2"></i> Detailed Classification Metrics
           </h5>
-          <span class="badge bg-success-subtle text-success">Per-Class Support</span>
+          <span class="badge bg-success-subtle text-success">Per-Class Summary</span>
         </div>
         <pre class="bg-light p-3 rounded border text-muted small font-monospace" style="max-height: 380px; overflow-y: auto;">{{ raw_classification_report }}</pre>
       </div>
@@ -246,7 +237,7 @@
       <i class="bi bi-cloud-arrow-up-fill me-2"></i> Upload Resume
     </a>
     <a href="{{ url_for('profile_page') }}" class="btn btn-secondary-custom btn-lg">
-      <i class="bi bi-pencil-square me-2"></i> Manual Profile Form
+      <i class="bi bi-pencil-square me-2"></i> Enter Profile
     </a>
   </div>
 

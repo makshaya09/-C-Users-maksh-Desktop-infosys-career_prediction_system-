@@ -7,17 +7,14 @@
   <div class="row justify-content-center">
     <div class="col-lg-8">
       <div class="custom-card shadow-sm">
-        <div class="card-header-custom d-flex align-items-center justify-content-between">
-          <div class="d-flex align-items-center">
-            <i class="bi bi-file-earmark-arrow-up-fill text-primary fs-4 me-2"></i>
-            <span class="fs-5">Upload Resume for Automated Parsing</span>
-          </div>
-          <span class="badge bg-secondary">SpaCy NLP</span>
+        <div class="card-header-custom d-flex align-items-center">
+          <i class="bi bi-file-earmark-arrow-up-fill text-primary fs-4 me-2"></i>
+          <span class="fs-5">Upload Your Resume</span>
         </div>
 
         <div class="card-body p-4 p-md-5">
           <p class="text-muted mb-4">
-            Upload your resume in <strong>PDF</strong> or <strong>TXT</strong> format. Our SpaCy NLP engine will extract your skills, education, and past roles to prefill your career profile.
+            Upload your resume in <strong>PDF</strong> or <strong>TXT</strong> format to automatically extract your skills, education, and experience.
           </p>
 
           <form action="{{ url_for('parse_resume_route') }}" method="POST" enctype="multipart/form-data" id="uploadForm">
@@ -36,7 +33,7 @@
 
             <div class="d-grid gap-2 mt-4">
               <button type="submit" class="btn btn-primary-custom btn-lg">
-                <i class="bi bi-cpu me-2"></i> Parse Resume &amp; Review Profile
+                <i class="bi bi-file-earmark-check me-2"></i> Parse Resume &amp; Continue
               </button>
             </div>
           </form>
@@ -45,17 +42,6 @@
             <span class="text-muted small">Prefer entering details manually?</span>
             <a href="{{ url_for('profile_page') }}" class="fw-bold text-decoration-none ms-1">Go to Manual Profile Form &rarr;</a>
           </div>
-        </div>
-      </div>
-
-      <!-- Information Card -->
-      <div class="alert alert-info border-0 shadow-sm mt-4 d-flex align-items-start">
-        <i class="bi bi-info-circle-fill fs-4 me-3 text-info"></i>
-        <div>
-          <h6 class="fw-bold mb-1">How Resume Parsing Works in Milestone 1:</h6>
-          <p class="small mb-0 text-muted">
-            The system uses <strong>PyPDF2</strong> to extract raw text, standardizes formatting, and applies <strong>SpaCy Named Entity Recognition (NER)</strong> with specialized entity patterns to extract candidate <strong>Skills</strong>, <strong>Degrees</strong>, and <strong>Roles</strong>. You can review and edit all extracted details on the next screen before ML prediction.
-          </p>
         </div>
       </div>
     </div>
