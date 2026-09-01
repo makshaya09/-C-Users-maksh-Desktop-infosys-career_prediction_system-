@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/maksh/Desktop/infosys/career_prediction_system/mlruns/1/models/m-478022b812bf4055a00e8a72859dd5c1/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.14.5
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.15.1
+model_id: m-478022b812bf4055a00e8a72859dd5c1
+model_size_bytes: 334551
+model_uuid: m-478022b812bf4055a00e8a72859dd5c1
+prompts: null
+run_id: 1488fe64f62f488c8934e4b4ffc4170a
+utc_time_created: '2026-08-22 16:21:38.223260'

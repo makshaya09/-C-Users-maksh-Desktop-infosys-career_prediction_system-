@@ -1,0 +1,42 @@
+name: CareerAI CI Pipeline & Automated Accuracy Gate
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+env:
+  ACCURACY_THRESHOLD: '0.80'
+  PYTHONUNBUFFERED: '1'
+
+jobs:
+  build-and-test:
+    name: Build, Test & Accuracy Gate
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Pytest Test Suite
+        run: |
+          pytest -v --tb=short
+
+      - name: Run Model Evaluation & Automated Accuracy Gate
+        env:
+          ACCURACY_THRESHOLD: ${{ env.ACCURACY_THRESHOLD }}
+        run: |
+          python ml/ci_accuracy_gate.py --threshold ${{ env.ACCURACY_THRESHOLD }}

@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/maksh/Desktop/infosys/career_prediction_system/mlruns/1/models/m-fd75441b11f94b50ab6d01b5bc4fd5a5/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.5
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.15.1
+model_id: m-fd75441b11f94b50ab6d01b5bc4fd5a5
+model_size_bytes: 109915
+model_uuid: m-fd75441b11f94b50ab6d01b5bc4fd5a5
+prompts: null
+run_id: b3e7b11d821547b1983ec18d0292802f
+utc_time_created: '2026-08-22 16:17:37.244451'

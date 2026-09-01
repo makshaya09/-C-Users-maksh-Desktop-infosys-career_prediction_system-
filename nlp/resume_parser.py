@@ -147,15 +147,23 @@ def extract_text_from_pdf(file_input: Union[str, bytes, io.BytesIO]) -> str:
 
 def extract_text_from_txt(file_input: Union[str, bytes, io.BytesIO]) -> str:
     """
-    Extracts text from a TXT file path, bytes, or BytesIO stream.
+    Extracts text from a TXT file path, raw text string, bytes, or BytesIO stream.
     """
     try:
         if hasattr(file_input, "seek"):
             file_input.seek(0)
 
         if isinstance(file_input, str):
-            with open(file_input, "r", encoding="utf-8", errors="ignore") as f:
-                return f.read().strip()
+            # Check if input is an existing file path on disk
+            try:
+                if "\n" not in file_input and len(file_input) < 260 and os.path.isfile(file_input):
+                    with open(file_input, "r", encoding="utf-8", errors="ignore") as f:
+                        return f.read().strip()
+            except (OSError, ValueError):
+                pass
+            # Otherwise treat as raw text content
+            return file_input.strip()
+
         elif isinstance(file_input, bytes):
             return file_input.decode("utf-8", errors="ignore").strip()
         elif hasattr(file_input, "read"):
@@ -164,17 +172,25 @@ def extract_text_from_txt(file_input: Union[str, bytes, io.BytesIO]) -> str:
                 return content.decode("utf-8", errors="ignore").strip()
             return str(content).strip()
     except Exception as e:
-        raise ValueError(f"Failed to read TXT file: {str(e)}")
+        raise ValueError(f"Failed to read TXT content: {str(e)}")
 
     return ""
 
 
 def extract_text(file_input: Union[str, bytes, io.BytesIO], filename: str = "") -> str:
     """
-    Extracts text from an uploaded resume file (supports PDF and TXT).
+    Extracts text from an uploaded resume file or text string (supports PDF and TXT).
     """
     if isinstance(file_input, str):
-        ext = os.path.splitext(file_input)[1].lower()
+        # If it's a raw multi-line string, extract directly
+        if "\n" in file_input:
+            return file_input.strip()
+        try:
+            if not os.path.isfile(file_input):
+                return file_input.strip()
+            ext = os.path.splitext(file_input)[1].lower()
+        except (OSError, ValueError):
+            return file_input.strip()
     else:
         ext = os.path.splitext(filename)[1].lower() if filename else ""
 
@@ -190,6 +206,7 @@ def extract_text(file_input: Union[str, bytes, io.BytesIO], filename: str = "") 
             if hasattr(file_input, "seek"):
                 file_input.seek(0)
             return extract_text_from_txt(file_input)
+
 
 
 def extract_entities(text: str) -> Dict[str, List[str]]:

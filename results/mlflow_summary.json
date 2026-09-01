@@ -1,0 +1,394 @@
+{
+    "status": "success",
+    "experiment_name": "Career_Prediction_Experiment",
+    "registered_model_name": "CareerPredictionModel",
+    "best_model_selected": "Random Forest",
+    "best_model_key": "random_forest",
+    "total_runs_tracked": 3,
+    "runs": [
+        {
+            "run_id": "a335aa804a7645128349ed601b6c0f05",
+            "model_name": "Logistic_Regression_Baseline",
+            "metrics": {
+                "accuracy": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "coverage": 1.0,
+                "total_test_samples": 168,
+                "classes": [
+                    "Cloud Engineer",
+                    "Cybersecurity Analyst",
+                    "Data Analyst",
+                    "Data Scientist",
+                    "Machine Learning Engineer",
+                    "Software Developer",
+                    "Web Developer"
+                ],
+                "classification_report": {
+                    "Cloud Engineer": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Cybersecurity Analyst": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Data Analyst": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Data Scientist": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Machine Learning Engineer": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Software Developer": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Web Developer": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "accuracy": 1.0,
+                    "macro avg": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 168.0
+                    },
+                    "weighted avg": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 168.0
+                    }
+                }
+            },
+            "registered_model": null,
+            "registered_version": null
+        },
+        {
+            "run_id": "3e30b27ab6f64232b2ab31cbe0306fb7",
+            "model_name": "Random_Forest_Classifier",
+            "metrics": {
+                "model_name": "Random Forest",
+                "best_params": {
+                    "max_depth": null,
+                    "max_features": "log2",
+                    "min_samples_leaf": 1,
+                    "min_samples_split": 2,
+                    "n_estimators": 50
+                },
+                "accuracy": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1_score": 1.0,
+                "cv_best_score": 1.0,
+                "classes": [
+                    "Cloud Engineer",
+                    "Cybersecurity Analyst",
+                    "Data Analyst",
+                    "Data Scientist",
+                    "Machine Learning Engineer",
+                    "Software Developer",
+                    "Web Developer"
+                ],
+                "classification_report": {
+                    "Cloud Engineer": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Cybersecurity Analyst": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Data Analyst": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Data Scientist": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Machine Learning Engineer": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Software Developer": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Web Developer": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "accuracy": 1.0,
+                    "macro avg": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 168.0
+                    },
+                    "weighted avg": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 168.0
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        24,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        24,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        24,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        24,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        24,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        24,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        24
+                    ]
+                ]
+            },
+            "registered_model": "CareerPredictionModel",
+            "registered_version": 1
+        },
+        {
+            "run_id": "f2d2f7ecfb8547049bcf57b85bfd9bce",
+            "model_name": "XGBoost_Classifier",
+            "metrics": {
+                "model_name": "XGBoost",
+                "best_params": {
+                    "colsample_bytree": 0.8,
+                    "learning_rate": 0.05,
+                    "max_depth": 3,
+                    "n_estimators": 50,
+                    "subsample": 0.8
+                },
+                "accuracy": 0.9762,
+                "precision": 0.9773,
+                "recall": 0.9762,
+                "f1_score": 0.9764,
+                "cv_best_score": 0.9955,
+                "classes": [
+                    "Cloud Engineer",
+                    "Cybersecurity Analyst",
+                    "Data Analyst",
+                    "Data Scientist",
+                    "Machine Learning Engineer",
+                    "Software Developer",
+                    "Web Developer"
+                ],
+                "classification_report": {
+                    "Cloud Engineer": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Cybersecurity Analyst": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Data Analyst": {
+                        "precision": 1.0,
+                        "recall": 0.9583333333333334,
+                        "f1-score": 0.9787234042553191,
+                        "support": 24.0
+                    },
+                    "Data Scientist": {
+                        "precision": 0.8846153846153846,
+                        "recall": 0.9583333333333334,
+                        "f1-score": 0.92,
+                        "support": 24.0
+                    },
+                    "Machine Learning Engineer": {
+                        "precision": 0.9565217391304348,
+                        "recall": 0.9166666666666666,
+                        "f1-score": 0.9361702127659575,
+                        "support": 24.0
+                    },
+                    "Software Developer": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "Web Developer": {
+                        "precision": 1.0,
+                        "recall": 1.0,
+                        "f1-score": 1.0,
+                        "support": 24.0
+                    },
+                    "accuracy": 0.9761904761904762,
+                    "macro avg": {
+                        "precision": 0.97730530339226,
+                        "recall": 0.9761904761904763,
+                        "f1-score": 0.9764133738601822,
+                        "support": 168.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.9773053033922598,
+                        "recall": 0.9761904761904762,
+                        "f1-score": 0.9764133738601825,
+                        "support": 168.0
+                    }
+                },
+                "confusion_matrix": [
+                    [
+                        24,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        24,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        23,
+                        1,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        23,
+                        1,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        2,
+                        22,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        24,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        24
+                    ]
+                ]
+            },
+            "registered_model": null,
+            "registered_version": null
+        }
+    ]
+}
