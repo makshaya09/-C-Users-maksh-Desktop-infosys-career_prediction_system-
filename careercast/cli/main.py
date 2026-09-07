@@ -7,7 +7,7 @@ import argparse
 import json
 import os
 import sys
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 
 # Ensure project root is available on sys.path
 current_dir = os.path.dirname(os.path.abspath(__file__))

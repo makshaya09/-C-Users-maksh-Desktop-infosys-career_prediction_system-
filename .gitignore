@@ -73,3 +73,5 @@ Thumbs.db
 # User runtime upload files (preserve the uploads directory via .gitkeep)
 uploads/*
 !uploads/.gitkeep
+
+mlruns/
