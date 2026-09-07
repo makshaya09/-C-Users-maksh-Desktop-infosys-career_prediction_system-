@@ -113,7 +113,7 @@ def train_xgboost(
     X_test_vec = tfidf_vectorizer.transform(X_test)
 
     print(f"[XGBoost] 4/5 Running GridSearchCV ({cv_folds}-fold Stratified CV)...")
-    base_xgb = XGBClassifier(
+     base_xgb = XGBClassifier(
     objective="multi:softprob",
     num_class=num_classes,
     eval_metric="mlogloss",
