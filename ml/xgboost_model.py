@@ -114,12 +114,11 @@ def train_xgboost(
 
     print(f"[XGBoost] 4/5 Running GridSearchCV ({cv_folds}-fold Stratified CV)...")
     base_xgb = XGBClassifier(
-        objective="multi:softprob",
-        num_class=num_classes,
-        eval_metric="mlogloss",
-        random_state=random_state,
-        use_label_encoder=False
-    )
+    objective="multi:softprob",
+    num_class=num_classes,
+    eval_metric="mlogloss",
+    random_state=random_state
+)
     cv = StratifiedKFold(n_splits=cv_folds, shuffle=True, random_state=random_state)
 
     grid_search = GridSearchCV(
